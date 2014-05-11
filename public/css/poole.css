@@ -342,7 +342,7 @@ tbody tr:nth-child(odd) th {
 }
 
 /* Meta data line below post title */
-.post-date {
+.post-date, .post-date a {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;

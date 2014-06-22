@@ -1,6 +1,6 @@
 # Poole
 
-*The Strange Case of Dr. Jeykll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
+*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
 
 -----
 
@@ -58,7 +58,13 @@ To see your Jekyll site with Poole applied, start a Jekyll server. In Terminal, 
 $ jekyll serve
 ```
 
-Open <http://localhost:4000> in your browser, and voilà. You're done.
+Open <http://localhost:4000> in your browser, and voilà.
+
+### 4. Serving it up
+
+If you host your code on GitHub, you can use [GitHub Pages](https://pages.github.com) to host your project. Simply create a `gh-pages` branch in your repository and push it to GitHub. Then head to `http://username.github.io/repo-name`.
+
+No matter your production or hosting setup, be sure to check your `baseurl` setting in the `_config.yml` file. For the above example, you'll want to change it from `/` to `/repo-name`. If you have a `CNAME` or host this at the root level of a domain, like `http://example.com`, there's no need to change anything. Not setting this correctly will mean broken styles on your site.
 
 
 ## Options
@@ -77,7 +83,7 @@ html {
   font-size: 16px;
   line-height: 1.5;
 }
-@media (min-width: 38rem) {
+@media (min-width: 38em) {
   html {
     font-size: 20px;
   }

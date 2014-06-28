@@ -10,7 +10,7 @@ title:            Blog
 tagline:          Eric's Blog
 url:              http://erjohnson.github.io/poole/
 paginate:         1
-baseurl:          /
+baseurl:          http://erjohnson.github.io/poole/
 author:
   name:           Eric Johnson
   url:            https://twitter.com/realrearwheel

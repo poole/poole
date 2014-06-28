@@ -6,15 +6,15 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
+title:            Blog
+tagline:          Eric's Blog
+url:              http://erjohnson.github.io/poole/
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Eric Johnson
+  url:            https://twitter.com/realrearwheel
+  email:          erjohnson.pdx@gmail.com
 
 # Custom vars
 version:          1.0.0

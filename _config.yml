@@ -6,8 +6,8 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Blog
-tagline:          Eric's Blog
+title:            Eric Johnson
+tagline:          i like to write
 url:              http://erjohnson.github.io/poole/
 paginate:         1
 baseurl:          http://erjohnson.github.io/poole/

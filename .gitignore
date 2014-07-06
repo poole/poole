@@ -15,6 +15,9 @@ _site
 *.vi
 *~
 
+# Manual
+MANUAL.md
+
 # OS or Editor folders
 .DS_Store
 ._*

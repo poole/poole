@@ -1,22 +1,22 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:      true
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
+title:            Fauzana S
+tagline:          The Survivor
+url:              http://fauzana.com
 paginate:         1
 baseurl:          /
 author:
   name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  url:            https://twitter.com/fauzana_s
+  email:          FauzanaIsNana@gmail.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/fauzana/fauzanac

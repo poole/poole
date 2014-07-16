@@ -6,17 +6,17 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
+title:            Mitch Grogg
+tagline:          Projects and Thoughts
+url:              http://mitchg45.github.io
 paginate:         1
-baseurl:          /
+baseurl:          http://mitchg45.github.io/
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Mitch Grogg
+  url:            https://twitter.com/mitchgrogg
+  email:          mitchellgrogg@gmail.com
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/mitchg45/mitchg45.github.io

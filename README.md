@@ -4,6 +4,8 @@
 
 -----
 
+[![Build Status](https://travis-ci.org/poole/poole.svg?branch=master)](https://travis-ci.org/poole/poole)
+
 Poole is the butler for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example templates, pages, posts, and styles.
 
 ![Poole](https://f.cloud.github.com/assets/98681/1834359/71ae4048-73db-11e3-9a3c-df38eb170537.png)

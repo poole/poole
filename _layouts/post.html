@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div class="post">
+<article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
-</div>
+</article>
 
-<div class="related">
+<aside class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
@@ -22,4 +22,4 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-</div>
+</aside>

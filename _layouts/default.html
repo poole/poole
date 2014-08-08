@@ -17,7 +17,7 @@
 
       <div class="footer">
         <p>
-          &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+          &copy; <time datetime="{{ site.time | date_to_xmlschema}}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
         </p>
       </div>
     </div>

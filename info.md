@@ -12,6 +12,7 @@ As an award-winning designer with works on [web](http://kary.us/design) and [typ
 Pouya is a Nerd with the highest ranking from [NerdTests](http://www.nerdtests.com/ft_nq.php) as the only one who's point is 100% Nerdy! He also shares a part of Geekness in his blood but he is more comfortable with being a Nerd. He is also LEGO Maserbuilder, He is playing with LEGO since when he was 2 and he is now a LEGO collector with more than 2 million LEGO bricks and many special exclusives!<br>
 
 Because of his Nerdness, Pouya loves Sci-Fi stories involving great ideas that happens to make him motivated to write his own Sci-Fi story ["The Truest Truth"](http://kary.us/truth) and his own [coding method](http://github.com/pmkary/codium) and also a [markup language](http://github.com/pmkary/textplay) for Matrix and Hackery like screen processing for movie makers. 
+<br><br><br>
 
 # Outside view
 Pouya's work is recognized by many professionals word wide. To see look at this list:
@@ -31,6 +32,7 @@ Pouya's work is recognized by many professionals word wide. To see look at this 
 * One of his applications [Kincob](http://thepa.mx/kincob) is listed in Norton software's virus lists and there are more than 3 applications developed for the sake of removing Kincob while the software is not virus but only gives the user full access to the system!
 
 * He's applications KinBoard recived 4.6 / 5 in [Softpedia](http://www.softpedia.com/get/Multimedia/Graphic/Graphic-Others/KinBoard.shtml)
+<br><br><br>
 
-# More
+# Even more...
 To read more about Pouya you can see his [Projects](http://kary.us/projects), [Designs](http://kary.us/designs) and you can also read more about the [tools](http://kary.us/tools) he use for his everyday job.

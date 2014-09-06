@@ -28,7 +28,7 @@ Pouya's work is recognized by many professionals word wide. To see look at this 
 
 * He served as a [GNU Maintainer](https://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-december-2011) for about a year.
 
-* One of his applications [Kincob](http://thepa.mx/kincob) is listed in Norton software's virus lists and there are more than 3 applications developed for the sake of removing Kincob while the software is not virus but only gives the user full access to the system!
+* One of his applications [Kincob](http://thepa.mx/kincob) is listed in Norton software's virus lists and there are [more websites than you can imagine](https://www.google.com/?gws_rd=ssl#q=Kincob+0.023+Unstable) for the sake of removing Kincob while the software is not virus but only gives the user full access to the system!
 
 * He's applications KinBoard recived 4.6 / 5 in [Softpedia](http://www.softpedia.com/get/Multimedia/Graphic/Graphic-Others/KinBoard.shtml)
 

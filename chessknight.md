@@ -9,7 +9,7 @@ Knight is one truly interesting member of the chess. Because of it's unique way 
 ## Algorithm
 The move of the horse is not symmetric thus we can not apply most of the algorithms we know that's why we need to study on the possible moves and then make something that use them as puzzle blocks. The perfect move to go from bottom left to the top right is of course one straight line but Knight does not move like this that's why we have to design paths that are as much as possible straight, It's like making mathematical recursion. We are not going to make a 100% straight lines but lines must be straight as possible. The most straight patterns are this two patterns here: <br>
 
-![](https://raw.githubusercontent.com/pmkary/pmkary.github.io/master/Graphics/chessknight/knight-photo1.png)<br>
+![](https://raw.githubusercontent.com/pmkary/pmkary.github.io/master/Graphics/chessknight/knight-photo1.png)
 
 `M4` is exactly on the the diagonal but the problem is it's not an square's diagonal! However `M1` is really close to the diagonal that's why we have to use as much as possible. Let's have a look at the optimized path of the standard Chess: <br>
 
@@ -38,8 +38,10 @@ Remember that the last place of each move is the first place of the next move. N
 ## Software
 Designing a program to generate the path can make this even more fun and well the main reason of this paper is why you can and must use Arendelle to create a software for this program. All the pictures you see in this paper is created by a program written in Arendelle and attached to this. Arendelle is one language based on a grid of pixels and a pointer that you move and paint square pixels of the grid and Chess is a grid of squares that you move Knight in it so do you see the point? The language is natural for this task look at the source code in the following pages:<br><br>
 
-`NOTE` : Following source code is a program written in Arendelle Language, to fully understand the code you have to be able to read Arendelle, If you have to background in Arendelle I suggest you take our introduction to Arendelle here: http://welcome.arendelle.org<br>
+**NOTE** : Following source code is a program written in Arendelle Language, to fully understand the code you have to be able to read Arendelle, If you have to background in Arendelle I suggest you take our introduction to Arendelle here: http://welcome.arendelle.org<br>
 <br>
+
+**NOTE** : The software has different ports and a runner that is available from [GitHub](http://github.com/pmkary/knight)<br><br> 
 
 ```
 /* 
@@ -157,7 +159,7 @@ Designing a program to generate the path can make this even more fun and well th
 // done
 ```
 
-<br><br><br>
+<br><br>
 ## One final note
 What I wanted to show you was this simple fact that every language is made for a task. Every language has it's own super powers. In other industries you see many people doing same tasks like there are millions of people who run their restaurant. We all know that most of them does the same, they all serve one food, they have one look and... but we need many because there is billions of people out there and one restaurant is not enough. But in our computing world you do not need many software with same tasks because if there be one all the people in the world can easily copy and use it but when there is more than one program you always know that each of them are made in different ways for different tasks. Use each language in their own right place.
 

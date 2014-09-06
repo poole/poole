@@ -33,7 +33,7 @@ The path in size of 6 is made of `M4` + `M5`, the path in size of 7 if made of 2
 
 Remember that the last place of each move is the first place of the next move. Now let's see how this formula works on for example size of 21: <br>
 
-![](https://raw.githubusercontent.com/pmkary/pmkary.github.io/master/Graphics/chessknight/knight-photo9.png) <br><br><br><br>
+![](https://raw.githubusercontent.com/pmkary/pmkary.github.io/master/Graphics/chessknight/knight-photo9.png) <br><br><br>
 
 ## Software
 Designing a program to generate the path can make this even more fun and well the main reason of this paper is why you can and must use Arendelle to create a software for this program. All the pictures you see in this paper is created by a program written in Arendelle and attached to this. Arendelle is one language based on a grid of pixels and a pointer that you move and paint square pixels of the grid and Chess is a grid of squares that you move Knight in it so do you see the point? The language is natural for this task look at the source code in the following pages:<br><br>
@@ -41,7 +41,7 @@ Designing a program to generate the path can make this even more fun and well th
 **NOTE** : Following source code is a program written in Arendelle Language, to fully understand the code you have to be able to read Arendelle, If you have to background in Arendelle I suggest you take our introduction to Arendelle here: http://welcome.arendelle.org<br>
 <br>
 
-**NOTE** : The software has different ports and a runner that is available from [GitHub](http://github.com/pmkary/knight)<br><br> 
+**NOTE** : Software is available from [GitHub](http://github.com/pmkary/knight)<br><br> 
 
 ```
 /* 
@@ -160,6 +160,7 @@ Designing a program to generate the path can make this even more fun and well th
 ```
 
 <br><br>
+
 ## One final note
 What I wanted to show you was this simple fact that every language is made for a task. Every language has it's own super powers. In other industries you see many people doing same tasks like there are millions of people who run their restaurant. We all know that most of them does the same, they all serve one food, they have one look and... but we need many because there is billions of people out there and one restaurant is not enough. But in our computing world you do not need many software with same tasks because if there be one all the people in the world can easily copy and use it but when there is more than one program you always know that each of them are made in different ways for different tasks. Use each language in their own right place.
 

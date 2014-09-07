@@ -5,7 +5,7 @@ title: Information
 
 Pouya Kary is a [Free Software](http://www.gnu.org/philosophy/free-sw.html) developer who worked as a maintainer in the [GNU Operating System](http://www.gnu.org), CEO and founder of [Parallel Architectures](http://thepa.mx) corporation and now serves as the director and founder of [Arendelle Language](http://web.arendelle.org), He has many awesome [projects](http://kary.us/projects). He is now working on development of his language Arendelle and several cool programming language technologies.<br>
 
-Beside being a developer, Pouya is a [Hacker](www.catb.org/esr/faqs/hacker-howto.html) (Not someone who breaks the security system but a part of software and computer freedom movement who fights for he's rights) and he loves the Free Software and Open Source culture, He uses free / open source applications and uses [Ubuntu](http://www.ubuntu.com) operating system. 
+Beside being a developer, Pouya is a [Hacker](www.catb.org/esr/faqs/hacker-howto.html) (Not someone who breaks the security system but a part of software and computer freedom movement who fights for he's rights) and he loves the Free Software and Open Source culture, He uses free / open source applications. Pouya is a number one operating system fan, He has a collection of about 80 different operating systems and he is developing one for him self but after trying many of them he felt in love with [Ubuntu](http://www.ubuntu.com) and he once contributed to it's development. 
 
 As an award-winning designer with works on [web](http://kary.us/design) and [typeface](http://kary.us/design) design he has a very deep interest on art with static and interactive [programming](http://kary.us/computingarts) arts that made him a bridge between a developer and a designer.<br>
 

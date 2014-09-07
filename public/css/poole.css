@@ -41,11 +41,11 @@
           box-sizing: border-box;
 }
 
-/*
+
 @font-face {
     font-family: Coolvetica;
-    src: url("https://github.com/pmkary/pmkary.github.io/blob/master/fonts/coolvetica.ttf?raw=true");
-}*/
+    src: url("http://io.kary.us/coolvetica.ttf");
+}
 
 html,
 body {

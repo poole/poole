@@ -43,8 +43,13 @@
 
 
 @font-face {
-    font-family: KaryHelvetica;
-    src: url("http://io.kary.us/Helvetica.otf");
+    font-family: 'HelveticaRegular';
+    src: url('http://io.kary.us/helvetica/helvetica.eot');
+    src: url('http://io.kary.us/helvetica/helvetica.eot') format('embedded-opentype'),
+         url('http://io.kary.us/helvetica/helvetica.woff2') format('woff2'),
+         url('http://io.kary.us/helvetica/helvetica.woff') format('woff'),
+         url('http://io.kary.us/helvetica/helvetica.ttf') format('truetype'),
+         url('http://io.kary.us/helvetica/helvetica.svg#HelveticaRegular') format('svg');
 }
 
 html,
@@ -54,7 +59,7 @@ body {
 }
 
 html {
-  font-family: KaryHelvetica, Arial, sans-serif;
+  font-family: 'HelveticaRegular', Arial, Sans;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -88,7 +93,7 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: KaryHelvetica;
+  font-family: 'Karyvetica';
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;

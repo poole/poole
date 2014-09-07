@@ -54,7 +54,7 @@ body {
 }
 
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: KaryHelvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -88,7 +88,7 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Coolvetica;
+  font-family: KaryHelvetica;
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;

@@ -76,7 +76,7 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  color: #cccccc;
+  color: #9A9A9A;
   text-decoration: none;
 }
 

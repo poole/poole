@@ -41,10 +41,11 @@
           box-sizing: border-box;
 }
 
+/*
 @font-face {
     font-family: Coolvetica;
     src: url("https://github.com/pmkary/pmkary.github.io/blob/master/fonts/coolvetica.ttf?raw=true");
-}
+}*/
 
 html,
 body {
@@ -53,7 +54,7 @@ body {
 }
 
 html {
-  font-family: Arial, sans-serif;
+  font-family: Coolvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }

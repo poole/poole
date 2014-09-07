@@ -58,6 +58,12 @@ html {
   }
 }
 
+@font-face {
+    font-family: Coolvetica;
+    src: url("https://github.com/pmkary/pmkary.github.io/blob/master/fonts/coolvetica.ttf");
+}
+
+
 body {
   color: #515151;
   background-color: #fff;
@@ -81,6 +87,7 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
+  font-family:Coolvetica;
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;

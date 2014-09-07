@@ -50,7 +50,7 @@ body {
 }
 
 html {
-  font-family: font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -61,6 +61,7 @@ html {
   }
 }
 
+/*
 @font-face {
     font-family: 'HelveticaRegular';
     src: url('http://io.kary.us/helvetica/helvetica.eot');
@@ -69,7 +70,7 @@ html {
          url('http://io.kary.us/helvetica/helvetica.woff') format('woff'),
          url('http://io.kary.us/helvetica/helvetica.ttf') format('truetype'),
          url('http://io.kary.us/helvetica/helvetica.svg#HelveticaRegular') format('svg');
-}
+}*/
 
 
 body {

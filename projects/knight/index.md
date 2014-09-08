@@ -2,7 +2,7 @@
 layout: page
 title: Chess Knight Path Optimizer
 ---
-
+# Chess Knight Path Optimizer
 Knight is one truly interesting member of the chess. Because of it's unique way of moving it's sometimes even hard to imagine how you should move it to a destination. One of this questions that some of the Chess teachers asks when they are teaching the Knight is: “How to move a Knight from bottom left of the board to the top right?” and you may simply find a solution in seconds but there is one question that you might never thought of and that's: “What is the minimum number of moves that you need to do this?” and once you get to the answer you may ask your self if there was a Chess not in the size of 8 how could I do this? This paper is an algorithm that I designed to generate the most optimized path for this task. The algorithm itself is just something useless that I made to fill my empty time but the way it is done is a good practice and technique that you may want to see. However when I was creating Arendelle I noticed that best language to make a graphical software for this algorithm is Arendelle, They are their best matches and so this paper explains why in some cases Arendelle will be your perfect choice
 <br><br><br>
 

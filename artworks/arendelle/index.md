@@ -10,7 +10,4 @@ Arendelle is my programming language for creating art. Using Arendelle you can b
 ![](https://raw.githubusercontent.com/pmkary/pmkary.github.io/master/Graphics/artworks/arendelle/Q-Bert.png)<br>
 
 
-![](https://raw.githubusercontent.com/pmkary/pmkary.github.io/master/Graphics/artworks/arendelle/randnotcomplete.png)<br>
-
-
 [![](https://raw.githubusercontent.com/pmkary/pmkary.github.io/master/Graphics/artworks/arendelle/10PRINT.png)](http://github.com/pmkary/10print)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Should I use proprietary software?
+title: Can I install it please?
 ---
 
 There is a common culture, a share attitude behind Free Software developers and it's about using non-free software which is called Proprietary. True free software developers (And in this case non of the open source developers) are like soldiers. More than the fact that they are developers and they must write software they are fighting for computing freedoms.
@@ -13,4 +13,18 @@ I had my own reasons. I wanted my system to be open source so I could see how it
 
 One other example is my operating system. I have used more than [60 different](http://kary.us/lists/operating-systems) and then I ended up with Ubuntu. When you use it you know that it's the right place to be. I have experienced many developer situations and only Ubuntu is good in all of them. More than a perfect design and magnificent tools that you find in no other system you see how being a free software has made Ubuntu a hero. You see that you are able to do what ever your heart desired without being stopped. You can customize everything at any time by just changing some codes. It's too simple and fun. For example think if you don't like the look and feel of your Windows desktop; What you do...? Oh you do nothing! There is no way you can use another desktop! But in Ubuntu you can use GNOME Shell, Unity, KDE, LXDE.... or you can change what ever you want about their looks and functions also you are most welcome to develop your own desktop just for your needs...
 
-In the other side there are people who believe that free software hackers are stupid (we are not!) 
+In the other side there are people who believe that free software hackers are stupid (we are not!) They believe on one thing and it's people who are doing something for no money will never ever create something better than people who are working for money. They also believe the ones who share what they know simply know nothing because if they did know something they would keep it as a secret because that is what they have fight so much for.
+
+However this guys are also very nice and they have gave me so much to be grateful. [BaseKit](http://www.basekit.com) is the company behind [Sitejam](http://www.sitejam.com) the best on-line and the most user friendly website builder. This company somehow is the nicest company I have ever seen. They gave me a VIP account with 1024 TB space and unlimited resources so I could run my website. They even sometimes ask me if I'm doing well and they post on my facebook to keep up good working because I just loved them and because of the country I'm in I could not use paypal and visa so I could not use their service by cash. This people are the best thing that could happen to me. They made me feel seen and supported. In a web with size of the whole Earth. In a place you know no one and you try to be seen those guys just found me and supported me what else someone may need? Without them I was nothing.
+
+How can I say these guys are bad people then? I use what their achieved by this years proudly. Not proud like when you see "Proudly powered by Wordpress". When I say I'm their biggest fan who wears their T-Shirt and post "how are you doing" every week on their wall.
+
+Now my problem today is till now I only used open source software in my Ubuntu but as you know a good text editor is a developer's sweetheart. You use them all the time like a Piano for a Pianist. You need your Piano to be perfect and for me a perfect text editor is the one with a dark beautiful look and awesome tools, perfect highlighting and... Ubuntu comes with Gedit. Gedit is so simple and makes no sense for large-scale job. There are some other editors like Geany and fellas that they are just like Gedit for me. They are ugly and so simple. Vim and Emacs are powerful but not for me. They are ugly and so much hard for working too. 
+
+After seeing those choices I started to looking for all the text editors, Brackets, Atom and other JavaScript/CoffeeScript editors I found them too bad. Because of being web based they are to slow and week for even every day developments. I wanted something native, pretty and powerful
+
+I found [Sublime Text](http://www.sublimetext.com). Almost every developer says Sublime is the best and it truly is. For me it's awesome. The multi line editing, short keys, It's pretty awesome look and my most favorite part is this minimap in the right side that makes scrolling heavenly.
+
+With all of it's awesomeness Sublime is not an open source software. There is an open source project called [Lime Text](http://www.limetext.org) that is aiming to be an open source full features replacement for Sublime and it actually looks good enough for me to dream of having it but it's just in the early stages and building it is too hard. Each time I'm going to build it I get too much problem so that I give up all the time. 
+
+I'm hoping to see a final version of Lime soon but till then I'm going to use Sublime as it's the best text editor possible. What I don't really know now is am I doing the right thing? I mean what is the right thing actually? Why shouldn't we both work together with love. Open-source and proprietary developers all together helping each other for a better world were both attitudes win?

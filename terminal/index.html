@@ -42,5 +42,165 @@ title: "Terminal"
         	height: 200,
         	prompt: 'js> '});
 	});</pre>
+
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="js/jquery.mousewheel-min.js"></script>
+    <script src="js/jquery.terminal-min.js"></script>
+    <script src="js/code.js"></script>
+    <script>
+
+jQuery(function($, undefined) {
+    $('a[rel=email]').each(function() {
+        var self = $(this);
+        self.attr('href', 'mailto:' + self.text().replace('&#64;', '@'));
+    });
+    $('.donate').mouseover(function() {
+        $(this).stop().animate({'margin-right': -30}, 300);
+    }).mouseout(function() {
+        $(this).stop().animate({'margin-right': -256});
+    });
+    // global to access from js terminal
+    term = $('#term_demo').terminal(function(command, term) {
+        if (command !== '') {
+            try {
+                var result = window.eval(command);
+                if (result !== undefined) {
+                    term.echo(new String(result));
+                }
+            } catch(e) {
+                term.error(new String(e));
+            }
+        } else {
+           term.echo('');
+        }
+    }, {
+        greetings: 'Javascript Interpreter',
+        name: 'js_demo',
+        height: 200,
+        prompt: 'js> '
+    });
+    // ----------------------------------------------------------------
+    // COMMENTS
+    function now() {
+        var d = new Date();
+        return d.getDate() + '-' + (d.getMonth()+1) + '-' + d.getFullYear();
+    }
+    function add_comment(date, name, img, www, comment) {
+        name = name || 'Anonymous';
+        if (www && www.match(/http:\/\/.*\..*/)) {
+            name =  '<a href="' +www + '" target="blank">' + name + '</a>';
+        }
+        if (comment == '') {
+            comment = '&nbsp;';
+        }
+        comment = comment.replace(/\n/g, "<br/>");
+        $('#user_comments').append('<div class="comment"><img src="' + img +
+                                   '"/><ul><li>' + name + '</li><li>' + date +
+                                   '</li>' +'</ul><p>' +
+                                   comment + '</p></div>');
+    }
+    var process = 1;
+    var prompts = ['name', 'email', 'www', 'comment'];
+    var comment = [];
+    var count = 1;
+    $('#term_comment').terminal(function(command, term) {
+        var idx = count++ % 4;
+        if (idx < 3) {
+            if (prompts[idx] == 'email') {
+                term.echo('[[;#C6AD00;]&#91;!&#93; email is only for avatar,' +
+                          ' I may also send email if you ask question]');
+            }
+            comment.push(command); //push the same function with diffrent prompt
+            term.push(arguments.callee, {prompt: prompts[idx] + ': '});
+        } else {
+            var comment_string = '';
+            term.echo("[[;#0a0;;]enter your comment and put single period '.' at the end.]");
+            comment.push(command);
+            term.push(function(command, term) {
+                if (command == '.') {
+                    comment.push($.trim(comment_string));
+                    count++;
+                    term.pop().pop().pop();
+                    term.pause();
+                    $.jrpc("service.php", 'add_comment', comment, function(data) {
+                        term.resume().clear();
+                        if (data && data.result) {
+                            comment[1] = data.result;
+                            add_comment.apply(null, [now()].concat(comment));
+                            term.echo("Thanks you for your comment");
+                        } else if (data.error) {
+                            term.error("[RPC] " + data.error.message);
+                        } else {
+                            term.echo("Sorry but something wicked happen on the server");
+                        }
+                        comment = [];
+                    }, function(xhr, status, error) {
+                        term.resume();
+                        term.error('[AJAX] Response: ' +
+                                   status + '\n' +
+                                   xhr.responseText);
+                        comment = [];
+                    });
+                } else {
+                    term.set_prompt('...');
+                    comment_string += command + '\n';
+                }
+            }, {prompt: '...'}); // last interpreter
+        }
+    }, {
+        greetings: false,
+        height: 100,
+        history: false,
+        prompt: prompts[0] + ': ',
+        enabled: false
+    });
+    // fetch comments
+    $('#user_comments').addClass('load');
+
+    // ------------------------------------------------------------
+    $('pre.javascript').syntax('javascript');
+
+    $('nav li a').click(function() {
+        var href = $(this).attr('href');
+        if (href[0] == '#') {
+            $('html,body').animate({
+                scrollTop: $(href).offset().top - 50
+            }, 500);
+        }
+    });
+
+    $.jrpc("service.php", 'get_comments', [], function(data) {
+        if (data.error) {
+            $('#user_comments').append('<p>Error Loading Comments: ' +
+                                       data.error.message +
+                                       '</p>');
+        } else {
+            $.each(data.result, function(i, comment) {
+                add_comment.apply(null, comment);
+            });
+            $('#user_comments').removeClass('load');
+        }
+    }, function(xhr, status, error) {
+        $('#user_comments').removeClass('load').
+           append('<p>Error Loading Comments</p>');
+    });
+
+
+});
+    </script>
+        <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.jcubic.pl/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 1]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+        g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+
+    </script>
  </body>
 

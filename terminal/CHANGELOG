@@ -1,0 +1,177 @@
+0.8.8     Fix 2 json rpc bugs
+0.8.6     One space after fully completed command
+0.8.5     All regex for formatting case insensitive
+0.8.4     Fix redraw lines on import_view, fix calculating rows
+0.8.3     Fix completion in nested interpreters, login option in push
+          Remove pause/resume from login, Fix parsing RegExes
+          Fix display text with more then limit lines in one echo
+0.8.2     add Terminal::exception function
+0.8.1     Fix login/logout
+0.8.0     CTRL+L Clear terminal
+          Shift+Enter insert newline
+          Remove tabcompletion option (now completion can be true, array or function)
+          Add onRPCError and exceptionHandler callbacks
+          Interpreter can be an array
+          ignoreSystemDescribe option
+          Handle invalid JSON-RPC
+          CSS style for standalone cmd plugin
+          using CSS3 Animation for blinking if supported
+          Fix [0m
+          Better error handling (all messages are in $.terminal.defaults.strings)
+          Named colors for terminal formatting
+          expose settings and login function
+          more tools in $.terminal
+          paste kill text with CTRL+Y
+          paste text from selection using middle mouse button
+          Fix login, history and exec
+          Disable few things when in login function
+          All Strings are in $.terminal.defaults.strings
+          more functions in $.terminal object
+0.7.12    Fix terminal when start as invisible, rest property to parseCommand
+0.7.11    Fix last history command
+0.7.10    Fix reverse search
+0.7.9     Don't show version when use source file
+0.7.8     Allow to call $.terminal.active() in prompt
+0.7.7     Fix long line wrap on Init, don't call termina::resize on init
+0.7.6     Fix small errors and typos
+0.7.5     Fix flush, add option linksNoReferer
+0.7.4     Fix interpreter when there is not system.describe in JSON-RPC
+          Add method flush and fix refresh
+0.7.3     Add ANSI 256 (8bit) formatting from Xterm
+          Fix Regexes
+          Add ntroff formatting support (output from man)
+0.7.2     Fix purge, json-rpc, history. Improve json-rpc and add Check Arity
+0.7.1     Add tests
+          terminal without eval
+          Fix issue with umpersand (unenclosed entinity) in multiline
+0.7.0     Add outputLimit, add method destroy
+          add utilities parseArguments, splitArguments, parseCommand and splitCommand
+          to $.terminal
+          Allow to overwrite, by user, parsing commands in object as eval
+          Make cmd chainable
+          Fix command line (interepters) names for localStorage use
+          Fix Login/Token LocalStorage names
+          add method purge (that clear localStorage)
+          Convert escaped hex and octals in double quoted strings as chars
+          Fix Tilda on Windows
+          More ANSI codes
+          Complete common string on TAB
+          Fix cancel ajax on CTRL+D when paused
+0.6.5     Finalize and raw options in echo
+0.6.4     Fix regexes, CMD+`, CMD+R, CMD+L on Mac, fix Resize if terminal is
+          hidden, fix wrap ANSI formatting
+0.6.3     Fix arguments in automatic JSON-RPC
+0.6.2     Fix arguments in object as eval, new option processArguments
+0.6.1     fix first echo (like greetings)
+0.6       fix formatting with links and emails and long lines
+          history is a list with command as last element
+          history have size
+          You can type more characters in reverse search if command not found
+          export/import
+          onResize event
+0.5.4     fix scroll when attaching terminal to body in non Webkit browsers
+0.5.3     level api function
+          Restore mask on pop
+          click out of terminal remove focus
+          CTRL+H CTRL+W
+          use selector as default name for the terminal
+0.5.2     fix entity in lines
+          add data-text attribute to formatting span
+0.5.1     function in push
+          allow to put braket in formatting (closed with escape)
+          print nested object in automatic rpc
+          terminal instance in login callback
+0.5       Tab completion work with callback function
+          Push command allow for objects
+          Add CTRL+G to cancel Reverse Search
+0.4.23    Fix Style
+0.4.22
+0.4.21    Small fixes
+0.4.20    Add exec, greetings, onClear, onBlur, onFocus, onTerminalChange
+0.4.19    add support for ANSI terminal formatting, fix cancelable ajax on
+          CTRL+D, replace emails with link mailto, remove formatting processing
+          from command line, add text glow option to formatting
+0.4.18    fix scrollbar, better exceptions in chrome, replace urls with links
+          one style for font and color in root .terminal class
+0.4.17    fix IE formatting issue by adding cross-browser split
+0.4.16    add reverse history search on CTRL+R
+
+          fix cancel ajax call on CTRL+D
+0.4.15    only one command from multiply commands is added to history
+          CTRL+D is handled even if exit is false
+0.4.14    terminal don't add space after prompt (prompt need to add this space)
+          fix historyFilter
+          remove livequery
+0.4.12    history return history object
+          add historyFilter
+          new event onCommandChange that execute scroll_to_bottom
+          add event onBeforeLogin
+0.4.11    fix blank lines when echo longer strings
+0.4.10    fix long line formatting and linebreak in the middle of formatting
+0.4.9     fix wrap first line when prompt contain formatting
+0.4.8     fix alt+d and ctrl+u
+0.4.7     fix inserting special characters in Webkit on Windows
+0.4.6     remove undocumented pipe operator
+          refreash prompt on resume
+0.4.5     fix line wrapping when text contains tabulations
+0.4.4     fix line wrapping with scrollbars
+0.4.3     fix JSON-RPC when use without login
+0.4.2     fix formatting when text contain empty lines
+0.4.1     fix formatting when text contains newline characters
+0.4       fix text formating when text splited into more then one line
+          you can pass nested objects as first argument
+          add tab completion with object passed as first argument
+0.3.8     fix cursor manipulation when command contain new line characters
+0.3.7     fix function terminal.login_name
+0.3.6     fix switch between terminals - when terminal is not visible scroll to current terminal
+0.3.5     fix scrolling in jQuery 1.6
+0.3.3     fixing PAGE UP/DOWN
+0.3.2     fixing cursor in long lines
+0.3.1     fixing small bugs, speed up resizing
+0.3       fix resizing on start and issue with greetings
+          add formating strings to set style of text.
+          add to echo a function which will be called when terminal
+          is resized
+0.3-RC2   fix manipulation of long line commands
+0.3-RC1   add callbacks and new functions
+          you can now overwrite keyboard shortcuts
+          resizing recalculates lines lenght and redraw content
+          if you create plugin for elements that are not in the DOM
+          and then append it to DOM it's display corectly
+          put all dependencies in one file
+          Default greetings show terminal signature depending on
+          width of terminal
+          use Local Sorage for command line history if posible
+          remove access to command line (cmd plugin) and add interface
+          to allow interact with it
+
+0.2.3.9   fix append enter character (0x0D) to the command (thanks to marat
+          for reporting the bug)
+
+0.2.3.8   update mousewheel plugin which fix scrolling in Opera (Thanks for
+          Alexey Dubovtsev for reporting the bug)
+
+0.2.3.7   fix cursor in IE in tilda example
+
+0.2.3.6   fix json serialization in IE
+
+0.2.3.5   fix demos and clipboard textarea transparency in IE
+
+0.2.3.4   fix long lines in command line issue
+
+0.2.3.3   fix Terminal in Internet Exporer
+
+0.2.3.2   fix blank line issue (thanks to Chris Janicki for finding the
+          bug) and fix CTRL + Arrows scroll on CTRL+V
+
+0.2.3.1   allow CTRL+W CTRL+T
+
+0.2.3     fix for "(#$%.{" characters on Opera/Chrome, add cursor move
+          with CTRL+P, CTRL+N, CTRL+F, CTRL+B which also work in Chrome.
+          Fix Arrow Keys on Chrome (for cursor move and command line
+          history). Change License to LGPL3.
+
+0.2.2     fix down-arrow/open parentises issue in Opera and Chrome
+
+0.2.1     add support for paste from clipboard with CTRL+V (Copy to
+          clipboard is alway enabled on websites)

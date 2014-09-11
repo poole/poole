@@ -1,0 +1,34 @@
+---
+layout: default
+title: "404: Page not found"
+permalink: 404.html
+---
+
+<div class="page">
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="js/jquery.mousewheel-min.js"></script>
+    <script src="js/jquery.terminal-min.js"></script>
+    <script src="js/code.js"></script>
+	<script type="text/javascript">
+		jQuery(function($, undefined) {
+	    $('#term_demo').terminal(function(command, term) {
+	        if (command !== '') {
+	            try {
+	                var result = window.eval(command);
+	                if (result !== undefined) {
+	                    term.echo(new String(result));
+	                }
+	            } catch(e) {
+	                term.error(new String(e));
+	            }
+	        } else {
+	           term.echo('');
+	        }
+	    }, {
+	        greetings: 'Javascript Interpreter',
+	        name: 'js_demo',
+	        height: 200,
+        	prompt: 'js> '});
+		});
+	</script>
+</div>

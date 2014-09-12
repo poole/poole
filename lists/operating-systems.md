@@ -4,6 +4,7 @@ title: My all time top 20 operating systems
 ---
 
 # My all time top 20 operating systems
+[< Lists](http://kary.us/lists/)<br>
 Here's a list of the operating systems I love so much. I have tried all of this operating systems myself. Some of them are the ones I used for so long, Some are the ones I tried on the virtual machines and I ran some of them with special emulators. At last these are my top 29 best operating systems.
 
 01. [Ubuntu](http://www.ubuntu.com/)

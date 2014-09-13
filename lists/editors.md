@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: My top text editors

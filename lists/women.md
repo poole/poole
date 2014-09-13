@@ -14,6 +14,7 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Meg Ryan
 0. Cobie Smulders
 0. Zooey Deschanel
+0. Isla Fisher
 0. Keira Knightley
 0. Tina Fey
 0. Ellen DeGeneres 
@@ -23,6 +24,7 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Jessica Alba
 0. Georgina Haig
 0. Diane Kruger
+0. Abigail Breslin
 0. Natalie Portman
 0. Marion Cottilarld
 0. Blake Lively

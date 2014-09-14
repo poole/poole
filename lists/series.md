@@ -6,6 +6,7 @@ title: My top series
 # My top 20 TV series
 I have no comment! There are TV series and we all love series. I have to admit that creating this list was so much hard enough for me.
 
+
 0. FRINGE
 0. Two And A Half Men
 0. Person of Interest
@@ -25,5 +26,4 @@ I have no comment! There are TV series and we all love series. I have to admit t
 0. Wizards Of The Waverly Place
 0. Top Gear
 0. Extant
-0. Mom
 0. Doctor Who

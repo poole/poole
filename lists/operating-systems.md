@@ -21,7 +21,6 @@ Here's a list of the operating systems I love so much. I have tried all of this 
 0. [CASIO Prizm OS](http://www.casioeducation.com/prizm)
 0. [CERN Scientific Linux](https://www.scientificlinux.org/)
 0. [Windows Phone](http://www.windowsphone.com)
-0. [Windows 98](http://en.wikipedia.org/wiki/Windows_98)
 0. [Fedora Linux](http://www.fedoraproject.org)
 0. [Debian](http://www.debian.org)
 0. [Elementary OS](http://elementaryos.org/)

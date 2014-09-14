@@ -36,9 +36,11 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Alice Eve
 0. Taylor Swift
 0. Rachel McAdams
+0. Kat Dennings
 0. Chloe Grace Moretz
 0. Sara Paxton
 0. Ashley Benson
+0. Allie DeBerry
 0. Kate Hudson
 0. Sierra McCormick
 0. Olivia Holt
@@ -59,10 +61,14 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Jennifer Garner
 0. Behati Prinsloo
 0. Kristen Stewart
+0. China Anne McClain
 0. Katie Holmes
 0. Rebecca Hall
+0. Amber Valletta
 0. Karlie Kloss
+0. Michelle Trachtenberg
 0. Cara Delevingne
+0. Melanie Lynskey
 0. Shakira
 0. Emma Watson
 0. Drew Barrymore
@@ -70,6 +76,7 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Amanda Peet
 0. Lena Headey
 0. Jennifer stone
+0. Allison Miller
 0. Johnny Sequoyah
 0. Paige Turco
 0. Christy Carlson Romano
@@ -77,6 +84,8 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Charlize Theron
 0. Sofia Vergara
 0. Stefanie Scott
+0. Julie Ann Emery
+0. Madison Riley
 0. Audrey Tautou
 0. Alyson Hannigan
 0. April Bowlby
@@ -90,6 +99,7 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Candice Swanepoel
 0. Emilia Clarke
 0. Selma Blair
+0. Salma Hayek
 0. Melanie Lynskey
 0. Elizabeth Banks
 0. Jodie Foster
@@ -98,5 +108,6 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Jennifer O'Dell
 0. Missi Pyle
 0. Katherine LaNasa
+
 
 Last updated at 2014 September 12th.

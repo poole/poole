@@ -33,6 +33,9 @@ nbproject
 *.komodoproject
 .komodotools
 
+# Bundle
+Gemfile.lock
+
 # grunt-html-validation
 validation-status.json
 validation-report.json

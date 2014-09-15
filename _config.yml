@@ -15,6 +15,7 @@ author:
   name:           Mark Otto
   url:            https://twitter.com/mdo
   email:          markdotto@gmail.com
+exclude:          [Gemfile, vendor]
 
 # Custom vars
 version:          1.0.0

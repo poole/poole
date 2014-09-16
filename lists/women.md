@@ -3,7 +3,7 @@ layout: page
 title: My favorite women of hollywood
 ---
 
-# My top 110 Women of Hollywood
+# My top 140 Women of Hollywood
 [< Lists](http://kary.us/lists/)<br>
 As a guy it's my very first right to be attracted by women! now this is a very professional actress ranking of mine! My ranking is based on how much they have created memory for me, how much they are pretty and how much lovely and kind they are.
 
@@ -53,12 +53,16 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Olga Kurylenko
 0. Martha Hunt
 0. Indian Mendel 
+0. Jessica Stam
 0. Avril Lavigne
+0. Kelsey Chow
+0. Zoe Saldana
 0. Jassica Nicole
 0. Taylor Momsen
 0. Trieste Kelly Dunn
 0. Natalie Dormer
 0. Jennifer Lawrence
+0. Halle Berry
 0. Behati Prinsloo
 0. Kristen Stewart
 0. China Anne McClain
@@ -68,12 +72,18 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Rebecca Hall
 0. Amber Valletta
 0. Karlie Kloss
+0. Rosie Huntington-Whiteley
 0. Michelle Trachtenberg
 0. Cara Delevingne
+0. Rebecca Romijn
+0. Bianca Balti
 0. Emily Vancamp
 0. Melanie Lynskey
+0. Melissa Rauch
 0. Shakira
+0. Mayim Bialik
 0. Emma Watson
+0. Kristen Bell
 0. Jennifer Love Hewitt
 0. Drew Barrymore
 0. Jennifer Aniston
@@ -81,12 +91,16 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Amanda Peet
 0. Lena Headey
 0. Jennifer stone
+0. Karolína Kurková
 0. Allison Miller
 0. Johnny Sequoyah
+0. Milla Jovovich
 0. Paige Turco
 0. Christy Carlson Romano
 0. Emma Stone
+0. Sasha Pivovarova
 0. Cameron Diaz
+0. Amber Tamblyn
 0. Charlize Theron
 0. Anna Torv
 0. Sofia Vergara
@@ -100,18 +114,34 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. April Bowlby
 0. Gabrielle Union
 0. Ashley Walker
+0. Emily Osment
+0. Jane Lynch
+0. Esti Ginzburg
 0. Lily James
+0. Julianne Moore
 0. Margot Robbie
 0. Kalyson Hannigan
 0. Jennifer Taylor
 0. Jenna Coleman
+0. Amanda Hearst
 0. Cote de Pablo
+0. Dakota Fanning
+0. Barbara Palvin
+0. Yfke Sturm
+0. Gemma Ward
+0. Lara Stone
 0. Candice Swanepoel
 0. Emilia Clarke
+0. spencer Lacey Ganus
 0. Selma Blair
+0. Tanya Dziahileva
 0. Salma Hayek
 0. Melanie Lynskey
 0. Elizabeth Banks
+0. Tallulah Morton
+0. Miranda Kerr
+0. Mini Andén
+0. Anne Vyalitsyna
 0. Jodie Foster
 0. Jodi Lyn O'Keefe
 0. Jennifer O'Dell
@@ -119,4 +149,4 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Katherine LaNasa
 
 
-Last updated at 2014 September 12th.
+Last updated at 2014 September 17th.

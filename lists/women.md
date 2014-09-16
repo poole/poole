@@ -3,7 +3,7 @@ layout: page
 title: My favorite women of hollywood
 ---
 
-# My top 100 Women of Hollywood
+# My top 110 Women of Hollywood
 [< Lists](http://kary.us/lists/)<br>
 As a guy it's my very first right to be attracted by women! now this is a very professional actress ranking of mine! My ranking is based on how much they have created memory for me, how much they are pretty and how much lovely and kind they are.
 
@@ -18,6 +18,7 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Keira Knightley
 0. Tina Fey
 0. Ellen DeGeneres 
+0. Jennifer Garner
 0. Elsa Hosk
 0. Katherine Heigl
 0. Ellen Pompeo
@@ -58,21 +59,25 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Trieste Kelly Dunn
 0. Natalie Dormer
 0. Jennifer Lawrence
-0. Jennifer Garner
 0. Behati Prinsloo
 0. Kristen Stewart
 0. China Anne McClain
 0. Katie Holmes
+0. Amber Marshall
+0. Michelle Morgan
 0. Rebecca Hall
 0. Amber Valletta
 0. Karlie Kloss
 0. Michelle Trachtenberg
 0. Cara Delevingne
+0. Emily Vancamp
 0. Melanie Lynskey
 0. Shakira
 0. Emma Watson
+0. Jennifer Love Hewitt
 0. Drew Barrymore
 0. Jennifer Aniston
+0. Rashida Jones
 0. Amanda Peet
 0. Lena Headey
 0. Jennifer stone
@@ -80,14 +85,18 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Johnny Sequoyah
 0. Paige Turco
 0. Christy Carlson Romano
+0. Emma Stone
 0. Cameron Diaz
 0. Charlize Theron
+0. Anna Torv
 0. Sofia Vergara
 0. Stefanie Scott
+0. Elizabeth Henstridge
 0. Julie Ann Emery
 0. Madison Riley
 0. Audrey Tautou
 0. Alyson Hannigan
+0. Thandie Newton
 0. April Bowlby
 0. Gabrielle Union
 0. Ashley Walker
@@ -95,6 +104,7 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Margot Robbie
 0. Kalyson Hannigan
 0. Jennifer Taylor
+0. Jenna Coleman
 0. Cote de Pablo
 0. Candice Swanepoel
 0. Emilia Clarke

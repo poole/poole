@@ -21,7 +21,7 @@ Mermaid is a .NET library for text and string. It has a set of everyday tools fo
 Pabbie is language that compiles into Arendelle using a very simple and light weight source-to-source compiler. Pabbie is aimed to have a syntax and grammar close to everyday human English as a research on human language understanding and bringing programming to the people with no background on programming. The research also aims to bridge 5th generation programming languages and complex machine learning techniques to it's design to develop a language that people use to explain what they need and the system generates applications.<br><br>
 
 ## 2014 Chess Knight Path Optimizer
-[Website](http://kary.us/chessknight) | [GitHub](http://github.com/pmkary/knight) <br>
+[Website](http://kary.us/projects/knight) | [GitHub](http://github.com/pmkary/knight) <br>
 A mathematical optimization for generating the optimized path for a Chess Knight to move from button left to the top right of a chess board with any size. The software for this algorithm is written in Arendelle Language and it's the first Arendelle software that processes a given input and generates something. Reading the code will be good for practicing data visualizations in Arendelle<br><br>
 
 ## 2013 CODIUM

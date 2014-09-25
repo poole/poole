@@ -1,23 +1,26 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:            redcarpet
+highlighter:         pygments
 
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
-paginate:         1
-baseurl:          /
+title:               Poole
+tagline:             The Jekyll Butler
+url:                 http://getpoole.com
+paginate:            1
+baseurl:             /
+
+# About/contact
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
 # Custom vars
-version:          1.0.0
+version:             1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:              https://github.com/poole/poole

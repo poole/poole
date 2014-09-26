@@ -30,17 +30,18 @@ Individual theme feedback and bug reports should be submitted to the theme's ind
 
 ## Usage
 
-### 1. Install Jekyll
+### 1. Install dependencies
 
-Poole is built for use with Jekyll, so naturally you'll need to install that. On Macs, it's rather straightforward:
+Poole is built on Jekyll and uses SCSS instead of vanilla CSS. Before getting started, you'll need to install their gems:
 
 ```bash
 $ gem install jekyll
+$ gem install scss
 ```
 
 **Windows users:** Windows users have a bit more work to do, but luckily [@juthilo](https://github.com/juthilo) has your back with his [Run Jekyll on Windows](https://github.com/juthilo/run-jekyll-on-windows) guide.
 
-You may also need to install Pygments, the Python syntax highlighter for code snippets that plays nicely with Jekyll. Read more about this [in the Jekyll docs](http://jekyllrb.com/docs/templates/#code_snippet_highlighting).
+**Need syntax highlighting?** Poole includes support for Pygments or Rouge, so install your gem of choice to make use of the built-in styling. Read more about this [in the Jekyll docs](http://jekyllrb.com/docs/templates/#code_snippet_highlighting).
 
 ### 2a. Quick start
 

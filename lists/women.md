@@ -7,12 +7,12 @@ title: My favorite women of hollywood
 [< Lists](http://kary.us/lists/)<br>
 As a guy it's my very first right to be attracted by women! now this is a very professional actress ranking of mine! My ranking is based on how much they have created memory for me, how much they are pretty and how much lovely and kind they are.
 
+0. Hailee Steinfeld
 0. Annasophia Robb
 0. Reese Witherspoon
 0. Amy Adams
 0. Meg Ryan
 0. Cobie Smulders
-0. Hailee Steinfeld
 0. Zooey Deschanel
 0. Isla Fisher
 0. Keira Knightley

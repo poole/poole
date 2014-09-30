@@ -1,4 +1,4 @@
-—
+---
 layout: page
 title: What is wrong with design?
 ---

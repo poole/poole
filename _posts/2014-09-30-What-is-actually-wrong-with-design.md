@@ -3,8 +3,6 @@ layout: page
 title: What is wrong with design?
 ---
 
-# What is wrong with design?
-
 When I was 3 or 4 years old my aunt gave me my first LEGO set. It was one of those fun and awesome old western ones. That LEGO changed my whole life in many so many ways. The first thing was I loved the whole idea of it and I spent about 12 years after playing only with LEGO and I had no interest in anything else. LEGO made my mind think environmental I mean to do anything I need to create an environment and bricks then use them to build what I want and thats why I’m so interested on programming because it shares just the same idea. But the other thing LEGO taught me was the definition of true beauty. You could sit and look at it’s bricks for such a long time. They were beautiful and classy, they were designed so perfect that they could merge and connect togather in many different ways and at last LEGO had and still has the greatest polymer formula for creating it’s plastics so they were the highest quality they could ever be. LEGO bricks were “Perfection” and I always look at myself so lucky that in such age I could see the perfection and understand  it. I owe LEGO so much for that.<br>
 
 A true Perfection is something so much rare and in my whole life  to find stuff so perfect that you perfect that nothing makes them better.<br>

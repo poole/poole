@@ -3,7 +3,7 @@ layout: page
 title: My favorite women of hollywood
 ---
 
-# My top 240 Women of Hollywood
+# My top 270 Women of Hollywood
 [< Lists](http://kary.us/lists/)<br>
 As a guy it's my very first right to be attracted by women! now this is a very professional actress ranking of mine! My ranking is based on how much they have created memory for me, how much they are pretty and how much lovely and kind they are.
 
@@ -68,6 +68,7 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Indian Mendel 
 0. Jessica Stam
 0. Avril Lavigne
+0. Stephanie Leonidas
 0. Kelsey Chow
 0. Zoe Saldana
 0. Jassica Nicole
@@ -82,6 +83,8 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Olivia Arezzolo
 0. Dakota Fanning
 0. Behati Prinsloo
+0. Doutzen Kroes
+0. Kate Moss
 0. Sandra Bullock
 0. Eva Mendes
 0. China Anne McClain
@@ -95,6 +98,7 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Margo Harshman
 0. Rebecca Mader
 0. Courteney Cox
+0. Jennifer Carpenter
 0. Olivia Wide
 0. Rosie Huntington-Whiteley
 0. Michelle Trachtenberg
@@ -119,6 +123,8 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Amanda Peet
 0. Emma Stone
 0. Cameron Diaz
+0. Ophelia Lovibond
+0. Helen Hunt
 0. Sarah Wright
 0. Bianca Balti
 0. Emily Vancamp
@@ -139,6 +145,7 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Lena Headey
 0. Karolína Kurková
 0. Elizabeth Banks
+0. Mia Kirshner
 0. Allison Miller
 0. Carrie Underwood
 0. Mandy Moore
@@ -164,6 +171,10 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Michelle Rodriguez
 0. Sasha Pivovarova
 0. Mallory Jansen
+0. Susannah Fielding
+0. Tamsin Egerton
+0. Jenna Dewan
+0. Alyson Stoner
 0. Lacey Chabert
 0. Gillian Jacobs
 0. Rebecca Romijn
@@ -173,10 +184,12 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Anna Torv
 0. Chelsea Kane
 0. Sofia Vergara
+0. Eva Green
 0. Erin Foley
 0. Bridgit Mendler
 0. Margot Robbie
 0. Stefanie Scott
+0. Selma Blair
 0. Brittany Snow
 0. Bijou Phillips
 0. Elizabeth Henstridge
@@ -192,7 +205,14 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Brooke Lyons
 0. Beth Behrs
 0. Jessica Simpson
+0. Yvonne Strahovski
 0. Connie Nielsen
+0. Kerry Bishé
+0. Anna Friel
+0. Gemma Arterton
+0. Claire Forlani
+0. Felicity Jones
+0. Talulah Riley
 0. Emily Wickersham
 0. Olivia Rosewood
 0. Meghan Ory
@@ -205,20 +225,26 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Emily Osment
 0. Jane Lynch
 0. Esti Ginzburg
+0. Radha Mitchell
+0. Chloë Sevigny
 0. Lily James
 0. Julianne Moore
 0. Zuleikha Robinson
 0. Eva Longoria
+0. Julie Benz
 0. Amy Schumer
 0. Kalyson Hannigan
 0. Amanda Bynes
+0. Lana del Rey
 0. Jennifer Taylor
+0. Jessica Chastain
 0. Julia Stiles
 0. Maria Clara Alonso
 0. Maria Menounos
 0. Marley Shelton
 0. Jenna Coleman
 0. Amanda Hearst
+0. Jess Weixler
 0. Cote de Pablo
 0. Amy Bruckner
 0. Aly Michalka
@@ -227,15 +253,18 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Yfke Sturm
 0. Gemma Ward
 0. Lara Stone
+0. Amy Spanger
 0. January Jones
 0. Candice Swanepoel
+0. Aleisha Allen
 0. Emilia Clarke
 0. spencer Lacey Ganus
-0. Selma Blair
+0. Tara Mercurio
 0. Sara Gilbert
 0. Aarti Mann
 0. Tanya Dziahileva
 0. Amy Poehler
+0. Lura Linney
 0. Salma Hayek
 0. Melanie Lynskey
 0. Tallulah Morton
@@ -243,6 +272,7 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Mini Andén
 0. Anne Vyalitsyna
 0. Estella Warren
+0. Nia Long
 0. Jodi Lyn O'Keefe
 0. Jennifer O'Dell
 0. Missi Pyle
@@ -256,5 +286,5 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 
 
 
-Updated at 2014/10/01
+Updated at 2014/10/04
 

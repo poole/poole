@@ -4,9 +4,9 @@ title: KARY HOT 360
 ---
 
 # KARY HOT 360
+---
 There is a shared wish inside among the men of 21 century: “Knowing the HOTest celebrities” and well after all the efforts there is no good reference yet. That’s why this list is created: to be a careful and comprehensive reference for men to knowledge themselves about the HOTest chicks around. The list is just in the beginning edge and we’re hoping to create the most complete list possible of thousands of HOT gals and we’re hoping to have your hand in suggesting us the missing chicks…
-
-
+---
 0. Hailee Steinfeld
 0. Elle Fanning
 0. Reese Witherspoon

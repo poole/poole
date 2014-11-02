@@ -3,9 +3,9 @@ layout: page
 title: My favorite women of hollywood
 ---
 
-# My top 350 Women of Hollywood
-[< Lists](http://kary.us/lists/)<br>
-As a guy it's my very first right to be attracted by women! now this is a very professional actress ranking of mine! My ranking is based on how much they have created memory for me, how much they are pretty and how much lovely and kind they are.
+# KARY HOT 350
+There is a shared wish inside the mens of 21 century: “Knowing the HOTest celebrities” and well after all their efforts there is no good reference made yet. That’s why this list is created to be a careful and comprehensive reference for men to knowledge themselves about the HOTest chicks around. The list is just in the beginning edge and we’re hoping to create the most complete list possible of thousands of HOT gals and we’re hoping to have your hand in suggesting us missing chicks…
+
 
 0. Hailee Steinfeld
 0. Elle Fanning
@@ -357,15 +357,6 @@ As a guy it's my very first right to be attracted by women! now this is a very p
 0. Katherine LaNasa
 0. Ana Ivanovic
 0. Rebecca Garcia
-
-
-
-
-
-
-
-
-
 
 Last updated at 2014/11/02
 

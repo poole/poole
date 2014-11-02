@@ -1,9 +1,9 @@
 ---
 layout: page
-title: KARY HOT 350
+title: KARY HOT 360
 ---
 
-# KARY HOT 350
+# KARY HOT 360
 There is a shared wish inside among the men of 21 century: “Knowing the HOTest celebrities” and well after all the efforts there is no good reference yet. That’s why this list is created: to be a careful and comprehensive reference for men to knowledge themselves about the HOTest chicks around. The list is just in the beginning edge and we’re hoping to create the most complete list possible of thousands of HOT gals and we’re hoping to have your hand in suggesting us the missing chicks…
 
 
@@ -39,6 +39,7 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Emma Watson
 0. Kristen Stewart
 0. Kat Dennings
+0. Kacey Musgraves
 0. Chloe Grace Moretz
 0. Sara Paxton
 0. Meg Ryan
@@ -48,6 +49,7 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Kate Hudson
 0. Sarah Bolger
 0. Nicola Peltz
+0. Cassadee Pope
 0. Sierra McCormick
 0. Olivia Holt
 0. Vanessa Hudgens
@@ -76,8 +78,8 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Julianne Hough
 0. Annasophia Robb
 0. Jassica Nicole
-0. Demi Lovato
 0. Taylor Momsen
+0. Danielle Bradbery
 0. Laura Vandervoort
 0. Trieste Kelly Dunn
 0. Natalie Dormer
@@ -87,6 +89,7 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Elizabeth Olsen
 0. Jennifer Lawrence
 0. Olivia Arezzolo
+0. Ashlee Simpson
 0. Dakota Fanning
 0. Behati Prinsloo
 0. Doutzen Kroes
@@ -127,6 +130,7 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Johnny Sequoyah
 0. Christy Carlson Romano
 0. Hilary Duff
+0. Jana Kramer
 0. Dakota Fanning
 0. Sophia Bush
 0. Olesya Rulin
@@ -207,6 +211,7 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Kate Bosworth
 0. Monique Coleman
 0. Emma de Caunes
+0. Britney Spears
 0. Milla Jovovich
 0. Paige Turco
 0. Maria Sharapova
@@ -231,6 +236,7 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Michelle Pfeiffer
 0. Anna Torv
 0. Zoe Saldana
+0. Demi Lovato
 0. Beyonce
 0. Chelsea Kane
 0. Sofia Vergara
@@ -244,7 +250,9 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Bijou Phillips
 0. Elizabeth Henstridge
 0. Julie Ann Emery
-0. Mercedes Lambre Model
+0. Jasmine van den Bogaerde
+0. Mercedes Lambre
+0. Kimberly Caldwell
 0. Madison Riley
 0. Audrey Tautou
 0. Alyson Hannigan
@@ -341,7 +349,9 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Liz Hernandez
 0. Salma Hayek
 0. Rocsi Diaz
+0. Brandy Clark
 0. Lydia Hearst
+0. Weyes Blood
 0. Melanie Lynskey
 0. Tallulah Morton
 0. Miranda Kerr

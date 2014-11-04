@@ -1,15 +1,15 @@
 ---
 layout: page
-title: KARY HOT 360
+title: KARY HOT 370
 ---
 
-# KARY HOT 360
+# KARY HOT 370
 There is a shared wish inside among the men of 21 century: “Knowing the HOTest celebrities” and well after all the efforts there is no good reference yet. That’s why this list is created: to be a careful and comprehensive reference for men to knowledge themselves about the HOTest chicks around. The list is just in the beginning edge and we’re hoping to create the most complete list possible of thousands of HOT gals and we’re hoping to have your hand in suggesting us the missing chicks but for now enjoy the list!<br><br>
 
 
 0. Hailee Steinfeld
 0. Elle Fanning
-0. Reese Witherspoon
+0. Rachel Hilbert
 0. Amy Adams
 0. Cobie Smulders
 0. Zooey Deschanel
@@ -38,6 +38,8 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Rachel McAdams
 0. Emma Watson
 0. Kristen Stewart
+0. Cara Delevingne
+0. Reese Witherspoon
 0. Kat Dennings
 0. Kacey Musgraves
 0. Chloe Grace Moretz
@@ -84,11 +86,10 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Trieste Kelly Dunn
 0. Natalie Dormer
 0. Kirsten Dunst
-0. Cara Delevingne
 0. Maggie Gyllenhaal
 0. Elizabeth Olsen
 0. Jennifer Lawrence
-0. Olivia Arezzolo
+0. Selena Gomez
 0. Ashlee Simpson
 0. Dakota Fanning
 0. Behati Prinsloo
@@ -96,12 +97,14 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Kate Moss
 0. Sandra Bullock
 0. Eva Mendes
+0. Robyn Rihanna Fenty
 0. China Anne McClain
 0. Sadie Calvano
 0. Katie Holmes
 0. Amber Marshall
 0. Eva Longoria
 0. Michelle Morgan
+0. Naomi Watts
 0. Rebecca Hall
 0. Amber Valletta
 0. Karlie Kloss
@@ -120,8 +123,8 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Sienna Miller
 0. Kristen Bell
 0. Charlize Theron
-0. Selena Gomez
 0. Jennifer Love Hewitt
+0. Mariah Carey
 0. Drew Barrymore
 0. Jennifer Aniston
 0. Renée Zellweger
@@ -167,6 +170,7 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Lindsel Lingson
 0. Summer Glau
 0. Rashida Jones
+0. Saoirse Ronan
 0. Sophia Myles
 0. Anneliese Van Der Pol
 0. Evangeline Lilly
@@ -264,6 +268,8 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Beth Behrs
 0. Victoria Justice
 0. Noureen DeWulf
+0. Emily Ratajkowski
+0. Nina Agdal
 0. Irina Shayk
 0. Jessica Simpson
 0. Yvonne Strahovski
@@ -272,6 +278,7 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Kendall Jenner
 0. Anna Friel
 0. Gemma Arterton
+0. Olivia Arezzolo
 0. Claire Forlani
 0. Felicity Jones
 0. Talulah Riley
@@ -287,6 +294,7 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Brooklyn Decker
 0. Nicol Paone
 0. Emily Osment
+0. Megan Nicole
 0. Jane Lynch
 0. Esti Ginzburg
 0. Radha Mitchell
@@ -357,10 +365,12 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Miranda Kerr
 0. Mini Andén
 0. Miesha Tate
+0. Brooke Lyons
 0. Anne Vyalitsyna
 0. Estella Warren
 0. Jessica Parker Kennedy
 0. Nia Long
+0. Olivia Cook
 0. Jodi Lyn O'Keefe
 0. Jennifer O'Dell
 0. Missi Pyle
@@ -369,5 +379,9 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Rebecca Garcia
 
 Last updated at 2014/11/02<br>
-To suggest new chicks please contact us via [hot@kary.us](mailto:hot@kary.us)
+To suggest new chicks please contact us via [hot@kary.us](mailto:hot@kary.us)<br>
+
+**NOTE :** Pouya Kary and contributors to the list takes no responsibility of any kind for the list and the effects it may have. Please notice that this fact that "The ranking is not correct from your view" is not a matter of attention to us. You can send your suggestions to us but it's obvious that we choose the final places.
+
+
 

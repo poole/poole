@@ -378,7 +378,7 @@ There is a shared wish inside among the men of 21 century: “Knowing the HOTest
 0. Ana Ivanovic
 0. Rebecca Garcia
 
-Last updated at 2014/11/02<br>
+Last updated at 2014/11/04<br>
 To suggest new chicks please contact us via [hot@kary.us](mailto:hot@kary.us)<br>
 
 **NOTE :** Pouya Kary and contributors to the list takes no responsibility of any kind for the list and the effects it may have. Please notice that this fact that "The ranking is not correct from your view" is not a matter of attention to us. You can send your suggestions to us but it's obvious that we choose the final places.

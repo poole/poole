@@ -4,7 +4,7 @@ title: KARY HOT 400
 ---
 
 # KARY HOT 400
-There is a shared wish inside among the men of 21 century: “Knowing the HOTest celebrities” and well after all the efforts there is no good reference yet. That’s why this list is created: to be a careful and comprehensive reference for men to knowledge themselves about the HOTest chicks around. The list is just in the beginning edge and we’re hoping to create the most complete list possible of thousands of HOT gals and we’re hoping to have your hand in suggesting us the missing chicks but for now enjoy the list!<br><br>
+There is a shared wish among the men of 21 century: “Knowing the HOTest celebrities of their time” and well after all the efforts, Still there's no good reference yet. That’s why this list is created: to be a careful and comprehensive reference for men to knowledge themselves about the HOTest chicks around. The list is just in the beginning edge and we’re hoping to create the most complete list possible of thousands of HOT gals and we’re hoping to have your hand in suggesting us the missing chicks... For now enjoy the list!<br><br>
 
 
 0. Hailee Steinfeld

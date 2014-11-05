@@ -408,14 +408,13 @@ There is a shared wish among the men of 21 century: “Knowing the HOTest celebr
 0. Kimmy Suzuki
 0. Rebecca Garcia
 
-<br>
-*You're welcome!*
-<br><br>
-
 Last updated at 2014/11/05<br>
 To suggest new chicks please contact us via [hot@kary.us](mailto:hot@kary.us)<br>
 
 **NOTE :** Pouya Kary and contributors to the list takes no responsibility of any kind for the list and the effects it may have. Please notice that this fact that "The ranking is not correct from your view" is not a matter of attention to us. You can send your suggestions but it's obvious that we choose the final places.
 
+<br>
+And also *You're welcome!*
+<br><br>
 
 

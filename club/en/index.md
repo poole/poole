@@ -19,7 +19,6 @@ title: Club Kary English
 <div id="mc_embed_signup">
 <form action="//kary.us9.list-manage.com/subscribe/post?u=0f83ca1af2318eecf6a68642d&amp;id=be9250c37f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Subscribe to our mailing list</h2>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
 </label>

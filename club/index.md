@@ -18,8 +18,6 @@ title: Club Kary
 <div id="mc_embed_signup">
 <form action="//kary.us9.list-manage.com/subscribe/post?u=0f83ca1af2318eecf6a68642d&amp;id=f4e9f4be88" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Become a Club Kary member!</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
 </label>

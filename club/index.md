@@ -26,16 +26,16 @@ title: Club Kary
 <form action="//kary.us9.list-manage.com/subscribe/post?u=0f83ca1af2318eecf6a68642d&amp;id=f4e9f4be88" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 <div class="mc-field-group">
-	<label for="mce-EMAIL" align="right">ایمیل و لطفا بهش نگین رایانامه<span class="asterisk">*</span>
+	<label for="mce-EMAIL" align="right">ایمیل<span class="asterisk">*</span>
 </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
 <div class="mc-field-group">
-	<label for="mce-FNAME" align="right">اسم کوچیک</label>
+	<label for="mce-FNAME" align="right">اسم - میتونین وارد نکنین</label>
 	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
 </div>
 <div class="mc-field-group">
-	<label for="mce-LNAME" align="right">اسم بزرگ</label>
+	<label for="mce-LNAME" align="right">فامیل - میتونین وارد نکنین</label>
 	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 </div>
 	<div id="mce-responses" class="clear">
@@ -43,7 +43,8 @@ title: Club Kary
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div> 
     <div style="position: absolute; left: -5000px;"><input type="text" name="b_0f83ca1af2318eecf6a68642d_f4e9f4be88" tabindex="-1" value=""></div>
-    <div class="clear" align="right"><input type="submit" value="فسم میخورم که زیر قولم نزنم" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <p align="right">با کلیک کردن روی این دکمه شما عضو ما میشین و ما نهایت تلاشمون رو میکنیم که شما خوب برنامه نویسی رو یاد بگیرین و شما باید قول بدید که نهایت تلاشتون رو بکنین که به سه نفر دیگه که همین قول رو به شما میدن برنامه نویسی یاد بدید</p>
+    <div class="clear" align="right"><input type="submit" value="قول میدوم و عضو کلاب کاری میشم" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>

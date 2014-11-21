@@ -43,7 +43,7 @@ title: Club Kary
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div> 
     <div style="position: absolute; left: -5000px;"><input type="text" name="b_0f83ca1af2318eecf6a68642d_f4e9f4be88" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class="clear" align="right"><input type="submit" value="فسم میخورم که زیر قولم نزنم" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>

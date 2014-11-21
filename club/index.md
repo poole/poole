@@ -4,7 +4,7 @@ title: Club Kary
 ---
 
 <center>
-	<img src="Graphics/club/logo.png" width="400"></img>
+	<img src="https://raw.githubusercontent.com/pmkary/pmkary.github.io/master/Graphics/club/logo.png" width="400"></img>
 	<p>Join a movement where you can change the world!</p>
 </center>
 

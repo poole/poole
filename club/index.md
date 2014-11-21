@@ -5,7 +5,8 @@ title: Club Kary
 
 <center>
 	<img src="https://raw.githubusercontent.com/pmkary/pmkary.github.io/master/Graphics/club/logo.png" width="400"></img>
-	<p>Join a movement where you can change the world!</p>
+	<h1>Education sucks! Let's fix it!</h1>
+	
 </center>
 
 <!-- Begin MailChimp Signup Form -->

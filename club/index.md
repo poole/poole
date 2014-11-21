@@ -5,7 +5,7 @@ title: Club Kary
 
 <center>
 	<img src="https://raw.githubusercontent.com/pmkary/pmkary.github.io/master/Graphics/club/logo.png" width="400"></img>
-	<h1 align="right">سیستم آموزشی مزخرفه</h1>
+	<h1>سیستم آموزشی مزخرفه</h1>
 </center>
 
 <p align="right">سیستم آموزشی برنامه نویسی مزخرفه!

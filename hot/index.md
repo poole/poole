@@ -1,9 +1,9 @@
 ---
 layout: page
-title: HOT 500
+title: HOT 460
 ---
 
-# Kary HOT 500
+# Kary HOT 460
 There is a shared wish among the men of 21 century: “Knowing the HOTest celebrities of their time” and well after all the efforts, Still there's no good reference yet. That’s why this list is created: to be a careful and comprehensive reference for men to knowledge themselves about the HOTest chicks around. The list is just in the beginning edge and we’re hoping to create the most complete list possible of thousands of HOT gals and we’re hoping to have your hand in suggesting us the missing chicks... For now enjoy the list!<br><br>
 
 
@@ -67,10 +67,6 @@ There is a shared wish among the men of 21 century: “Knowing the HOTest celebr
 0. Kacey Musgraves
 0. Ashley Tisdale
 0. Nina Dobrev
-
----
-
-
 0. Léa Seydoux
 0. Tina Fey
 0. Indian Mendel 

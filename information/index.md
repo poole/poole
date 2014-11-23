@@ -5,7 +5,7 @@ title: Information
 
 # Information
 
-> *This text is a short story of my life not my resume! You can fine about my [skills](http://kary.us/skills) in it’s own page*
+> *This text is a short story of my life not my resume! You can find about my [skills](http://kary.us/skills) in it’s own page*
 
 This is fun to write about yourself! My name is obviously Pouya Kary and I was born in January 8th 1996, I love creating things that I want to exist that are mostly programs.<br>
 

@@ -81,6 +81,7 @@ title: Language Presentation
 - [DARKON](http://en.wikipedia.org/wiki/DRAKON)
 
 ## Programming Languages
+
 - [Xojo](https://xojo.com)
 - [ABC](http://en.wikipedia.org/wiki/ABC_(programming_language))
 - [GNU Guile](http://www.gnu.org/software/guile/)
@@ -118,7 +119,7 @@ title: Language Presentation
 ## Toy Languages
 
 - [ArnoldC](https://github.com/lhartikk/ArnoldC)
-- [Shakespeare](http://en.wikipedia.org/wiki/Shakespeare_(programming_language)
+- [Shakespeare](http://en.wikipedia.org/wiki/Shakespeare_(programming_language))
 - [Befunge](http://en.wikipedia.org/wiki/Befunge)
 - [Chef](http://www.mike-worth.com/2013/03/31/baking-a-hello-world-cake/)
 - [FALSE](http://strlen.com/false-language)

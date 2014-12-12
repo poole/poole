@@ -5,8 +5,12 @@ title: Showcase
 
 # Showcase
 ## 2014 Arendelle Language
-[Website](http://web.arendelle.org) | [Developer Website](http://developer.arendelle.org) | [GitHub Repositories](http://github.com/arendelle) | [Source Code](http://github.com/arendelle/arendelle) <br>
+[Website](http://web.arendelle.org) | [Developer Website](http://developer.arendelle.org) | [GitHub Repositoriess](http://github.com/arendelle) | [Source Code](http://github.com/arendelle/arendelle) <br>
 Arendelle is a domain-specific programming language for creating 16-bit like Pixel art. Arendelle uses a grid system and a pointer for navigating and painting the desired squares of the grid. The grammar behind Arendelle is completely new as it uses only one character for it's commands and grammars. Just like everything else in Arendelle the main engine of the language is based on a new interpreter design invented by Pouya Kary named *Recursive Scanner* rather than the Lexer-Parser-Code-Generator. Using this technique the interpreter actually never generates any code. It reads the code and execute it. Like a byte-code runtime but much more powerful to understand grammars. This way for executing makes the software much more fast and efficient<br><br>
+
+## 2014 Gothi
+[GitHub](https://github.com/arendelle/gothi)<br>
+Gothi is set of Basic-Latin, Numbers and few spacial characters for the Arendelle language that using a small size scripts lets you generate Arendelle text to display a special text in Arendelle.<br><br>
 
 ## 2014 Arcade IDE
 [Website](http://developer.arendelle.org/technologies/arcade) | [GitHub](http://github.com/arendelle/arendelle)<br>

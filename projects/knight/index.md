@@ -43,121 +43,125 @@ Designing a program to generate the path can make this even more fun and well th
 
 **NOTE** : Software is available from [GitHub](http://github.com/pmkary/knight)<br><br> 
 
-```
-/* 
- * SPECIAL VERSION FOR WHITE TERMINAL 
- * SCREENS WITH RESPONSITIVE SPACINGS 
- * AND BORDERED BOARD AND BACKGROUND 
- * COLOR PATH MARKS. 
- */ 
 
-// COPYRIGHT 2014 POUYA KARY 
-// KARY KNIGHT PATH OPTIMIZER VERSION 1 
-// FOR CALCULATING THE MINIMUM  MOVE 
-// REQUIERD BY ONE CHESS KNIGHT TO MOVE 
-// FROM BOTTOM LEFT OF A BOARD IN SIZE 
-// OF N TO THE TOP RIGHT. 
+<!-- CLIFF HIGHLIGHTER 0.01 DEV GENERATED CODE BLOCK-->
+<div style="font-family: Monospace;">
+<span style="color:#A0A0A0">/*&nbsp;<br>
+&nbsp;&#42;&nbsp;SPECIAL&nbsp;VERSION&nbsp;FOR&nbsp;WHITE&nbsp;TERMINAL&nbsp;<br>
+&nbsp;&#42;&nbsp;SCREENS&nbsp;WITH&nbsp;RESPONSITIVE&nbsp;SPACINGS&nbsp;<br>
+&nbsp;&#42;&nbsp;AND&nbsp;BORDERED&nbsp;BOARD&nbsp;AND&nbsp;BACKGROUND&nbsp;<br>
+&nbsp;&#42;&nbsp;COLOR&nbsp;PATH&nbsp;MARKS.&nbsp;<br>
+&nbsp;*/</span>&nbsp;<br>
+<br>
+<span style="color:#A0A0A0">//&nbsp;COPYRIGHT&nbsp;2014&nbsp;POUYA&nbsp;KARY&nbsp;</span><br>
+<span style="color:#A0A0A0">//&nbsp;KARY&nbsp;KNIGHT&nbsp;PATH&nbsp;OPTIMIZER&nbsp;VERSION&nbsp;1&nbsp;</span><br>
+<span style="color:#A0A0A0">//&nbsp;FOR&nbsp;CALCULATING&nbsp;THE&nbsp;MINIMUM&nbsp;&nbsp;MOVE&nbsp;</span><br>
+<span style="color:#A0A0A0">//&nbsp;REQUIERD&nbsp;BY&nbsp;ONE&nbsp;CHESS&nbsp;KNIGHT&nbsp;TO&nbsp;MOVE&nbsp;</span><br>
+<span style="color:#A0A0A0">//&nbsp;FROM&nbsp;BOTTOM&nbsp;LEFT&nbsp;OF&nbsp;A&nbsp;BOARD&nbsp;IN&nbsp;SIZE&nbsp;</span><br>
+<span style="color:#A0A0A0">//&nbsp;OF&nbsp;N&nbsp;TO&nbsp;THE&nbsp;TOP&nbsp;RIGHT.&nbsp;</span><br>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">////////////////////////////////&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">///&nbsp;BUILDING&nbsp;THE&nbsp;CHESS&nbsp;BOARD&nbsp;///&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">////////////////////////////////&nbsp;</span><br>
+<br>
+<span style="color:#A0A0A0">//&nbsp;title&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;<span style="color:#BD00AD">'Kary Knight's Path Optimizer'</span><br>
+<br>
+<span style="color:#A0A0A0">//&nbsp;How&nbsp;much&nbsp;is&nbsp;our&nbsp;board?&nbsp;(&nbsp;@size&nbsp;X&nbsp;@size&nbsp;)&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;size&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#BD00AD">"Please enter the size of your board:"</span><span style="color:#D60073">)</span>&nbsp;<br>
+<br>
+<span style="color:#A0A0A0">//&nbsp;first&nbsp;spcaings&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;xspacings&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#D60073">(</span>&nbsp;<span style="color:#4E00FC">#i</span>&nbsp;-&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;*&nbsp;2&nbsp;<span style="color:#D60073">)</span>&nbsp;2&nbsp;<span style="color:#D60073">)</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;yspacings&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#D60073">(</span>&nbsp;<span style="color:#4E00FC">#j</span>&nbsp;-&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">)</span>&nbsp;2&nbsp;<span style="color:#D60073">)</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@xspacings</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;r&nbsp;<span style="color:#D60073">]</span>&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@yspacings</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;d&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+<br>
+<span style="color:#A0A0A0">//&nbsp;The&nbsp;first&nbsp;color&nbsp;should&nbsp;not&nbsp;be&nbsp;the&nbsp;one&nbsp;</span><br>
+<span style="color:#A0A0A0">//&nbsp;with&nbsp;capacity&nbsp;of&nbsp;100%&nbsp;(Or&nbsp;#n&nbsp;of&nbsp;0)</span><br>
+&nbsp;&nbsp;&nbsp;n&nbsp;<br>
+<br>
+<span style="color:#A0A0A0">//&nbsp;creating&nbsp;the&nbsp;board&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;line&nbsp;&nbsp;<span style="color:#D60073">,</span>&nbsp;0&nbsp;<span style="color:#D60073">)</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@xspacings</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;r&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@yspacings</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;d&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;d&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;prpr&nbsp;nn&nbsp;<span style="color:#D60073">]</span>&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;line&nbsp;<span style="color:#D60073">,</span>&nbsp;+1&nbsp;<span style="color:#D60073">)</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">{</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;%&nbsp;2&nbsp;=&nbsp;0&nbsp;<span style="color:#D60073">,</span>&nbsp;nn&nbsp;<span style="color:#D60073">}</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+<br>
+<span style="color:#A0A0A0">//&nbsp;Now&nbsp;we&nbsp;have&nbsp;to&nbsp;get&nbsp;to&nbsp;the&nbsp;bottom&nbsp;left&nbsp;</span><br>
+<span style="color:#A0A0A0">//&nbsp;of&nbsp;our&nbsp;board.&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;i&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@xspacings</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;r&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@yspacings</span>&nbsp;+&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;-&nbsp;1&nbsp;&nbsp;<span style="color:#D60073">,</span>&nbsp;d&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#D60073">{</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;%&nbsp;2&nbsp;=&nbsp;0&nbsp;<span style="color:#D60073">,</span>&nbsp;nnn&nbsp;<span style="color:#D60073">,</span>&nbsp;n&nbsp;<span style="color:#D60073">}</span>&nbsp;<br>
+<br>
+<span style="color:#A0A0A0">//&nbsp;and&nbsp;because&nbsp;this&nbsp;software&nbsp;is&nbsp;designed&nbsp;for&nbsp;</span><br>
+<span style="color:#A0A0A0">//&nbsp;white&nbsp;screen&nbsp;we&nbsp;do&nbsp;not&nbsp;color&nbsp;the&nbsp;path&nbsp;but&nbsp;</span><br>
+<span style="color:#A0A0A0">//&nbsp;clear&nbsp;it!</span><br>
+&nbsp;&nbsp;&nbsp;crc&nbsp;<br>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//////////////////////////////&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">///&nbsp;RUNNING&nbsp;THE&nbsp;ALGORITHEM&nbsp;///&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//////////////////////////////&nbsp;</span><br>
+<br>
+<span style="color:#A0A0A0">//&nbsp;Now&nbsp;we&nbsp;have&nbsp;to&nbsp;see&nbsp;what&nbsp;is&nbsp;the&nbsp;remaining&nbsp;</span><br>
+<span style="color:#A0A0A0">//&nbsp;of&nbsp;the&nbsp;@size&nbsp;to&nbsp;3&nbsp;</span><br>
+<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#D60073">{</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;%&nbsp;3&nbsp;=&nbsp;0&nbsp;<span style="color:#D60073">,</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;W0&nbsp;///////////////////////////////////&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BD00AD">'Knight W0'</span><br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M1&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;Floor<span style="color:#D60073">(</span>&nbsp;<span style="color:#D60073">(</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;-&nbsp;5&nbsp;<span style="color:#D60073">)</span>&nbsp;3&nbsp;<span style="color:#D60073">)</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;rc&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;r&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;rc&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M4&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;rc&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M5&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;3&nbsp;<span style="color:#D60073">,</span>&nbsp;r&nbsp;<span style="color:#D60073">]</span>&nbsp;d&nbsp;crc&nbsp;uu&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;rc&nbsp;<span style="color:#D60073">]</span>&nbsp;&nbsp;&nbsp;<br>
+<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#D60073">{</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;%&nbsp;3&nbsp;=&nbsp;1&nbsp;<span style="color:#D60073">,</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;W1&nbsp;///////////////////////////////////&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BD00AD">'Knight W1'</span><br>
+<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M1&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;Floor<span style="color:#D60073">(</span>&nbsp;<span style="color:#D60073">(</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;<span style="color:#D60073">)</span>&nbsp;3&nbsp;<span style="color:#D60073">)</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;rc&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;r&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;rc&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#D60073">,</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;W2&nbsp;///////////////////////////////////&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BD00AD">'Knight W2'</span><br>
+<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M1&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;Floor<span style="color:#D60073">(</span>&nbsp;<span style="color:#D60073">(</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;-&nbsp;5&nbsp;<span style="color:#D60073">)</span>&nbsp;3&nbsp;<span style="color:#D60073">)</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;rc&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;r&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;rc&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M4&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;rc&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M3&nbsp;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;d&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;rc&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;rc&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+<br>
+&nbsp;&nbsp;&nbsp;<span style="color:#D60073">}</span><span style="color:#D60073">}</span>&nbsp;<br>
+<br>
+<span style="color:#A0A0A0">//&nbsp;Making&nbsp;the&nbsp;border&nbsp;</span><br>
+&nbsp;&nbsp;r&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;+&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">,</span>&nbsp;prpdl&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+&nbsp;&nbsp;u&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;*&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">,</span>&nbsp;lp&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+&nbsp;&nbsp;ll&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;+&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">,</span>&nbsp;prpul&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+&nbsp;&nbsp;l&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@size</span>&nbsp;*&nbsp;2&nbsp;+&nbsp;4&nbsp;<span style="color:#D60073">,</span>&nbsp;rp&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span>&nbsp;<br>
+<br>
+<span style="color:#A0A0A0">//&nbsp;done</span><br>
 
-
-   //////////////////////////////// 
-   /// BUILDING THE CHESS BOARD /// 
-   //////////////////////////////// 
-
-// title 
-   'Kary Knight\'s Path Optimizer' 
-
-// How much is our board? ( @size X @size ) 
-   ( size , "Please enter the size of your board:" ) 
- 
-// first spcaings 
-   ( xspacings , ( #i - @size * 2 ) / 2 ) 
-   ( yspacings , ( #j - @size     ) / 2 ) 
-   [ @xspacings , r ]  [ @yspacings , d ] 
-
-// The first color should not be the one 
-// with capacity of 100% (Or #n of 0)
-   n 
-
-// creating the board 
-   ( line  , 0 ) 
-   [ @size , 
-     i [ @xspacings , r ] [ @yspacings , d ] 
-     [ @size , d ] [ @size , prpr nn ]  
-     ( line , +1 ) 
-     { @size % 2 = 0 , nn } 
-   ] 
-
-// Now we have to get to the bottom left 
-// of our board. 
-   i [ @xspacings , r ] 
-   [ @yspacings + @size - 1  , d ] 
-   { @size % 2 = 0 , nnn , n } 
-
-// and because this software is designed for 
-// white screen we do not color the path but 
-// clear it!
-   crc 
-
-
-   ////////////////////////////// 
-   /// RUNNING THE ALGORITHEM /// 
-   ////////////////////////////// 
-
-// Now we have to see what is the remaining 
-// of the @size to 3 
-
-   { @size % 3 = 0 , 
-     // W0 /////////////////////////////////// 
-        'Knight W0' 
-
-     // M1 
-        [ Floor( ( @size - 5 ) / 3 ) , 
-            [ 2 , u ] [ 2 , rc ] 
-          u [ 2 , r ] [ 2 , rc ] 
-        ] 
-
-     // M4 
-        [ 2 , [ 2 , u ] [ 2 , rc ] ] 
-
-     // M5 
-        [ 3 , r ] d crc uu [ 2 , rc ]   
-
-   , { @size % 3 = 1 , 
-   // W1 /////////////////////////////////// 
-      'Knight W1' 
-
-   // M1 
-      [ Floor( ( @size ) / 3 ) , 
-          [ 2 , u ] [ 2 , rc ] 
-        u [ 2 , r ] [ 2 , rc ] 
-      ] 
-
-   , 
-   // W2 /////////////////////////////////// 
-      'Knight W2' 
-
-   // M1 
-      [ Floor( ( @size - 5 ) / 3 ) , 
-          [ 2 , u ] [ 2 , rc ] 
-        u [ 2 , r ] [ 2 , rc ] 
-      ] 
-
-   // M4 
-      [ 2 , [ 2 , u ] [ 2 , rc ] ] 
-   
-   // M3 
-      [ 2 , d ] [ 2 , rc ] [ 2 , u ] [ 2 , rc ] 
-
-   }} 
- 
-// Making the border 
-  r  [ @size + 1     , prpdl ] 
-  u  [ @size * 2     , lp    ] 
-  ll [ @size + 1     , prpul ] 
-  l  [ @size * 2 + 4 , rp    ] 
-
-// done
-```
+</div>
+<!-- CLIFF HIGHLIGHTER 0.01 DEV GENERATED CODE BLOCK-->
 
 <br><br>
 

@@ -9,7 +9,6 @@ This page gives you the current Karion date using your own time zone. The code f
 
 <br><br><br>
 <center>
-<b style="font-size:72px;">
 <script>
 var now = new Date();
 var myBirth = new Date('01/08/1996');
@@ -35,7 +34,6 @@ function daysBetween(first, second) {
     return Math.floor(days);
 }
 </script>
-</b>
 </center>
 
 <br><br><br>

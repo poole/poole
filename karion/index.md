@@ -7,9 +7,6 @@ title: Karion
 
 This page gives you the current Karion date using your own time zone. The code for the Karion time service is still in beta tests and may cause problems. So do not use it as your serious service. You can always use [WolframAlpha](http://www.wolframalpha.com/input/?i=1996%2F01%2F08) for this matter
 
-<script>
-document.write("hello")
-</script>
 
 <br><br><br>
 <center>

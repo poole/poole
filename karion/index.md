@@ -9,10 +9,8 @@ This page gives you the current Karion date using your own time zone. The code f
 
 
 <br><br><br>
-<center>
-
-<script src="karion.js"></script>
-</center>
-
+	<p style="font-size:72px; align:cneter;">
+		<script src="karion.js"></script>
+	</p>
 <br><br><br>
 &copy; Copyright 2013-2015 Pouya Kary, All rights reserved. Karion is a date system for personal uses of Pouya Kary and any use of it, modification and derivative is of the date system is forbidden.

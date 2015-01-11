@@ -9,7 +9,7 @@ title: Karion Time
 		<script src="karion.js"></script>
 	</strong>
 </center>
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 <div>
     <div style="float:left; margin:0%; width:48%">
@@ -32,4 +32,4 @@ title: Karion Time
 
 </div>
 
-<br><br>
+<br><br><br><br><br>

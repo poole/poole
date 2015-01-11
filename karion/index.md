@@ -11,7 +11,7 @@ title: Karion Time
 </center>
 <br><br><br><br><br><br><br>
 
-<div>
+<div style="width:100%;">
     <div style="float:left; margin:0%; width:48%">
 		
 		<a href="karion.pbw">

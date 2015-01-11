@@ -14,7 +14,7 @@ title: Karion Time
 <div style="width:100%;">
     <div style="float:left; margin:0%; width:48%">
 		
-		<a href="karion.pbw">
+		<a href="karion.pbw" title="Get Karion's Simply.js client on Pebble Watch">
 			<img src="pebble.jpg" style="align:left; width:100%;"></img>
 		</a>
           
@@ -24,7 +24,7 @@ title: Karion Time
 
     <div style="float:right; margin:0%; width:48%">
         
-        <a href="karion.zip">
+        <a href="karion.zip" title="Get Karion offline for your command line">
         	<img src="mac.png" style="align:right; width:100%;"></img>
         </a>
 

@@ -10,18 +10,23 @@ title: Karion Time
 	</strong>
 </center>
 <br>
+<br>
+<br>
+<br>
 
 <div>
-    <div style="float:left; margin:0px; width:45%">
+    <div style="float:left; margin:2%; width:48%">
 		
 		<img src="pebble.jpg" style="align:left;"></img>
           
     </div>
 
-    <div style="float:left; margin:0px; width:45%">
+    <div style="float:left; margin:2%; width:48%">
         
         <img src="mac.png" style="align:right;"></img>
-        
+
     </div>
 
 </div>
+
+<br><br>

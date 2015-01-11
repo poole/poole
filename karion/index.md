@@ -12,14 +12,16 @@ title: Karion Time
 <br>
 
 <div>
-          <div style="float:left; margin:0px; width:45%">
+    <div style="float:left; margin:0px; width:45%">
+		
+		<img src="pebble.jpg" style="align:left;"></img>
           
-              <img src="pebble.jpg" style="align:left;"></img>
-          
-          </div>
+    </div>
 
-          <div style="float:left; margin:0px; width:45%">
-              <img src="mac.png" style="align:right;"></img>
-          </div>
+    <div style="float:left; margin:0px; width:45%">
+        
+        <img src="mac.png" style="align:right;"></img>
+        
+    </div>
 
-        </div>
+</div>

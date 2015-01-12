@@ -6,14 +6,14 @@ title: Karion Time
 <br><br>
 <div onresize="changeScreen.js" style="width:100%;">
 <center>
-	<strong id="karionScreen">
+	<strong style="font-size:12vw;">
 		<script src="karion.js"></script>
 	</strong>
 </center>
 </div>
 <br><br><br><br><br><br><br>
 
-<div style="width:100%;" id="box">
+<div style="width:100%;">
     <div style="float:left; margin:0%; width:48%">
 		
 		<a href="karion.pbw" title="Get Karion's Simply.js client on Pebble Watch">

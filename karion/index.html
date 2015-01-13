@@ -5,9 +5,8 @@ title: "Karion"
 
 <script>
   function resize () {
-    var mainBox = document.getElementById("mainBox");
+    var mainBox = document.getElementById("theBox");
     var size = mainBox.clientWidth;
-    document.getElementById("text").innerHTML = "hello";
     if ( size < 720 ) { document.getElementById("text").style.fontSize = "14vw"; {
     else { ( size == 720 ) { document.getElementById("text").style.fontSize = "100px" }
   }
@@ -15,7 +14,7 @@ title: "Karion"
    
 <div class="page">
   <br><br>
-  <div style="width:100%;" id="mainBox">
+  <div style="width:100%;" id="theBox">
     <center>
       <strong style="font-size:12vw;" id="text">
         <script src="karion.js"></script>

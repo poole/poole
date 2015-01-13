@@ -4,7 +4,7 @@ title: "Karion"
 ---
 
 <script>
-  function changeSize () {
+  $(window).resize(function() {
     var mainBox = document.getElementById("mainBox");
     var size = mainBox.clientWidth;
     document.getElementById("text").innerHTML = "hello";
@@ -13,7 +13,7 @@ title: "Karion"
   }
 </script>
    
-<div class="page" onresize="changeSize()">
+<div class="page">
   <br><br>
   <div style="width:100%;" id="mainBox">
     <center>

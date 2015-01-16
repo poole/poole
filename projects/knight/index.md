@@ -41,135 +41,18 @@ Designing a program to generate the path can make this even more fun and well th
 **NOTE** : Following source code is a program written in Arendelle Language, to fully understand the code you have to be able to read Arendelle, If you have to background in Arendelle I suggest you take our introduction to Arendelle here: http://welcome.arendelle.org<br>
 <br>
 
-**NOTE** : Software is available from [GitHub](http://github.com/pmkary/knight)<br><br> 
+**NOTE** : Software is available from [GitHub](http://github.com/pmkary/knight)<br><br><br>
 
+<!-- CLIFF HIGHLIGHTER 0.02 DEV GENERATED CODE BLOCK-->
 
-<!-- CLIFF HIGHLIGHTER 0.01 DEV GENERATED CODE BLOCK-->
-<div style="font-family: Monospace;">
-<br>
-<span style="color:#A0A0A0">//&nbsp;JArendelle&nbsp;Edition</span><br>
-<br>
-<span style="color:#A0A0A0">//&nbsp;COPYRIGHT&nbsp;2014&nbsp;POUYA&nbsp;KARY</span><br>
-<span style="color:#A0A0A0">//&nbsp;KARY&nbsp;KNIGHT&nbsp;MOVE&nbsp;OPTIMIZER&nbsp;VERSION&nbsp;1</span><br>
-<span style="color:#A0A0A0">//&nbsp;FOR&nbsp;CALCULATING&nbsp;THE&nbsp;MINIMUM&nbsp;&nbsp;MOVE</span><br>
-<span style="color:#A0A0A0">//&nbsp;REQUIERD&nbsp;BY&nbsp;ONE&nbsp;CHESS&nbsp;KNIGHT&nbsp;TO&nbsp;MOVE</span><br>
-<span style="color:#A0A0A0">//&nbsp;FROM&nbsp;BUTTOM&nbsp;LEFT&nbsp;OF&nbsp;A&nbsp;BOARD&nbsp;IN&nbsp;SIZE</span><br>
-<span style="color:#A0A0A0">//&nbsp;OF&nbsp;N&nbsp;TO&nbsp;THE&nbsp;TOP&nbsp;RIGHT.</span><br>
-<br>
-<br>
-<span style="color:#A0A0A0">//&nbsp;max&nbsp;size&nbsp;possible</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;maxSize&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#4E00FC">#height</span>&nbsp;-&nbsp;4&nbsp;<span style="color:#D60073">)</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#BD00AD">'Kary Knight | Max Size Possible : @maxSize'</span><br>
-<span style="color:#A0A0A0">//&nbsp;How&nbsp;much&nbsp;is&nbsp;our&nbsp;bord?&nbsp;(&nbsp;@long&nbsp;*&nbsp;@long&nbsp;)</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;long&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#BD00AD">"Please enter a size"</span><span style="color:#D60073">)</span><br>
-<br>
-&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">////////////////////////////////</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">///&nbsp;BUILDING&nbsp;THE&nbsp;CHESS&nbsp;BOARD&nbsp;///</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">////////////////////////////////</span><br>
-<br>
-<span style="color:#A0A0A0">//&nbsp;first&nbsp;spcaings</span><br>
-<br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;spacing&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#D60073">(</span>&nbsp;<span style="color:#4E00FC">#height</span>&nbsp;-&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;<span style="color:#D60073">)</span>&nbsp;/&nbsp;2&nbsp;<span style="color:#D60073">)</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@spacing</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;r&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@spacing</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;d&nbsp;<span style="color:#D60073">]</span><br>
-<br>
-<br>
-<span style="color:#A0A0A0">//&nbsp;The&nbsp;first&nbsp;color&nbsp;should&nbsp;not&nbsp;contain</span><br>
-<span style="color:#A0A0A0">//&nbsp;the&nbsp;100%&nbsp;capacity.</span><br>
-&nbsp;&nbsp;&nbsp;n<br>
-<br>
-<br>
-&nbsp;<br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;line&nbsp;<span style="color:#D60073">,</span>&nbsp;0&nbsp;<span style="color:#D60073">)</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span><span style="color:#4E00FC">@long</span><span style="color:#D60073">,</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@spacing</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;rd&nbsp;<span style="color:#D60073">]</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@line</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;d&nbsp;<span style="color:#D60073">]</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;pr&nbsp;nn&nbsp;<span style="color:#D60073">]</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;line&nbsp;<span style="color:#D60073">,</span>&nbsp;+1&nbsp;<span style="color:#D60073">)</span><br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">{</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;%&nbsp;2&nbsp;=&nbsp;0&nbsp;<span style="color:#D60073">,</span>&nbsp;nn&nbsp;<span style="color:#D60073">}</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span><br>
-<br>
-<span style="color:#A0A0A0">//&nbsp;Now&nbsp;we&nbsp;have&nbsp;to&nbsp;get&nbsp;to&nbsp;the&nbsp;buttom&nbsp;left</span><br>
-<span style="color:#A0A0A0">//&nbsp;of&nbsp;our&nbsp;board.</span><br>
-&nbsp;&nbsp;&nbsp;i&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@spacing</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;r&nbsp;<span style="color:#D60073">]</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@spacing</span>&nbsp;+&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;-&nbsp;1&nbsp;&nbsp;<span style="color:#D60073">,</span>&nbsp;d&nbsp;<span style="color:#D60073">]</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">{</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;%&nbsp;2&nbsp;=&nbsp;0&nbsp;<span style="color:#D60073">,</span>&nbsp;nnn&nbsp;<span style="color:#D60073">,</span>&nbsp;n&nbsp;<span style="color:#D60073">}</span>&nbsp;<br>
-&nbsp;&nbsp;&nbsp;p<br>
-<br>
-&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//////////////////////////////</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">///&nbsp;RUNNING&nbsp;THE&nbsp;ALGORITHEM&nbsp;///</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//////////////////////////////</span><br>
-<br>
-<span style="color:#A0A0A0">//&nbsp;Now&nbsp;we&nbsp;have&nbsp;to&nbsp;see&nbsp;what&nbsp;is&nbsp;the&nbsp;remaining</span><br>
-<span style="color:#A0A0A0">//&nbsp;of&nbsp;the&nbsp;@long&nbsp;to&nbsp;3</span><br>
-<br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;remaining&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;%&nbsp;3&nbsp;<span style="color:#D60073">)</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#BD00AD">'Kary Knight | Max Size Possible : @maxSize / Remaining : @remaining'</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">{</span>&nbsp;<span style="color:#4E00FC">@remaining</span>&nbsp;=&nbsp;0<span style="color:#D60073">,</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;W0&nbsp;///////////////////////////////////</span><br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M1</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;Floor<span style="color:#D60073">(</span><span style="color:#D60073">(</span><span style="color:#4E00FC">@long</span>-5<span style="color:#D60073">)</span>/3<span style="color:#D60073">)</span>&nbsp;<span style="color:#D60073">,</span><br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;rp<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;rrp<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span><br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M4</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;rp&nbsp;<span style="color:#D60073">]</span><br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M5</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rr&nbsp;d&nbsp;p&nbsp;uu&nbsp;rp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-<br>
-<br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">,</span><span style="color:#D60073">{</span>&nbsp;<span style="color:#4E00FC">@remaining</span>&nbsp;=1<span style="color:#D60073">,</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;W1&nbsp;///////////////////////////////////</span><br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M1</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;Floor<span style="color:#D60073">(</span><span style="color:#D60073">(</span><span style="color:#4E00FC">@long</span><span style="color:#D60073">)</span>/3<span style="color:#D60073">)</span>&nbsp;<span style="color:#D60073">,</span><br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;rp<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;rrp<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span><br>
-<br>
-<br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">,</span><br>
-&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;W2&nbsp;///////////////////////////////////</span><br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M1</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;Floor<span style="color:#D60073">(</span><span style="color:#D60073">(</span><span style="color:#4E00FC">@long</span>-5<span style="color:#D60073">)</span>/3<span style="color:#D60073">)</span>&nbsp;<span style="color:#D60073">,</span><br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;p<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;<span style="color:#D60073">[</span>&nbsp;3&nbsp;<span style="color:#D60073">,</span>&nbsp;r&nbsp;<span style="color:#D60073">]</span>&nbsp;p<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span><br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M4</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;rp<span style="color:#D60073">]</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M3</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;d&nbsp;<span style="color:#D60073">]</span>&nbsp;rp&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;rp&nbsp;<br>
-<br>
-&nbsp;&nbsp;&nbsp;<span style="color:#D60073">}</span><span style="color:#D60073">}</span><br>
-<br>
-<br>
-<span style="color:#A0A0A0">//&nbsp;border</span><br>
-<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;ru&nbsp;<span style="color:#D60073">]</span>&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;+&nbsp;3&nbsp;<span style="color:#D60073">,</span>&nbsp;pd&nbsp;<span style="color:#D60073">]</span><br>
-<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;+&nbsp;3&nbsp;<span style="color:#D60073">,</span>&nbsp;pl&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;+&nbsp;3&nbsp;<span style="color:#D60073">,</span>&nbsp;pu&nbsp;<span style="color:#D60073">]</span><br>
-<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;+&nbsp;4&nbsp;<span style="color:#D60073">,</span>&nbsp;pr&nbsp;<span style="color:#D60073">]</span><br>
-<br>
-<br>
-<span style="color:#A0A0A0">//&nbsp;done</span><br>
+<pre style="font-family: Monospace;">
+<br><span style="color:#A0A0A0">//&nbsp;JArendelle&nbsp;Edition</span><br><br><span style="color:#A0A0A0">//&nbsp;COPYRIGHT&nbsp;2014&nbsp;POUYA&nbsp;KARY</span><br><span style="color:#A0A0A0">//&nbsp;KARY&nbsp;KNIGHT&nbsp;MOVE&nbsp;OPTIMIZER&nbsp;VERSION&nbsp;1</span><br><span style="color:#A0A0A0">//&nbsp;FOR&nbsp;CALCULATING&nbsp;THE&nbsp;MINIMUM&nbsp;&nbsp;MOVE</span><br><span style="color:#A0A0A0">//&nbsp;REQUIERD&nbsp;BY&nbsp;ONE&nbsp;CHESS&nbsp;KNIGHT&nbsp;TO&nbsp;MOVE</span><br><span style="color:#A0A0A0">//&nbsp;FROM&nbsp;BUTTOM&nbsp;LEFT&nbsp;OF&nbsp;A&nbsp;BOARD&nbsp;IN&nbsp;SIZE</span><br><span style="color:#A0A0A0">//&nbsp;OF&nbsp;N&nbsp;TO&nbsp;THE&nbsp;TOP&nbsp;RIGHT.</span><br><br><br><span style="color:#A0A0A0">//&nbsp;max&nbsp;size&nbsp;possible</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;maxSize&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#4E00FC">#height</span>&nbsp;-&nbsp;4&nbsp;<span style="color:#D60073">)</span><br>&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;<span style="color:#BD00AD">'Kary Knight | Max Size Possible : @maxSize'</span><br><span style="color:#A0A0A0">//&nbsp;How&nbsp;much&nbsp;is&nbsp;our&nbsp;bord?&nbsp;(&nbsp;@long&nbsp;*&nbsp;@long&nbsp;)</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;long&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#BD00AD">"Please enter a size"</span><span style="color:#D60073">)</span><br><br>&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">////////////////////////////////</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">///&nbsp;BUILDING&nbsp;THE&nbsp;CHESS&nbsp;BOARD&nbsp;///</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">////////////////////////////////</span><br><br><span style="color:#A0A0A0">//&nbsp;first&nbsp;spcaings</span><br><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;spacing&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#D60073">(</span>&nbsp;<span style="color:#4E00FC">#height</span>&nbsp;-&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;<span style="color:#D60073">)</span>&nbsp;/&nbsp;2&nbsp;<span style="color:#D60073">)</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@spacing</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;r&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@spacing</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;d&nbsp;<span style="color:#D60073">]</span><br><br><br><span style="color:#A0A0A0">//&nbsp;The&nbsp;first&nbsp;color&nbsp;should&nbsp;not&nbsp;contain</span><br><span style="color:#A0A0A0">//&nbsp;the&nbsp;100%&nbsp;capacity.</span><br>&nbsp;&nbsp;&nbsp;n<br>&nbsp;<br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;line&nbsp;<span style="color:#D60073">,</span>&nbsp;0&nbsp;<span style="color:#D60073">)</span><br><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span><span style="color:#4E00FC">@long</span><span style="color:#D60073">,</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@spacing</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;rd&nbsp;<span style="color:#D60073">]</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@line</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;d&nbsp;<span style="color:#D60073">]</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;pr&nbsp;nn&nbsp;<span style="color:#D60073">]</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;line&nbsp;<span style="color:#D60073">,</span>&nbsp;+1&nbsp;<span style="color:#D60073">)</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">{</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;%&nbsp;2&nbsp;=&nbsp;0&nbsp;<span style="color:#D60073">,</span>&nbsp;nn&nbsp;<span style="color:#D60073">}</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span><br><br><span style="color:#A0A0A0">//&nbsp;Now&nbsp;we&nbsp;have&nbsp;to&nbsp;get&nbsp;to&nbsp;the&nbsp;buttom&nbsp;left</span><br><span style="color:#A0A0A0">//&nbsp;of&nbsp;our&nbsp;board.</span><br>&nbsp;&nbsp;&nbsp;i&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@spacing</span>&nbsp;<span style="color:#D60073">,</span>&nbsp;r&nbsp;<span style="color:#D60073">]</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@spacing</span>&nbsp;+&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;-&nbsp;1&nbsp;&nbsp;<span style="color:#D60073">,</span>&nbsp;d&nbsp;<span style="color:#D60073">]</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">{</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;%&nbsp;2&nbsp;=&nbsp;0&nbsp;<span style="color:#D60073">,</span>&nbsp;nnn&nbsp;<span style="color:#D60073">,</span>&nbsp;n&nbsp;<span style="color:#D60073">}</span>&nbsp;<br>&nbsp;&nbsp;&nbsp;p<br><br>&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//////////////////////////////</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">///&nbsp;RUNNING&nbsp;THE&nbsp;ALGORITHEM&nbsp;///</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//////////////////////////////</span><br><br><span style="color:#A0A0A0">//&nbsp;Now&nbsp;we&nbsp;have&nbsp;to&nbsp;see&nbsp;what&nbsp;is&nbsp;the&nbsp;remaining</span><br><span style="color:#A0A0A0">//&nbsp;of&nbsp;the&nbsp;@long&nbsp;to&nbsp;3</span><br><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">(</span>&nbsp;remaining&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;%&nbsp;3&nbsp;<span style="color:#D60073">)</span><br>&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;<span style="color:#BD00AD">'Kary Knight | Max Size Possible : @maxSize / Remaining : @remaining'</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">{</span>&nbsp;<span style="color:#4E00FC">@remaining</span>&nbsp;=&nbsp;0<span style="color:#D60073">,</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;W0&nbsp;///////////////////////////////////</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M1</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;Floor<span style="color:#D60073">(</span><span style="color:#D60073">(</span><span style="color:#4E00FC">@long</span>-5<span style="color:#D60073">)</span>/3<span style="color:#D60073">)</span>&nbsp;<span style="color:#D60073">,</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;rp<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;urrp<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M4</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;rp&nbsp;<span style="color:#D60073">]</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M5</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rr&nbsp;d&nbsp;p&nbsp;uu&nbsp;rp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">,</span><span style="color:#D60073">{</span>&nbsp;<span style="color:#4E00FC">@remaining</span>&nbsp;=1<span style="color:#D60073">,</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;W1&nbsp;///////////////////////////////////</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M1</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;Floor<span style="color:#D60073">(</span><span style="color:#D60073">(</span><span style="color:#4E00FC">@long</span><span style="color:#D60073">)</span>/3<span style="color:#D60073">)</span>&nbsp;<span style="color:#D60073">,</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;rp<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;rrp<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span><br><br><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">,</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;W2&nbsp;///////////////////////////////////</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M1</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;Floor<span style="color:#D60073">(</span><span style="color:#D60073">(</span><span style="color:#4E00FC">@long</span>-5<span style="color:#D60073">)</span>/3<span style="color:#D60073">)</span>&nbsp;<span style="color:#D60073">,</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;p<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u&nbsp;<span style="color:#D60073">[</span>&nbsp;3&nbsp;<span style="color:#D60073">,</span>&nbsp;r&nbsp;<span style="color:#D60073">]</span>&nbsp;p<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">]</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M4</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;rp<span style="color:#D60073">]</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A0A0A0">//&nbsp;M3</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;d&nbsp;<span style="color:#D60073">]</span>&nbsp;rp&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;u&nbsp;<span style="color:#D60073">]</span>&nbsp;rp&nbsp;<br><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">}</span><span style="color:#D60073">}</span><br><br><br><span style="color:#A0A0A0">//&nbsp;border</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;2&nbsp;<span style="color:#D60073">,</span>&nbsp;ru&nbsp;<span style="color:#D60073">]</span>&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;+&nbsp;3&nbsp;<span style="color:#D60073">,</span>&nbsp;pd&nbsp;<span style="color:#D60073">]</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;+&nbsp;3&nbsp;<span style="color:#D60073">,</span>&nbsp;pl&nbsp;<span style="color:#D60073">]</span>&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;+&nbsp;3&nbsp;<span style="color:#D60073">,</span>&nbsp;pu&nbsp;<span style="color:#D60073">]</span><br>&nbsp;&nbsp;&nbsp;<span style="color:#D60073">[</span>&nbsp;<span style="color:#4E00FC">@long</span>&nbsp;+&nbsp;4&nbsp;<span style="color:#D60073">,</span>&nbsp;pr&nbsp;<span style="color:#D60073">]</span><br><br><br><span style="color:#A0A0A0">//&nbsp;done</span><br></pre>
 
-</div>
-<!-- CLIFF HIGHLIGHTER 0.01 DEV GENERATED CODE BLOCK-->
+<!-- CLIFF HIGHLIGHTER 0.02 DEV GENERATED CODE BLOCK-->
 
 
 
-
-<br><br>
+<br><br><br>
 
 ## One final note
 What I wanted to show you was this simple fact that every language is made for a task. Every language has it's own super powers. In other industries you see many people doing same tasks like there are millions of people who run their restaurant. We all know that most of them does the same, they all serve one food, they have one look and... but we need many because there is billions of people out there and one restaurant is not enough. But in our computing world you do not need many software with same tasks because if there be one all the people in the world can easily copy and use it but when there is more than one program you always know that each of them are made in different ways for different tasks. Use each language in their own right place.

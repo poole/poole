@@ -1,6 +1,6 @@
 ---
-layout:page
-title:Die Hamid Die!
+layout: page
+title: Die Hamid Die!
 ---
 
 ![](graphics/header.png)
@@ -27,10 +27,5 @@ So this was why when you had to choose the devil of the year in Academy Awards, 
 **P.S:** If it's 2020 or something and you want to hire Hamid and then you ran a search and found this page. If you're not me hire him!
 
 **P.S:** All I wrote here was for fun not for real. If you're making a serious search please take this as a funny text between some friends and you and well I don't know who...
-
-
-
-
-
 
 

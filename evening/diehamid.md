@@ -5,7 +5,7 @@ title: Die Hamid Die!
 
 ![](https://raw.githubusercontent.com/pmkary/pmkary.github.io/master/evening/graphics/header.png)
 # Die Hamid Die!
-In the history of humanity there where many famous devils. Stan, Hitler, Kim Jung Un, Vladimir Lenin, Robert Mugabe, FOX Channel's CEO and My school's principal, However there also were not famous evil people so selfish that if you could give them the power history of human kind would be more doomed.
+In the history of humanity there were many famous devils. Stan, Hitler, Kim Jung Un, Vladimir Lenin, Robert Mugabe, FOX Channel's CEO and My school's principal, However there also were not famous evil people so selfish that if you could give them the power history of human kind would be more doomed.
 
 One of this horrible evil persons is my best friend (BFF/Besty) **Hamid Reza Aslani**, When you talk with him he seems to be a gentleman and in front of people an ferry angle but when it comes to his inner person, He's a devil! Some anonymous sources told me that because he was the one who suggested the idea of Hell god has titled him in his biography movie: "Founder of Hell". Some also say because of his great powers in creating new punishments he now holds the title "Founder and Chief Technology Officer of Hell".
 

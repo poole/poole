@@ -9,7 +9,7 @@ In the history of humanity there were many famous devils. Stan, Hitler, Kim Jung
 
 One of this horrible evil persons is my best friend (BFF/Besty) **Hamid Reza Aslani**. When you talk with him he seems to be a gentleman and in front of people a ferry angle but when it comes to his inner person. He's a devil! Some anonymous sources told me that because he was the one who suggested the idea of Hell god has titled him in "Special Thanks" section of end titles of his biography movie: "Founder of Hell". Some also say because of his great powers in creating new punishments he now holds the title "Founder and Chief Technology Officer of Hell".
 
-He actually is very famous. In some culture there's an old prophecy that states: *someone, a chosen one, a long, short, Sheldon looking fella with talent, power, evil from inside will come that everyone who touches him will suffer so bad that they'll crap their pants and fell the pain in their asses. People will call him **Hamid***
+He actually is very famous. In some culture there's an old prophecy that states: *someone, a chosen one, a long, short, Sheldon looking fella with talent, power, evil from inside will come that everyone who touches him will suffer so bad that they'll crap their pants and fell the pain in their asses. People will call him * ***Hamid***
 
 Even in the postmodern society there is speak of Hamid like the way in last years of my school I've heard the principal predicted his arrival by shouting *When does this Aslani comes!!!* like that he was "Time Leader" of Islam!
 

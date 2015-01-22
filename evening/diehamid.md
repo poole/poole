@@ -11,7 +11,7 @@ One of this horrible evil persons is my best friend (BFF/Besty) **Hamid Reza Asl
 
 He actually is very famous. In some culture there's an old prophecy that states: *someone, a chosen one, a long, short, Sheldon looking fella with talent, power, evil from inside will come that everyone who touches him will suffer so bad that they'll crap their pants and fell the pain in their asses. People will call him * ***Hamid***
 
-Even in the postmodern society there is speak of Hamid like the way in last years of my school I've heard the principal predicted his arrival by shouting *When does this Aslani comes!!!* like that he was "Time Leader" of Islam!
+Even in the postmodern society you can find speak of Hamid like the way in last years of my school I've heard the principal predicted his arrival by shouting *When does this Aslani comes?!* just like he was "Time Leader" of Islam!
 
 When it comes to how horrible Hamid is I can tell many unfortunate and not accidental events I've seen with my own eyes but as you can't effort to spend rest of your life going to therapy I won't tell them all but one you may get over (In at least your next 20 years of life of course) Is once we had this day going out having fun and in the way home this evil horrible person made our cab start smoking, fight his wife and tell us every single trashy words he knew but what this ruthless tyrant grim remembers of that night and cabbie is "One of best days of his life, O my gosh it was totally cool! We made this cabbie guy smoke... LOL what a joy!" oh sorry this was what he texted to Stan (Not himself, One of his sidekicks who's running Hell for Hamid so he can rule the Earth) what he actually remember has more "fun" and "cool" adjectives.
 

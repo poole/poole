@@ -21,7 +21,7 @@ I've heard god has a safety deposit because of this cruel unjust wroth. We have 
 I've seen this psychic, mentally ill, crazy bastard torturing him like a slave and use him as a slave like a slave. I've seen with this two eyes he said "Okay Armin I'll have your phone. Come here and get it by tomorrow!" this little tiny sweet looking damn oppressor incubus bully uses Armin like he owns him as a slave!!
 
 So this was why when you had to choose the devil of the year in Academy Awards, You have to choose "Hamid Reza Aslani" instead of "Simon Cowell", Now if you excuse me I have a meeting in Hell staring horrible Hamid that I have to catch.
-<br><br>
+<br><br><br>
 
 
 **P.S:** If it's 2020 or something and you want to hire Hamid and then you ran a search and found this page. If you're not me hire him!

@@ -4,6 +4,7 @@ title: Die Hamid Die!
 ---
 
 ![](https://raw.githubusercontent.com/pmkary/pmkary.github.io/master/evening/graphics/header.png)
+<br>
 # Die Hamid Die!
 In the history of humanity there were many famous devils. Stan, Hitler, Kim Jung Un, Vladimir Lenin, Robert Mugabe, FOX Channel's CEO and My school's principal, However there also were not famous evil people so selfish that if you could give them the power, history of human kind would be so doomed.
 

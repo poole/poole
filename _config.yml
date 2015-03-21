@@ -1,13 +1,13 @@
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+permalink:        pretty # output post URL structure, eg. /:year/:month/:day/:title/
 
 # Setup
 title:            Poole
 tagline:          The Jekyll Butler
-url:              http://getpoole.com
+url:              http://getpoole.com # the base hostname & protocol for your site
+baseurl:          "" # the subpath of your site, e.g. /blog
+paginate_path:    /page:num/ # pagination pages path
 paginate:         1
-baseurl:          /
 author:
   name:           Mark Otto
   url:            https://twitter.com/mdo

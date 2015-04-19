@@ -88,6 +88,25 @@ blockquote {
 }
 
 
+// Markdown footnotes
+//
+// See the example content post for an example.
+
+// Footnote number within body text
+a[href^="#fn:"],
+// Back to footnote link
+a[href^="#fnref:"] {
+  display: inline-block;
+  margin-left: .1rem;
+  font-weight: bold;
+}
+
+// List of footnotes
+.footnotes {
+  margin-top: 2rem;
+  font-size: 85%;
+}
+
 // Custom type
 //
 // Extend paragraphs with `.lead` for larger introductory text.

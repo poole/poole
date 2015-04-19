@@ -49,9 +49,22 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 
 ### Code
 
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+Inline code is available with the `<code>` element. Snippets of multiple lines of code are supported through Pygments. Longer lines will automatically scroll horizontally when needed.
 
 {% highlight js %}
+// Example can be run directly in your JavaScript console
+
+// Create a function that takes two arguments and returns the sum of those arguments
+var adder = new Function("a", "b", "return a + b");
+
+// Call the function
+adder(2, 6);
+// > 8
+{% endhighlight %}
+
+You may also optionally show code snippets with line numbers. Add `linenos` to the Pygments tags.
+
+{% highlight js linenos %}
 // Example can be run directly in your JavaScript console
 
 // Create a function that takes two arguments and returns the sum of those arguments

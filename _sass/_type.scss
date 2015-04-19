@@ -2,7 +2,6 @@
 //
 // Headings, body text, lists, and other misc typographic elements.
 
-// Headings
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
@@ -10,23 +9,26 @@ h1, h2, h3, h4, h5, h6 {
   color: #313131;
   text-rendering: optimizeLegibility;
 }
+
 h1 {
   font-size: 2rem;
 }
+
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
+
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
+
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
 }
 
-// Body text
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -36,7 +38,6 @@ strong {
   color: #303030;
 }
 
-// Lists
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -45,11 +46,11 @@ ul, ol, dl {
 dt {
   font-weight: bold;
 }
+
 dd {
   margin-bottom: .5rem;
 }
 
-// Misc
 hr {
   position: relative;
   margin: 1.5rem 0;
@@ -63,27 +64,27 @@ abbr {
   font-weight: bold;
   color: #555;
   text-transform: uppercase;
-}
-abbr[title] {
-  cursor: help;
-  border-bottom: 1px dotted #e5e5e5;
+
+  &[title] {
+    cursor: help;
+    border-bottom: 1px dotted #e5e5e5;
+  }
 }
 
-/* Quotes */
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
   border-left: .25rem solid #e5e5e5;
 
+  p:last-child {
+    margin-bottom: 0;
+  }
+
   @media (min-width: 30em) {
     padding-right: 5rem;
     padding-left: 1.25rem;
   }
-}
-
-blockquote p:last-child {
-  margin-bottom: 0;
 }
 
 

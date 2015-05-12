@@ -32,7 +32,7 @@ Individual theme feedback and bug reports should be submitted to the theme's ind
 
 ### 1. Install dependencies
 
-Poole is built on Jekyll and uses it's built-in SCSS compiler to generate our CSS. Before getting started, you'll need to install the Jekyll gem:
+Poole is built on Jekyll and uses its built-in SCSS compiler to generate our CSS. Before getting started, you'll need to install the Jekyll gem:
 
 ```bash
 $ gem install jekyll

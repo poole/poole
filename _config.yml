@@ -7,15 +7,15 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
+title:            {L/K}
+tagline:
+url:              http://kravinskylev.github.io
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Lev Kravinsky
+  url:
+  email:          kravinskylev@gmail.com
 
 # Custom vars
 version:          1.0.0

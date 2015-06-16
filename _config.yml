@@ -5,10 +5,12 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               jack reed
+tagline:             
+url:                 http://www.jack-reed.com
 paginate:            1
+permalink:           date
+paginate_path:       "/posts/page:num"
 baseurl:             ""
 
 # Assets
@@ -20,9 +22,8 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Jack Reed
+  url:               https://twitter.com/mejackreed
 
 # Custom vars
 version:             1.0.0

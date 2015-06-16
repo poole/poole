@@ -5,13 +5,15 @@
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .masthead-title {
+  color: #505050;
+  float: left;
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  padding: .25rem;
 
   a {
     color: #505050;
@@ -23,4 +25,23 @@
     color: #c0c0c0;
     letter-spacing: 0;
   }
+}
+
+.masthead-menu {
+  display: inline;
+  float: right;
+  padding: .25rem;
+}
+
+// .masthead-menu-item {
+//   display: inline;
+//   float: right;
+//   padding: .25rem;
+// }
+
+.masthead-special-item {
+  display: block;
+  margin-top: 2.25rem;
+  padding: .25rem;
+  text-decoration: none;
 }

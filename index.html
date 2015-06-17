@@ -3,14 +3,35 @@ layout: default
 title: Home
 ---
 
+<div class='info-section'>
+  Hacker, mapper, engineer, and geologist.
+</div>
+
+<div class='info-section'>
+  Mapping, geospatial, data visualization, spatial discovery.
+</div>
+
+<div class='info-section'>
+  Ruby, JavaScript, Python.
+</div>
+
+<div class='info-section'>
+  Rails, LeafletJS, AngularJS, GeoBlacklight.
+</div>
+
+<div class='info-section'>
+  PostgreSQL, Apache Solr.
+</div>
+
 <div class="posts">
+  <h2>Recent posts</h2>
   {% for post in site.posts %}
   <article class="post">
-    <h1 class="post-title">
+    <h3 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h3>
 
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 

@@ -37,7 +37,7 @@ You should now be able to successfully navigate to [http://127.0.0.1:8983/solr](
 
 GeoNames provides several data download types available on [their website](http://download.geonames.org/export/dump/). This post will focus on indexing `allCountries.txt` which includes all features from GeoNames. This file unzipped is ~1.2 GB which could be troublesome for some. Beginning users may want to start with a smaller dataset such as `cities1000.txt` which is a smaller subset of the GeoNames data.
 
-Someone out there probably could do all of this in an awesome one liner. This steps are broken up for better understanding.
+Someone out there probably could do all of this in an awesome one liner. These steps are broken up for better understanding of whats going on. We first need to format the GeoNames data into something that is indexable into Solr.
 
 ### Download and unzip allCountries.zip
 

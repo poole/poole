@@ -8,6 +8,7 @@ layout: default
   {{ content }}
 </article>
 
+{% if site.related_posts != empty %}
 <aside class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
@@ -23,3 +24,4 @@ layout: default
     {% endfor %}
   </ul>
 </aside>
+{% endif %}

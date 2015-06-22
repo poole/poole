@@ -52,7 +52,7 @@ Folks wishing to use Jekyll's templates and styles can do so with a little bit o
 
 ### 3. Running locally
 
-To see your Jekyll site with Poole applied, start a Jekyll server. In Terminal, from `/Poole` (or whatever your Jekyll site's root directory is named):
+To see your Jekyll site with Poole applied, start a Jekyll server. In Terminal, from `/poole` (or whatever your Jekyll site's root directory is named):
 
 ```bash
 $ jekyll serve
@@ -105,6 +105,7 @@ Poole has two branches, but only one is used for active development.
 - `master` for development.  **All pull requests should be to submitted against `master`.**
 - `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
+CSS is handled via Jeykll's built-in Sass compiler. Source Sass files are located in `_sass/`, included into `styles.scss`, and compile to `styles.css`.
 
 ## Author
 

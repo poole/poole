@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Blog
+tagline:             One step at a time
+url:                 http://tonguetwister.github.io/poole/
 paginate:            1
 baseurl:             ""
 
@@ -20,9 +20,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              T T
+  url:               https://twitter.com
+  email:             TT@gmail.com
 
 # Custom vars
 version:             2.0.0

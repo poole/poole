@@ -8,4 +8,4 @@ title: What's Jekyll?
 
 ### language 
 
-She can communicate all her needs, precisely and clearly. But 
+She can communicate all her needs, precisely and clearly.

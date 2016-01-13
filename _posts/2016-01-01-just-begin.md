@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What's Jekyll?
+title: just begin
 ---
 
 * This is cool. I can have my own blog site !

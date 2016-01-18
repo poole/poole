@@ -8,4 +8,4 @@ title: reality check
 
 ### language 
 
-She can communicate all her needs, precisely and clearly.
+She can communicate all her needs, precisely and clearly. She know names of a lot of things. 

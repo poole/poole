@@ -7,9 +7,9 @@ relative_permalinks: true
 # Setup
 title:               Blog
 tagline:             One step at a time
-url:                 http://tonguetwister.github.io/poole/
+url:                 http://tonguetwister.github.io/blog/
 paginate:            1
-baseurl:             ""
+baseurl:             "http://tonguetwister.github.io/blog/"
 
 # Assets
 #
@@ -27,4 +27,4 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/tonguetwister/blog

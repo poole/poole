@@ -28,3 +28,11 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/tonguetwister/blog
+
+# Page list
+
+
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'

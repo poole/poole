@@ -1,12 +1,13 @@
+<<<<<<< HEAD
 # Permalinks
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Edwin
+tagline:             trying Poole
+url:                 https://edwincyhung.github.io/poole
 paginate:            1
-baseurl:             ""
+baseurl:             "/poole"
 
 # Assets
 #
@@ -17,9 +18,42 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Edwin Hung
+  url:               https://twitter.com/ecyhung
+  email:             edwincyhung@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://edwincyhung.github.io/poole
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+=======
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Edwin
+tagline:             trying Poole
+url:                 http://edwincyhung.github.io/poole
+paginate:            1
+baseurl:             "/poole"
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Edwin Hung
+  url:               https://twitter.com/ecyhung
+  email:             edwincyhung@gmail.com
 
 # Custom vars
 version:             2.0.0
@@ -30,3 +64,4 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
+>>>>>>> refs/remotes/poole/master

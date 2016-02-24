@@ -5,7 +5,7 @@ permalink:           pretty
 # Setup
 title:               Edwin
 tagline:             trying Poole
-url:                 https://edwincyhung.github.io
+url:                 https://edwincyhung.github.io/poole
 paginate:            1
 baseurl:             "/poole"
 
@@ -38,7 +38,7 @@ permalink:           pretty
 # Setup
 title:               Edwin
 tagline:             trying Poole
-url:                 http://edwincyhung.github.io
+url:                 http://edwincyhung.github.io/poole
 paginate:            1
 baseurl:             "/poole"
 

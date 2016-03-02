@@ -54,7 +54,7 @@ Folks wishing to use Jekyll's templates and styles can do so with a little bit o
 
 To add gems update the _config.yml in the format
 gems:
-- <jekyll-gem>
+- <gem-name>
 
 ### 3. Running locally
 

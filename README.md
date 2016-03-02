@@ -50,6 +50,12 @@ To help anyone with any level of familiarity with Jekyll quickly get started, Po
 
 Folks wishing to use Jekyll's templates and styles can do so with a little bit of manual labor. Download Poole and then copy what you need (likely `_layouts/`, `*.html` files, `atom.xml` for RSS, and `public/` for CSS, JS, etc.).
 
+### 2c. Add gems
+
+To add gems update the _config.yml in the format
+gems:
+- <jekyll-gem>
+
 ### 3. Running locally
 
 To see your Jekyll site with Poole applied, start a Jekyll server. In Terminal, from `/poole` (or whatever your Jekyll site's root directory is named):

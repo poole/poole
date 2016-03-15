@@ -2,12 +2,12 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Enear tech blog
+tagline:
+url:                 http://enear.github.io
 paginate:            1
 baseurl:             ""
 
@@ -20,11 +20,16 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              e.near
+  url:               http://www.enear.co/
+  email:             contact@enear.co
 
 # Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
+#version:             2.0.0
+#github:              https://github.com/enear
+#  repo:              https://github.com/enear/poole
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist

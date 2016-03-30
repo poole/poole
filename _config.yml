@@ -29,6 +29,9 @@ author:
 #github:              https://github.com/enear
 #  repo:              https://github.com/enear/poole
 
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+
 markdown: kramdown
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:

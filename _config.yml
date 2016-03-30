@@ -24,6 +24,11 @@ author:
   url:               http://www.enear.co/
   email:             contact@enear.co
 
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: enear
+
+
 # Custom vars
 #version:             2.0.0
 #github:              https://github.com/enear

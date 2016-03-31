@@ -35,7 +35,7 @@ disqus: enear
 #  repo:              https://github.com/enear/poole
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-51635965-1
 
 markdown: kramdown
 # Jekyll 3 now only supports Kramdown for Markdown

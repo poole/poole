@@ -1,8 +1,5 @@
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-#relative_permalinks: true
 
 # Setup
 title:               e.near Tech Blog
@@ -27,12 +24,6 @@ author:
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus: enear
-
-
-# Custom vars
-#version:             2.0.0
-#github:              https://github.com/enear
-#  repo:              https://github.com/enear/poole
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-51635965-1

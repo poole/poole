@@ -9,7 +9,7 @@ title:               Daniel Strong | Prospective Coder
 tagline:             A blog about my journey into the world of programming
 url:                 http://strongdan.github.io/poole
 paginate:            1
-baseurl:             "http://strongdan.github.io/poole/"
+baseurl:             http://strongdan.github.io/poole/
 
 # Assets
 #

@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Daniel Strong | Prospective Coder
+tagline:             A blog about my journey into the world of programming
+url:                 http://strongdan.github.io/poole
 paginate:            1
 baseurl:             ""
 
@@ -20,9 +20,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Daniel Strong
+  url:               https://twitter.com/danstrong
+  email:             danielstrong@mac.com
 
 # Custom vars
 version:             2.0.0

@@ -1,0 +1,10 @@
+{
+  "template": "jekyll",
+  "ports": [3000],
+  "name": "Poole",
+  "description": "The Jekyll Butler.",
+  "scripts": {
+    "post-create": "gem install jekyll-paginate && gem install jekyll-gist",
+    "Start Poole": "cd ~/code/poole && jekyll serve --host 0.0.0.0 --port 3000"
+  }
+}

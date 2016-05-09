@@ -21,6 +21,7 @@ Individual theme feedback and bug reports should be submitted to the theme's ind
 ## Contents
 
 - [Usage](#usage)
+- [Nitrous Quickstart](#nitrous-quickstart)
 - [Options](#options)
   - [Rems, `font-size`, and scaling](#rems-font-size-and-scaling)
 - [Development](#development)
@@ -70,6 +71,16 @@ If you host your code on GitHub, you can use [GitHub Pages](https://pages.github
 3. Done! Head to your GitHub Pages URL or custom domain.
 
 No matter your production or hosting setup, be sure to verify the `baseurl` option file and `CNAME` settings. Not applying this correctly can mean broken styles on your site.
+
+## Nitrous Quickstart
+
+Create a free development environment for this Poole project in the cloud on [Nitrous.io](https://www.nitrous.io) by clicking the button below.
+
+<a href="https://www.nitrous.io/quickstart">
+  <img src="https://nitrous-image-icons.s3.amazonaws.com/quickstart.png" alt="Nitrous Quickstart" width=142 height=34>
+</a>
+
+In the IDE, start Poole via `Run > Start Poole` and access your site via `Preview > 3000`.
 
 ## Options
 

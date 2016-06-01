@@ -64,8 +64,9 @@ Open <http://localhost:4000> in your browser, and voilà.
 
 If you host your code on GitHub, you can use [GitHub Pages](https://pages.github.com) to host your project.
 
-1. Fork this repo and switch to the `gh-pages` branch.
-  1. If you're [using a custom domain name](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages), modify the `CNAME` file to point to your new domain.
+1. [Download Poole](https://github.com/poole/poole/releases).
+2. Initialize a new repo (`git init`), and create a `gh-pages` branch if you're setting up a project page.
+  1. If you're [using a custom domain name](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages), create a `CNAME` file and point to your new domain.
   2. If you're not using a custom domain name, **modify the `baseurl` in `_config.yml`** to point to your GitHub Pages URL. Example: for a repo at `github.com/username/poole`, use `http://username.github.io/poole/`. **Be sure to include the trailing slash.**
 3. Done! Head to your GitHub Pages URL or custom domain.
 

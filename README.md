@@ -52,10 +52,11 @@ Folks wishing to use Jekyll's templates and styles can do so with a little bit o
 
 ### 2c. Add gems
 
-To add gems update the _config.yml in the format
+To add gems update the `_config.yml` in the format
+```yaml
 gems:
 - <gem-name>
-
+```
 ### 3. Running locally
 
 To see your Jekyll site with Poole applied, start a Jekyll server. In Terminal, from `/poole` (or whatever your Jekyll site's root directory is named):

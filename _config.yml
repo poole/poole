@@ -1,15 +1,16 @@
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
 title:               Poole
 tagline:             The Jekyll Butler
 url:                 http://getpoole.com
 paginate:            1
+<<<<<<< HEAD
+baseurl:             "http://sgtg.github.io"
+=======
 baseurl:             ""
+>>>>>>> origin/master
 
 # Assets
 #
@@ -28,3 +29,18 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/poole/poole
+
+# Gems
+<<<<<<< HEAD
+gems: [jekyll-paginate]
+gems: [jekyll-gist]
+
+gist:
+  noscript: false
+=======
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+>>>>>>> origin/master
+
+theme: jekyll-theme-slate

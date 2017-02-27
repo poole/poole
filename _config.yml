@@ -6,7 +6,11 @@ title:               Poole
 tagline:             The Jekyll Butler
 url:                 http://getpoole.com
 paginate:            1
+<<<<<<< HEAD
 baseurl:             "http://sgtg.github.io"
+=======
+baseurl:             ""
+>>>>>>> origin/master
 
 # Assets
 #
@@ -27,10 +31,16 @@ github:
   repo:              https://github.com/poole/poole
 
 # Gems
+<<<<<<< HEAD
 gems: [jekyll-paginate]
 gems: [jekyll-gist]
 
 gist:
   noscript: false
+=======
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+>>>>>>> origin/master
 
 theme: jekyll-theme-slate

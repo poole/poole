@@ -1,10 +1,13 @@
+# Google services
+google_analytics: UA-93026290-1
+
 # Permalinks
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Zach Gima
+tagline:             UC Berkeley Mechanical Engineering PhD Student
+url:                 http://zach-gima.github.io/
 paginate:            1
 baseurl:             ""
 

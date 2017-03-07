@@ -15,7 +15,7 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
-paginate: 5
+paginate: 10
 
 # About/contact
 author:

@@ -2,6 +2,7 @@
 layout: post
 title: MMDS Link Analysis
 published: false
+tags: [big data, algorithms]
 ---
 
 My notes/cheat sheet regarding [Chapter 5 of Stanford's Mining Of Massive Datasets course](http://mmds.org).

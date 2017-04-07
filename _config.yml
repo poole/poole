@@ -1,3 +1,5 @@
+markdown: redcarpet
+
 # Permalinks
 permalink:           pretty
 

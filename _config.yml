@@ -1,12 +1,9 @@
-# Markdown 
-markdown: maruku
-
 # Permalinks
 permalink:           pretty
 
 # Setup
 title:               rmsa
-tagline:             my stuff
+tagline:             my stuff. what else? :)
 url:                 https://rmsa.github.io/
 paginate:            1
 baseurl:             ""

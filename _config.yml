@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               rmsa
+tagline:             my stuff. what else? :)
+url:                 https://rmsa.github.io/
 paginate:            1
 baseurl:             ""
 
@@ -17,14 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              rmsa
+  url:               https://twitter.com/ricardo_msa
+  email:             rmsa.ghub@icloud.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/rmsa/rmsa.github.io
 
 # Gems
 gems:

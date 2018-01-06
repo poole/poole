@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-theme-poole (2.1)
+    jekyll-theme-poole (2.0.1)
       jekyll (~> 3.6)
 
 GEM

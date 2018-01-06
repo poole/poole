@@ -4,6 +4,11 @@ _site
 .ruby-version
 .sass-cache
 
+# Rubygems
+Gemfile.lock
+pkg/
+*.gem
+
 # Numerous always-ignore extensions
 *.diff
 *.err

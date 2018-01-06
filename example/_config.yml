@@ -27,12 +27,8 @@ github:
   repo:              https://github.com/poole/poole
 
 # Build settings
-markdown: kramdown
-theme: poole-theme
-gems:
+theme: jekyll-theme-poole
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-gist
-exclude:
-  - Gemfile
-  - Gemfile.lock

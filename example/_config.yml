@@ -4,9 +4,9 @@ permalink:           pretty
 # Setup
 title:               Poole
 tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+url:                 "" # the base hostname & protocol for your site, e.g. http://example.com
 paginate:            1
-baseurl:             ""
+baseurl:             "" # the subpath of your site, e.g. /blog
 
 # Assets
 #
@@ -26,7 +26,9 @@ version:             2.0.0
 github:
   repo:              https://github.com/poole/poole
 
-# Gems
-gems:
+# Build settings
+theme: jekyll-theme-poole
+plugins:
+  - jekyll-feed
   - jekyll-paginate
   - jekyll-gist

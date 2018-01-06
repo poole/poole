@@ -1,0 +1,16 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# use local gem for testing
+gem "jekyll-theme-poole", path: "../"
+
+# gem "jekyll", "~> 3.6"
+#
+# group :jekyll_plugins do
+#   gem "jekyll-feed"
+#   gem "jekyll-gist"
+#   gem "jekyll-paginate"
+#   gem "jekyll-sitemap"
+#   gem "jekyll-theme-poole"
+# end

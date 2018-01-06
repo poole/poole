@@ -97,6 +97,77 @@ html {
 
 To easily scale your site's typography and components, simply customize the base `font-size`s here.
 
+## Install as a gem-based theme
+
+Jekyll encourage the use of `bundler` to manage themes and plugins. [Themes](https://jekyllrb.com/docs/themes/) can be packaged as Ruby gems since Jekyll 3.3. If you don't intend to modify the theme a lot, this is a nice way of focusing on your content and benefits from  theme updates.
+
+### 1. Install theme
+
+1. Create a folder that will be your Jekyll source directory, e.g `blog`.
+2. Create a `Gemfile` in your source directory to list all theme dependencies, it should looks like this:
+
+```ruby
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem "jekyll", "~> 3.7.0"
+gem "jekyll-theme-poole", "~> 2.0"
+```
+
+### 2. Configuration
+
+1. Run `bundle install` to install all theme dependencies.
+2. Copy [`_config.yml`](example/_config.yml), [`index.html`](example/index.html), [`404.html`](example/404.html) (and [`about.md`](example/about.md)) from this repository's [example files](example) to your source directory.
+3. Run `bundle exec jekyll serve --livereload` to preview your website locally.
+
+If you list the files in your source directory, don't be surprised if you only see:
+
+```
+├── 404.html      # default 404 page template
+├── Gemfile       # bundler configuration
+├── Gemfile.lock  # bundler version lock
+├── _config.yml   # jekyll configuration
+├── _posts        # your posts are here
+├── _site         # default destination build directory
+├── about.md      # default example page
+└── index.html    # list all the posts on the homepage
+```
+
+:bulb: When you use gem-based themes, the themes files don't appear in your source directory, they're packaged within the gem.
+
+If you wonder where the original theme files are, `bundler` allows you to show a gem content:
+
+```sh
+tree $(bundle show jekyll-theme-poole)
+├── LICENSE.md
+├── README.md
+├── _includes
+│   └── head.html
+├── _layouts
+│   ├── default.html
+│   ├── home.html
+│   ├── page.html
+│   └── post.html
+├── _sass
+│   ├── _base.scss
+│   ├── _code.scss
+│   ├── _layout.scss
+│   ├── _masthead.scss
+│   ├── _message.scss
+│   ├── _pagination.scss
+│   ├── _posts.scss
+│   ├── _syntax.scss
+│   ├── _type.scss
+│   └── _variables.scss
+└── assets
+    ├── apple-touch-icon-precomposed.png
+    ├── favicon.ico
+    └── styles.scss
+```
+
+If you want to customize the theme, you'll have to copy the files you need to modify in your source directory.
+Report to jekyll's documentation to learn [how to override a theme](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
 
 ## Development
 

@@ -104,7 +104,8 @@ CT principles include maximum possible automation with early, frequent and swift
 |-|---------------|
 
 **Table 5** - Human costs when creating and executing test campaigns
+
 |No of Executions|0|1|10|20|30|40|50|60|
-|-|-|-|-|-|-|-|-|-|
-|Total Cost for Manual Testing (€) |13.30|13.93|20.23|32.83|51.73|76.93|108.43|146.23|
-|Total Cost for Automation Testing(€) |65.80|65.80|65.80|65.80|65.80|65.80|65.80|65.80|
+|--|--|--|--|--|--|--|--|--|
+|Total Cost for Manual Testing (€)|13.30|13.93|20.23|32.83|51.73|76.93|108.43|146.23|
+|Total Cost for Automation Testing(€)|65.80|65.80|65.80|65.80|65.80|65.80|65.80|65.80|

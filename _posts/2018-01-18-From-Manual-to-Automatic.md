@@ -78,7 +78,6 @@ CT principles include maximum possible automation with early, frequent and swift
 |Scripting/Manual Specification|290|35|
 |Execution|1.25|4.5|
 
-
 **Table 2** - Total test times versus number of executions for Automated Tests
 
 |Time (min)/No of Executions|0|1|10|20|30|40|50|60|
@@ -91,7 +90,6 @@ CT principles include maximum possible automation with early, frequent and swift
 <sup>(*)</sup> When considering that no human interaction exists during these execution cycles, due to these being normally associated with a CI pipeline already implemented.
 
 **Table 3** - Total test times versus number of executions for Manual Tests
-
 
 |Time (min)/No of Executions|0|1|10|20|30|40|50|60|
 |-|-|-|-|-|-|-|-|-|
@@ -110,15 +108,3 @@ CT principles include maximum possible automation with early, frequent and swift
 |-|-|-|-|-|-|-|-|-|
 |Total Cost for Manual Testing (€) |13.30|13.93|20.23|32.83|51.73|76.93|108.43|146.23|
 |Total Cost for Automation Testing(€) |65.80|65.80|65.80|65.80|65.80|65.80|65.80|65.80|
-
-
-
-
-
-
-
-
-
-
-
-

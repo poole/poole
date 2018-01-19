@@ -1,6 +1,6 @@
 ---
 layout: post
-authors: O2F, jferreira, sdsgomes, Navalho, jventura
+author: O2F, jferreira, sdsgomes, Navalho, jventura
 title: From Manual to Automatic
 ---
 

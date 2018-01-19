@@ -1,6 +1,6 @@
 ---
 layout: post
-authors: Hugo Fernandes, José Ferreira, Sofia Gomes, Elaine Navalho, João Ventura
+authors: O2F, jferreira, sdsgomes, Navalho, jventura
 title: From Manual to Automatic
 ---
 
@@ -97,12 +97,11 @@ CT principles include maximum possible automation with early, frequent and swift
 |Execution<sup>(*)</sup>|0|4.5|45|90|135|180|225|270|
 |Total Time (min)|95|4.5|45|90|135|180|225|270|
 
-**Table 4** - Cost/min per Human Resource with a 1500€ gross salary 
+Considering an Human Resource with a 1500€ gross salary 
 
-|Cost/min per Human Resource|0.14€|
-|-|---------------|
+- Cost/min per Human Resource: 0.14€
 
-**Table 5** - Human costs when creating and executing test campaigns
+**Table 4** - Human costs when creating and executing test campaigns
 
 |No of Executions|0|1|10|20|30|40|50|60|
 |--|--|--|--|--|--|--|--|--|

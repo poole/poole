@@ -1,30 +1,9 @@
 ---
 layout: page
-title: About
+title: about
+permalink: /about/
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+I am an interactional linguist and research face-to-face encounters of skilled practitioners who pursue scientific work in collaborative environment. I investigate in particular how they build co-operative action by using talk, gesture, and other embodied actions, within settings, along with tools and other materials. I am interested in how these interactive practices are situated not only in their current contexts, but within the multiple courses of activity. 
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+I am currently looking at these processes in two ongoing projects: In the training of cardiology fellows during heart biopsies, and in the interaction between novice and senior geologists in fieldwork. In my earlier work I focused on medical interactions involving neurological patients and their caregivers. 

@@ -6,6 +6,10 @@
 .page,
 .post {
   margin-bottom: 4em;
+
+  li + li {
+    margin-top: .25rem;
+  }
 }
 
 // Blog post or page title
@@ -32,7 +36,9 @@
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  margin-bottom: 2rem;
   border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .related-posts {

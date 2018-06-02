@@ -9,13 +9,14 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
+  {% include relBase.html %}
   
   {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
   {% capture relative %}{% for i in (1..lvl) %}../{% endfor %}{% endcapture %}
 
 
-  <link rel="stylesheet" href="{{ relative }}/styles.css">
+  <link rel="stylesheet" href="{{ relBase }}/styles.css">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ relative }}/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ relative }}/atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ relBase }}/atom.xml">
 </head>

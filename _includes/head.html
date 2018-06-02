@@ -11,7 +11,7 @@
   </title>
   
   {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
-  {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+  {% capture relative %}{% for i in (1..lvl) %}../{% endfor %}{% endcapture %}
 
 
   <link rel="stylesheet" href="{{ relative }}/styles.css">

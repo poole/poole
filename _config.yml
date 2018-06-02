@@ -6,7 +6,7 @@ title:               KUP
 tagline:             Ketentuan umum perpajakan
 url:                 http://wikipajak.org
 paginate:            1
-baseurl:             "/poole"
+baseurl:             ""
 
 # Assets
 #

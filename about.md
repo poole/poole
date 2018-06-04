@@ -20,5 +20,7 @@ Thanks for reading!
 
 just reference to [@steveschoger](https://twitter.com/steveschoger)
 
-!(gambar)[{{ relative }}/public/apple-touch-icon-precomposed.png]
+!(gambar)[https://github.com/berlamhenderson/berlamhenderson.github.io/blob/master/public/png/2.jpg?raw=true]
+
+!(gambar)[https://github.com/berlamhenderson/berlamhenderson.github.io/blob/master/public/png/1.jpg?raw=true]
 

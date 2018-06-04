@@ -13,6 +13,7 @@ related_posts: [
 ]
 isChild: true
 anchor:  windows_setup
+permalink: /kup/wajib-pajak-warisan-belum-terbagi.html
 ---
 ### Umum
 

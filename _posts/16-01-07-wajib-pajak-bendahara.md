@@ -13,6 +13,7 @@ related_posts: [
 ]
 isChild: true
 anchor:  wpbend
+permalink: /kup/wajib-pajak-bendahara.html
 ---
 ### Umum 
 Bendahara Pemerintah adalah pegawai yang ditunjuk oleh pemerintah untuk membayarkan belanja barang dan jasa serta modal yang dikeluarkan oleh pemerintah kepada rekanan pemerintah yang dananya berasal dari APBN, APBD dan sumber lainnya.

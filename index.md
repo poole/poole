@@ -7,4 +7,7 @@ title: Home
 ### NPWP dan PKP
 1. [Penjelasan Umum NPWP]({{ "/kup/penjelasan-umum-npwp.html" | absolute_url }})
 2. [Dimulainya Kewajiban Perpajakan]({{ "/kup/dimulainya-kewajiban-perpajakan.html" | absolute_url }})
-3. 
+3. [Wajib Pajak Orang Pribadi]({{ "/kup/wajib-pajak-orang-pribadi.html" | absolute_url }})
+4. [Wajib Pajak Badan]({{ "/kup/wajib-pajak-badan.html" | absolute_url }})
+5. [Wajib Pajak Warisan Belum Terbagi]({{ "/kup/wajib-pajak-warisan-belum-terbagi.html" | absolute_url }})
+6. [Wajib Pajak Bendahara]({{ "/kup/wajib-pajak-bendahara.html" | absolute_url }})

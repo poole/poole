@@ -13,6 +13,7 @@ related_posts: [
 ]
 isChild: true
 anchor:  wpbdn
+permalink: /kup/wajib-pajak-badan.html
 ---
 ### Tempat Pendaftaran
 

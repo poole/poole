@@ -11,9 +11,9 @@ related_posts: [
     "umum", 
     "Dimulainya Kewajiban Perpajakan"
 ]
-
 isChild: true
 anchor:  wpop
+permalink: /kup/wajib-pajak-orang-pribadi.html
 ---
 ### Tempat Pendaftaran
 

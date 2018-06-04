@@ -7,6 +7,7 @@ tagline:             Ketentuan umum perpajakan
 url:                 https://wikipajak.org
 paginate:            1
 baseurl:             ""
+markdown:            kramdown
 
 # Assets
 #
@@ -15,18 +16,11 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
-
 # Gems
-gems:
+plugin:
   - jekyll-paginate
   - jekyll-gist
+
+exclude:
+  - Gemfile
+  - Gemfile.lock

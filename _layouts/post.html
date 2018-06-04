@@ -7,7 +7,7 @@ layout: default
   <meta itemprop="description" content="{{ content | strip_html | truncatewords: 40 }}" />
   <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date" itemprop="datePublished">{{ page.date | date_to_string }}</time>
-  <div  itemprop="articleBody">{{ content }}</div>
+  <div itemprop="articleBody">{{ content }}</div>
 </article>
 
 {% if site.related_posts != empty %}

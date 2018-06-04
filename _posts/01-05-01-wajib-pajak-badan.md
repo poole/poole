@@ -14,8 +14,6 @@ related_posts: [
 isChild: true
 anchor:  wpbdn
 ---
-## Wajib Pajak Badan
-
 ### Tempat Pendaftaran
 
 Wajib Pajak Badan wajib mendaftarkan diri pada KPP atau KP2KP yang wilayah kerjanya meliputi tempat tinggal Wajib Pajak.

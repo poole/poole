@@ -18,7 +18,7 @@
 .post-title a {
   background: linear-gradient(to right, $red 0%, $orange 100%);
   -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 .page-title,
 .post-title {
@@ -30,7 +30,7 @@
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: $gray-1;
+  color: $gray-3;
 }
 
 

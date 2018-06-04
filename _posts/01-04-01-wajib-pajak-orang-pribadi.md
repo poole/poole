@@ -15,8 +15,6 @@ related_posts: [
 isChild: true
 anchor:  wpop
 ---
-## Wajib Pajak Orang Pribadi
-
 ### Tempat Pendaftaran
 
 Wajib Pajak Orang Pribadi wajib mendaftarkan diri pada KPP atau KP2KP yang wilayah kerjanya meliputi tempat tinggal Wajib Pajak.

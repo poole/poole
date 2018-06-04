@@ -24,3 +24,9 @@ plugin:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# collections
+collections:
+  kup:
+    output: true
+    permalink: /kup/:path/

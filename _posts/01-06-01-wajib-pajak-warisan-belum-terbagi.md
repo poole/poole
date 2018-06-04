@@ -14,8 +14,6 @@ related_posts: [
 isChild: true
 anchor:  windows_setup
 ---
-## Wajib Pajak Warisan Belum Terbagi
-
 ### Umum
 
 Pelaksanaan hak dan pemenuhan kewajiban perpajakan Wajib Pajak Warisan Belum Terbagi menggunakan NPWP dari Wajib Pajak orang pribadi yang meninggalkan warisan tersebut.

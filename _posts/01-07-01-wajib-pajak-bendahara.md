@@ -14,7 +14,6 @@ related_posts: [
 isChild: true
 anchor:  wpbend
 ---
-## Wajib Pajak Bendahara
 ### Umum 
 Bendahara Pemerintah adalah pegawai yang ditunjuk oleh pemerintah untuk membayarkan belanja barang dan jasa serta modal yang dikeluarkan oleh pemerintah kepada rekanan pemerintah yang dananya berasal dari APBN, APBD dan sumber lainnya.
 Bendahara Pemerintah terdiri dari 

@@ -7,7 +7,7 @@ title: About
   Hey there! This page is included as an example and layout guidelines. 
 </p>
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an **upstanding and** effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
 There are currently two themes built on Poole:
 
@@ -20,7 +20,7 @@ Thanks for reading!
 
 just reference to [@steveschoger](https://twitter.com/steveschoger)
 
-!(gambar)[https://github.com/berlamhenderson/berlamhenderson.github.io/blob/master/public/png/2.jpg?raw=true]
+![gambar](https://github.com/berlamhenderson/berlamhenderson.github.io/blob/master/public/png/1.png?raw=true)
 
-!(gambar)[https://github.com/berlamhenderson/berlamhenderson.github.io/blob/master/public/png/1.jpg?raw=true]
+![gambar](https://github.com/berlamhenderson/berlamhenderson.github.io/blob/master/public/png/2.jpg?raw=true)
 

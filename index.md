@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index-toc
 title: Home
 ---
 ## BAB KUP

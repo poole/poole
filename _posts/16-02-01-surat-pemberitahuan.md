@@ -11,6 +11,7 @@ related_posts: [
     "umum", 
     "Dimulainya Kewajiban Perpajakan"
 ]
+permalink: /kup/spt.html
 ---
 ### Umum
 Setiap Wajib Pajak wajib mengisi SPT dengan benar, lengkap, dan jelas. 

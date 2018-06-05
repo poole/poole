@@ -13,7 +13,7 @@ permalink: /kup/penjelasan-umum-npwp.html
 ---
 ## Tempat Pendaftaran
 
-Setiap Wajib Pajak yang telah memenuhi persyaratan subjektif dan objektif wajib mendaftarkan diri pada KPP atau KP2KP yang wilayah kerjanya meliputi :
+Setiap Wajib Pajak yang telah memenuhi persyaratan subjektif dan objektif wajib mendaftarkan diri pada KPP atau KP2KP yang wilayah kerjanya meliputi:
 - tempat tinggal Wajib Pajak
 - Tempat kedudukan Wajib Pajak; atau
 - tempat kegiatan usaha Wajib Pajak

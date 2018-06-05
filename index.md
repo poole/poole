@@ -11,3 +11,6 @@ title: Home
 4. [Wajib Pajak Badan]({{ "/kup/wajib-pajak-badan.html" | absolute_url }})
 5. [Wajib Pajak Warisan Belum Terbagi]({{ "/kup/wajib-pajak-warisan-belum-terbagi.html" | absolute_url }})
 6. [Wajib Pajak Bendahara]({{ "/kup/wajib-pajak-bendahara.html" | absolute_url }})
+
+### Surat Pemberitahuan (SPT)
+1. [Penjelasan Umum SPT]({{ "/kup/spt.html" | absolute_url }})

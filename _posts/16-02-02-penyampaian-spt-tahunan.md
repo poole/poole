@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Surat Pemberitahuan"
+title: "Penyampaian SPT Tahunan"
 categories: kup
 version: "1.0"
 toc: true

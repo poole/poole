@@ -58,8 +58,14 @@
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: $gray-3;
+  vertical-align: middle;
 }
 
+.img-date {
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+  display: inline-block;
+}
 
 // Related posts
 .related {

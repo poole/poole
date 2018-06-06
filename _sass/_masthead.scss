@@ -15,7 +15,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   color: $gray-4;
-
+  font-family: $font-family-roboto;
   a {
     color: inherit;
   }
@@ -24,5 +24,9 @@ body {
     font-size: 75%;
     font-weight: 400;
     opacity: .5;
+  }
+
+  h3 {
+    font-size: 52px;
   }
 }

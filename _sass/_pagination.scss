@@ -14,7 +14,7 @@
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: solid #eee;
+  border: solid $border-color;
   border-width: 1px 0;
 
   &:first-child {

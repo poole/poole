@@ -28,7 +28,6 @@
       </footer>
     </div>
 
-    {% if site.analytics_id %}
      <script>
         // loop through all list items with a date
         $('span[date]').each(function(){
@@ -41,7 +40,7 @@
           if(postDate<oneWeekAgo) $(this).hide();
         });
      </script>
-    {% endif %}
+
 
 
   </body>

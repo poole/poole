@@ -43,7 +43,8 @@
 .page-title,
 .post-title,
 .post-title a {
-  background: linear-gradient(to right, $red 0%, $orange 100%);
+  background: linear-gradient(to right, $red 0, $orange 33%, $yellow 33%, $green 66%, $cyan 66%, $blue 100%);
+  font-family: $font-family-roboto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

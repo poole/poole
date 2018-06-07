@@ -14,12 +14,16 @@ related_posts: [
 permalink: /kup/penyampaian-spt-tahunan.html
 ---
 ### Cara Penyampaian SPT
+
 1. langsung melalui TPT Kantor Pelayanan Pajak (KPP)
 2. dikirim melalui pos dengan bukti pengiriman surat ke Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar;
 3. dikirim melalui perusahaan jasa ekspedisi atau jasa kurir dengan bukti pengiriman surat ke Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar; atau
+> Dalam hal penyampaian SPT Tahunan dilakukan melalui pos, perusahaan jasa ekspedisi, atau jasa kurir, Wajib Pajak menyampaikan SPT Tahunan dalam <mark>amplop tertutup yang telah dilekatkan lembar informasi amplop SPT Tahunan.</mark>
+
 4. saluran tertentu yang ditetapkan oleh Direktur Jenderal Pajak sesuai dengan perkembangan teknologi informasi.
 
 ### Wajib disampaikan di tempat Wajib Pajak terdaftar:
+
 * SPT Tahunan Pajak Penghasilan Wajib Pajak Badan;
 * SPT 1770;
 * SPT Tahunan Pembetulan; dan
@@ -28,3 +32,5 @@ permalink: /kup/penyampaian-spt-tahunan.html
   + disampaikan setelah batas waktu penyampaian SPT; dan
   + disampaikan dalam bentuk e-SPT Tahunan.
 
+### Dasar Hukum
+1. PER-01/PJ/2016 tentang tata cara penerimaan dan pengolahan SPT Tahunan																											

@@ -6,7 +6,7 @@ layout: default
   <meta itemprop="keywords" content="{{ post.categories | join: ',' }}" />
   <meta itemprop="description" content="{{ content | strip_html | truncatewords: 40 }}" />
   <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-  <time datetime="{{ page.datePublished | date_to_xmlschema }}" class="post-date" itemprop="datePublished"><img class="img-date" src="https://icongr.am/feather/calendar.svg"> {{ page.datePublished | date_to_string }}</time>
+  <time datetime="{{ page.datePublished | date_to_xmlschema }}" class="post-date" itemprop="datePublished"><img class="img-date" src="https://icongr.am/feather/calendar.svg?color=767676"> {{ page.datePublished | date_to_string }}</time>
   <div itemprop="articleBody">{{ content }}</div>
 </article>
 

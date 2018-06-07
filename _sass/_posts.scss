@@ -15,7 +15,7 @@
     margin-bottom: .5rem;
     font-weight: 600;
     line-height: 1.25;
-    color: #313131;
+    color: $gray-5;
     text-rendering: optimizeLegibility;
   }
   
@@ -43,7 +43,7 @@
 .page-title,
 .post-title,
 .post-title a {
-  background: linear-gradient(to right, #0fb9b1 0%, #20bf6b 100%);
+  background: linear-gradient(to right, $red 0%, $orange 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -72,8 +72,8 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 1px solid $gray-0;
+  border-bottom: 1px solid $gray-0;
 }
 
 .related-posts {
@@ -87,11 +87,11 @@
   li {
     small {
       font-size: 75%;
-      color: #999;
+      color: $gray-2;
     }
 
     a:hover {
-      color: #268bd2;
+      color: $blue;
       text-decoration: none;
 
       small {

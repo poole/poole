@@ -1,0 +1,17 @@
+---
+layout: page
+title: Home
+---
+{% assign currentYear = site.time | date: "%Y" %}
+{% assign currentWeek = site.time | date: "%W" %}
+
+{%- for post in site.posts -%}
+
+    {% assign postYear = post.date | date: "%Y" %}
+    {% assign postWeek = post.date | date: "%W" %}
+
+    {%- if currentYear == postYear and currentWeek == postWeek -%}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    {%- endif -%}
+
+{%- endfor -%}

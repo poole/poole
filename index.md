@@ -17,3 +17,4 @@ title: Home
 
 1. [Penjelasan Umum SPT]({{ "/kup/spt.html" | absolute_url }})
 2. [Penyampaian SPT Tahunan]({{ "/kup/penyampaian-spt-tahunan.html" | absolute_url }})
+3. [SPT Elektronik]({{ "/kup/spt-elektronik.html" | absolute_url }})

@@ -77,5 +77,8 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 mark{
-background-color: #fed330;
+background-color: $mark;
 }
+mark:hover{
+  background-color: hsl(174, 65%, 70%);
+  }

@@ -53,4 +53,4 @@ Penyampaian SPT Tahunan Pembetulan tidak dapat dilakukan di TPT Kantor Pelayanan
 |  	| - dalam bentuk e-SPT Tahunan 	| Ya 	| Tidak 	| Ya 	| Ya 	|
 
 ### Dasar Hukum
-1. PER-01/PJ/2016 tentang tata cara penerimaan dan pengolahan SPT Tahunan	
+1. PER-01/PJ/2016 tentang tata cara penerimaan dan pengolahan SPT Tahunan

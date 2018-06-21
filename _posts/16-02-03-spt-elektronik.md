@@ -13,6 +13,7 @@ related_posts: [
 ]
 permalink: /kup/spt-elektronik.html
 ---
+![Kini bukan jamannya lagi berjibaku dengan kertas]({{ relBase }}/public/post/16-02-03-spt-elektronik-2.PNG)
 ### Kriteria WP yang wajib menggunakan SPT Elektronik
 1. SPT Masa PPh Pasal 21 dan/atau Pasal 26 dalam bentuk dokumen elektronik wajib digunakan oleh pemotong pajak, sepanjang pemotong pajak dimaksud memenuhi kriteria sebagai berikut:
    * melakukan pemotongan PPh Pasal 21 dan/atau Pasal 26 terhadap pegawai tetap dan penerima pensiun atau tunjangan hari tua/jaminan hari tua berkala dan/atau terhadap aparatur sipil negara, anggota Tentara Nasional Indonesia/Polisi Republik Indonesia, pejabat negara dan pensiunannya yang jumlahnya **lebih dari 20 (dua puluh) orang dalam 1 (satu) Masa Pajak;**

@@ -14,7 +14,7 @@
   {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
   {% capture relative %}{% for i in (1..lvl) %}../{% endfor %}{% endcapture %}
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Trocchi" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
   <link rel="stylesheet" href="{{ relBase }}/styles.css">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ relative }}/public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">

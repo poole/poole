@@ -83,3 +83,6 @@ Direktorat Jenderal Pajak <mark>tidak memberikan bukti penerimaan SPT terhadap W
 
 Terhadap Wajib Pajak sebagaimana dimaksud diatas <mark>dianggap tidak menyampaikan SPT.</mark>
 
+### Dasar Hukum
+1. PMK-9/PMK.03/2018 Tanggal 23 Januari 2018 Tentang Perubahan Atas Peraturan Menteri Keuangan Nomor 243/PMK.03/2014 Tentang Surat Pemberitahuan (SPT)
+

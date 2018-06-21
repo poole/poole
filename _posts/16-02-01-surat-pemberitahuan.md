@@ -5,6 +5,7 @@ categories: kup
 version: "1.0"
 toc: true
 datePublished: 2018-05-16 05:01:21 +0000
+dateUpdated: 2018-06-21 05:01:21 +0000
 nour: 20180100004
 author: editor
 related_posts: [
@@ -65,3 +66,10 @@ Wajib Pajak Pajak Penghasilan tertentu dikecualikan dari kewajiban menyampaikan 
 Wajib Pajak Pajak Penghasilan tertentu merupakan Wajib Pajak yang memenuhi kriteria sebagai berikut:
 * Wajib Pajak orang pribadi yang dalam satu Tahun Pajak menerima atau memperoleh penghasilan neto tidak melebihi Penghasilan Tidak Kena Pajak sebagaimana dimaksud dalam ketentuan Pasal 7 Undang-Undang PPh; atau
 * Wajib Pajak orang pribadi yang tidak menjalankan kegiatan usaha atau tidak melakukan pekerjaan bebas.
+
+### Pengecualian Kewajiban Lapor **Nihil**
+1. SPT yang PPh Pasal 21 dan/atau PPh Pasal 26 yang dipotong pada Masa Pajak yang bersangkutan nihil, kecuali nihil tersebut dikarenakan adanya Surat Keterangan Domisili (Certificate Of Domicile).
+   > Dalam hal jumlah PPh Pasal 21 dan/atau PPh Pasal 26 yang dipotong pada Masa Pajak Desember nihil, kewajiban untuk melaporkan PPh Pasal 21 dan/atau PPh Pasal 26 yang dipotong tetap berlaku.
+1. Wajib Pajak yang melakukan pembayaran PPh Pasal 25 dan telah mendapat validasi dengan nomor transaksi penerimaan negara dianggap telah menyampaikan SPT Masa PPh Pasal 25 sesuai dengan tanggal validasi.
+2. Wajib Pajak dengan angsuran PPh Pasal 25 nihil dikecualikan dari kewajiban pelaporan SPT Masa PPh Pasal 25.
+3. Pemungut PPN dikecualikan dari kewajiban pelaporan SPT Masa PPN, dalam hal pada suatu Masa Pajak tidak terdapat transaksi yang wajib dipungut PPN dan/atau PPnBM.

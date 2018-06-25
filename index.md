@@ -20,3 +20,4 @@ title: Home
 3. [SPT Elektronik]({{ "/kup/spt-elektronik.html" | absolute_url }})
 4. [Batas Waktu Pembayaran, Penyetoran, Penyampaian SPT, dan Sanksi Keterlambatan]({{ "/kup/batas-waktu-spt.html" | absolute_url }})
 5. [Perpanjangan Penyampaian SPT Tahunan]({{ "/kup/perpanjangan-penyampaian-spt.html" | absolute_url }})
+6. [Pembetulan SPT]({{ "/kup/pembetulan-spt.html" | absolute_url }})

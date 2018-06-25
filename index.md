@@ -2,9 +2,9 @@
 layout: index-toc
 title: Home
 ---
-## BAB KUP
+## Resume KUP
 
-### NPWP dan PKP
+### Bab NPWP dan PKP
 
 1. [Penjelasan Umum NPWP]({{ "/kup/penjelasan-umum-npwp.html" | absolute_url }})
 2. [Dimulainya Kewajiban Perpajakan]({{ "/kup/dimulainya-kewajiban-perpajakan.html" | absolute_url }})
@@ -13,7 +13,7 @@ title: Home
 5. [Wajib Pajak Warisan Belum Terbagi]({{ "/kup/wajib-pajak-warisan-belum-terbagi.html" | absolute_url }})
 6. [Wajib Pajak Bendahara]({{ "/kup/wajib-pajak-bendahara.html" | absolute_url }})
 
-### Surat Pemberitahuan (SPT)
+### Bab Surat Pemberitahuan (SPT)
 
 1. [Penjelasan Umum SPT]({{ "/kup/spt.html" | absolute_url }})
 2. [Penyampaian SPT Tahunan]({{ "/kup/penyampaian-spt-tahunan.html" | absolute_url }})

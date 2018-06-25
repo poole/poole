@@ -1,22 +1,21 @@
 ---
 layout: post
 title: "Batas Waktu Pembayaran, Penyetoran, Penyampaian SPT, dan Sanksi Keterlambatan"
-categories: kup
+categories: KUP
+tag: SPT
 version: "1.0"
 toc: true
-datePublished: 2018-06-21 05:01:21 +0000
-nour: 20180100004
+datePublished: 2018-06-25 05:01:21 +0000
+nour: 20180200004
 author: editor
 related_posts: [
-    "umum", 
-    "Dimulainya Kewajiban Perpajakan"
 ]
 permalink: /kup/batas-waktu-spt.html
 ---
 ### Jangka Waktu Pembayaran, Penyetoran, dan Penyampaian SPT
 
 #### SPT Tahunan PPh WP OP
-   * Batas waktu penyampaian SPT nya adalah paling lama 3 bulan setelah akhir Tahun Pajak<br>
+   * Batas waktu penyampaian SPT nya adalah paling lama 3 bulan setelah akhir Tahun Pajak
    * Kekurangan pembayaran pajak yang terutang berdasarkan SPT Tahunan PPh harus dibayar lunas sebelum SPT PPh disampaikan tetapi tidak melebihi batas waktu penyampaian SPT Tahunan PPh.
 #### SPT  Tahunan PPh WP badan
    * Batas waktu penyampaian SPT nya adalah paling lama 4 bulan setelah akhir Tahun Pajak
@@ -52,7 +51,7 @@ permalink: /kup/batas-waktu-spt.html
 ### Sanksi Keterlambatan
 
 #### Pasal 7 UU KUP
-<table><tr><th rowspan="2">No</th><th rowspan="2">Jenis SPT</th><th colspan="4">Denda</th></tr><tr><td>UU 28 /2007</td><td>UU 16/2000</td><td>UU 9 /1994</td><td>UU 6 /1983</td></tr><tr><td>1</td><td>SPT Masa PPN</td><td>500</td><td rowspan="2">50</td><td rowspan="2">25</td><td rowspan="4">10</td></tr><tr><td>2</td><td>SPT Masa Lainnya</td><td>100</td></tr><tr><td>3</td><td>SPT PPh WP Badan</td><td>1.000.000</td><td rowspan="2">100</td><td rowspan="2">50</td></tr><tr><td>4</td><td>SPT PPh WP OP</td><td>100</td></tr></table>
+<table><tr><th rowspan="2">No</th><th rowspan="2">Jenis SPT</th><th colspan="4">Denda</th></tr><tr><td>UU 28 /2007</td><td>UU 16/2000</td><td>UU 9 /1994</td><td>UU 6 /1983</td></tr><tr><td>1</td><td>SPT Masa PPN</td><td>500.000</td><td rowspan="2">50.000</td><td rowspan="2">25.000</td><td rowspan="4">10.000</td></tr><tr><td>2</td><td>SPT Masa Lainnya</td><td>100.000</td></tr><tr><td>3</td><td>SPT PPh WP Badan</td><td>1.000.000</td><td rowspan="2">100.000</td><td rowspan="2">50.000</td></tr><tr><td>4</td><td>SPT PPh WP OP</td><td>100.000</td></tr></table>
 
 #### Pengenaan sanksi administrasi berupa denda keterlambatan pelaporan SPT tidak dilakukan terhadap:
 * Wajib Pajak orang pribadi yang telah meninggal dunia:
@@ -66,7 +65,7 @@ permalink: /kup/batas-waktu-spt.html
 
 #### sanksi keterlambatan pembayaran atau penyetoran pajak
 
-bunga sebesar 2% (dua persen) per bulan yang dihitung dari tanggal jatuh tempo pembayaran sampai dengan tanggal pembayaran, dan bagian dari bulan dihitung penuh 1 (satu) bulan.
+**bunga sebesar 2% (dua persen) per bulan** yang dihitung dari tanggal jatuh tempo pembayaran sampai dengan tanggal pembayaran, dan bagian dari bulan dihitung penuh 1 (satu) bulan.
 
 
 ### Dasar Hukum

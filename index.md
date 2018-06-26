@@ -14,10 +14,13 @@ title: Home
 6. [Wajib Pajak Bendahara]({{ "/kup/wajib-pajak-bendahara.html" | absolute_url }})
 
 ### Bab Surat Pemberitahuan (SPT)
-
+#### Ketentuan Umum
 1. [Penjelasan Umum SPT]({{ "/kup/spt.html" | absolute_url }})
 2. [Penyampaian SPT Tahunan]({{ "/kup/penyampaian-spt-tahunan.html" | absolute_url }})
 3. [SPT Elektronik]({{ "/kup/spt-elektronik.html" | absolute_url }})
 4. [Batas Waktu Pembayaran, Penyetoran, Penyampaian SPT, dan Sanksi Keterlambatan]({{ "/kup/batas-waktu-spt.html" | absolute_url }})
 5. [Perpanjangan Penyampaian SPT Tahunan]({{ "/kup/perpanjangan-penyampaian-spt.html" | absolute_url }})
 6. [Pembetulan SPT]({{ "/kup/pembetulan-spt.html" | absolute_url }})
+
+#### SPT Tahunan PPh OP
+1. [SPT Tahunan PPh OP]({{ "/kup/spt-tahunan-pph-orang-pribadi.html" | absolute_url }})

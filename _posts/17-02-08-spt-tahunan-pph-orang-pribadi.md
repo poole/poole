@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pembetulan SPT"
+title: "SPT Tahunan PPh WP Orang Pribadi"
 categories: KUP
 tag: SPT
 version: "1.0"
@@ -13,7 +13,7 @@ related_posts: [
 permalink: /kup/spt-tahunan-pph-orang-pribadi.html
 ---
 
-### Jenis SPT Tahunan PPh Wp Orang Pribadi dan Ketentuan Penggunaannya
+### Jenis SPT Tahunan PPh WP Orang Pribadi dan Ketentuan Penggunaannya
 SPT Tahunan PPh OP ada 3 jenis, yaitu :
 1. SPT Tahunan 1770
 	digunakan untuk WP yang mempunyai penghasilan :
@@ -22,7 +22,7 @@ SPT Tahunan PPh OP ada 3 jenis, yaitu :
       - yang dikenakan PPh Final dan/atau bersifat Final; dan/atau
       - dalam negeri lainnya/luar negeri
 
-   > Pada dasarnya semua Orang Pribadi apapun jenis pekerjaannya boleh menggunakan SPT Tahunan PPh OP 1770.
+   > Pada dasarnya semua Orang Pribadi apapun jenis pekerjaannya **boleh menggunakan SPT Tahunan PPh OP 1770**.
       
 2. SPT Tahunan 1770S
 	digunakan untuk WP yang mempunyai penghasilan :

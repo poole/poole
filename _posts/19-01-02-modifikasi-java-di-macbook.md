@@ -1,8 +1,5 @@
 ---
-
 layout: post
-
-
 title: Modifikasi Java di Macbook
 categories: PPN
 version: '1.0'
@@ -35,4 +32,3 @@ Dengan Langkah-langkah sebagai berikut :
 > Sebelum melakukan langkah di atas, cb dulu install jdk 8u171 dan jlnkn ETaxInvoice.jar dgn cara double click
 
 **Kalo gagal dgn cara biasa, baru coba cara manipulasi versi java**
-mmm

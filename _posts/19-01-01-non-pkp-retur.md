@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "SPT Tahunan PPh WP Orang Pribadi"
-categories: KUP
-tag: SPT
+title: "Non PKP Retur"
+categories: PPN
+tag: lain-lain
 version: "1.0"
 toc: true
-datePublished: 2018-06-26 16:17:05 +0000
-nour: 20180200004
+datePublished: 2018-06-30 10:53:05 +0000
+nour: 2018020001
 author: editor
 related_posts: [
 ]
-permalink: /kup/spt-tahunan-pph-orang-pribadi.html
+permalink: /ppn/blog/non-pkp-retur.html
 ---
 
 

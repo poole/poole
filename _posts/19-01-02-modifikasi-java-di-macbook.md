@@ -15,7 +15,7 @@ anchor: wpop
 permalink: /ppn/efaktur/modifikasi-java-di-macbook.html
 ---
 
-![modifikasi java di macbook untuk efaktur]({{ relBase }}/public/post/efaktur.PNG)
+![modifikasi java di macbook untuk efaktur]({{ relBase }}/public/post/efaktur.png)
 
 ### cara modifikasi Java di macbook
 

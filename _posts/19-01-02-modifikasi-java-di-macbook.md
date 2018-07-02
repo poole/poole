@@ -14,7 +14,9 @@ isChild: true
 anchor: wpop
 permalink: /ppn/efaktur/modifikasi-java-di-macbook.html
 ---
+
 ![modifikasi java di macbook untuk efaktur]({{ relBase }}/public/post/efaktur.PNG)
+
 ### cara modifikasi Java di macbook
 
 Jika di dalam Macbook sudah terinstall versi 9 atau 10 maka perlu dilakukan manipulasi Java Version agar Macbook dapat membaca versi 8u171

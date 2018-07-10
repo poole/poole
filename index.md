@@ -24,3 +24,6 @@ title: Home
 
 #### SPT Tahunan PPh OP
 1. [SPT Tahunan PPh OP]({{ "/kup/spt-tahunan-pph-orang-pribadi.html" | absolute_url }})
+
+#### File Attachment
+1. [Direktori Layanan Perpajakan]({{ "/file/atttachment/direktori-layanan-perpajakan.html" | absolute_url }})

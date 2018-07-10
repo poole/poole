@@ -5,6 +5,7 @@ title: Home
 
 <div class="posts">
   {% for post in paginator.posts %}
+  {% assign author = site.data.authors[post.author] %}
   <article class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
@@ -13,8 +14,13 @@ title: Home
     </h1>
 
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    {% if author %}
+    <span class="post-author">
+        <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+    </span>
+    {% endif %}
 
-    {{ post.content }}
+    {{ post.excerpt }}
   </article>
   {% endfor %}
 </div>

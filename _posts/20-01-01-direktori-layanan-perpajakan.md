@@ -14,7 +14,7 @@ isChild: true
 anchor: wpop
 permalink: /file/atttachment/direktori-layanan-perpajakan.html
 ---
-Berikut kami lampiran direktori layanan perpajakan 
+Berikut kami lampirkan direktori layanan perpajakan 
 
 [Link Pdf]({{ relBase }}/public/attachment/buku-direktori-layanan-perpajakan.pdf)
 

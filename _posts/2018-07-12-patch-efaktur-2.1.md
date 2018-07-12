@@ -21,6 +21,7 @@ Berikut langkah-langkahnya:
 3. Tidak dapat menyimpan SPT Masa PPN Pembetulan, jika nilai II.D minus (LB).
 Silakan unduh patch eFaktur 2.1. dan replace file ETaxInvoiceMain.exe yang lama.
 
+Link download:
 * EFaktur Win64 Patch 2.1 [https://goo.gl/FtTRwF](https://goo.gl/FtTRwF)
 * EFaktur Win32 Patch 2.1 [https://goo.gl/Uy3kC4](https://goo.gl/Uy3kC4)
 * EFaktur Linux64 Patch 2.1 [https://goo.gl/LMk6o2](https://goo.gl/LMk6o2)

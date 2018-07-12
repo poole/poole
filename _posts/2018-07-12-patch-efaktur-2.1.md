@@ -15,10 +15,11 @@ anchor: wpop
 permalink: /ppn/efaktur/patch-efaktur-2.1.html
 ---
 ![patch efaktur 2.1]({{ relBase }}/public/post/efaktur.2.1.png)
-Berikut langkah-langkahnya:
+Log Error yang tidak diakomodir 2.0:
 1. Tidak dapat membuka database setelah registrasi dan menyimpan Profil PKP.
 2. Tidak dapat melakukan Posting jika di dalam SPT terdapat Retur Faktur Non ETax
 3. Tidak dapat menyimpan SPT Masa PPN Pembetulan, jika nilai II.D minus (LB).
+
 Silakan unduh patch eFaktur 2.1. dan replace file ETaxInvoiceMain.exe yang lama.
 
 Link download:

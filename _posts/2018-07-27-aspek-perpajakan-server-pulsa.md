@@ -25,7 +25,8 @@ Salah satu penyelenggaranya adalah Penyelenggara Jasa Telekomunikasi, dimana men
 Di bagian Tarif Penyelenggaraan Telekomunikasi dijelaskan bahwa tarif penyelenggaraan telekomunikasi terdiri atas tarif penyelenggaraan jaringan telekomunikasi dan tarif penyelenggaraan jasa telekomunikasi. Tarif penyelenggara jasa telekomunikasi inilah yang sering disebut sebagai pulsa atau biaya yang dibayarkan oleh pengguna jasa telekomunikasi kepada penyelenggara jasa telekomunikasi. pulsa atau tarif penyelenggara jasa telekomunikasi secara garis besar dibagi menjadi 2 kategori, yaitu :
 1. Jenis tarif penyelenggaraan jasa telekomunikasi yang disalurkan melalui jaringan tetap terdiri atas :
  - tarif jasa teleponi dasar sambungan lokal, sambungan langsung jarak jauh (SLJJ), sambungan langsung internasional (SLI);
- - tarif jasa nilai tambah teleponi;tarif
+ - tarif jasa nilai tambah teleponi;
+ - tarif
  - jasa multimedia.
 2. Jenis tarif penyelenggaraan jasa telekomunikasi yang disalurkan melalui jaringan bergerak terdiri atas :
  - tarif air-time;

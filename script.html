@@ -1,0 +1,27 @@
+
+  <div class="container-new">
+    <div class="col-md-8 mx-auto mx-sm-2 mx-md-2">
+      <div id="release-notes">
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          {% for post in site.posts %} {% capture currentmonth %}{{ post.date | date: "%B" }}{% endcapture %} {% if currentmonth !=
+          month %} {% unless forloop.first %}
+          </ul>
+          {% endunless %}
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">{{ currentyear }}</span>
+            <h2 class="f3-light css-truncate css-truncate-target">{{ currentmonth }}</h2>
+          </header>
+          <ul class="list-style-none change-log">
+            {% capture month %}{{ currentmonth }}{% endcapture %} {% endif %}
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-{{ post.categories }}">{{ post.categories }}</div>
+              <div class="change-description">{{ post.title }} -
+                <a href="{{ post.url }}">{{ post.date | date: "%F" }}</a>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>

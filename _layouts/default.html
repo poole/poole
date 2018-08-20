@@ -1,48 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  {% include head.html %}
-
+<html lang="{{ site.lang | default: "en-US" }}">
+    {% include head.html %}
   <body>
+    {% include header.html %}
+    
+    <!-- content    -->
+    
+    <!-- end of content -->
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-            content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-        </div>
-      </div>
+    {{ content }}
 
-      <div class="container content">
-        {{ content }}
-      </div>
-
-
-      <footer class="footer">
-        <small>
-          🎉 <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-        </small>
-      </footer>
-    </div>
-
-     <script>
-        // loop through all list items with a date
-        $('span[date]').each(function(){
-          // create a postDate in a date object
-          var datePublished = new Date($(this).attr('datePublished'));
-          // create an object with the date of one week ago
-          var oneWeekAgo = new Date();
-          oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
-          // compare dates and hide old posts
-          if(postDate<oneWeekAgo) $(this).hide();
-        });
-     </script>
-
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
   </body>
 </html>

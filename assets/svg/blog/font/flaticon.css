@@ -1,0 +1,81 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 06/08/2018 11:59
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-001-streaming:before { content: "\f100"; }
+.flaticon-002-blogger:before { content: "\f101"; }
+.flaticon-003-comment:before { content: "\f102"; }
+.flaticon-004-comment-1:before { content: "\f103"; }
+.flaticon-005-rating:before { content: "\f104"; }
+.flaticon-006-like:before { content: "\f105"; }
+.flaticon-007-video-game:before { content: "\f106"; }
+.flaticon-008-dating-app:before { content: "\f107"; }
+.flaticon-009-blog:before { content: "\f108"; }
+.flaticon-010-blog-1:before { content: "\f109"; }
+.flaticon-011-bell:before { content: "\f10a"; }
+.flaticon-012-chat:before { content: "\f10b"; }
+.flaticon-013-newsletter:before { content: "\f10c"; }
+.flaticon-014-drone:before { content: "\f10d"; }
+.flaticon-015-blog-2:before { content: "\f10e"; }
+.flaticon-016-chat-1:before { content: "\f10f"; }
+.flaticon-017-dictaphone:before { content: "\f110"; }
+.flaticon-018-streaming-1:before { content: "\f111"; }
+.flaticon-019-blogger-1:before { content: "\f112"; }
+.flaticon-020-browser:before { content: "\f113"; }
+.flaticon-021-argument:before { content: "\f114"; }
+.flaticon-022-typewriter:before { content: "\f115"; }
+.flaticon-023-selfie:before { content: "\f116"; }
+.flaticon-024-smartphone:before { content: "\f117"; }
+.flaticon-025-story:before { content: "\f118"; }
+.flaticon-026-smartphone-1:before { content: "\f119"; }
+.flaticon-027-chat-2:before { content: "\f11a"; }
+.flaticon-028-smartphone-2:before { content: "\f11b"; }
+.flaticon-029-user:before { content: "\f11c"; }
+.flaticon-030-like-1:before { content: "\f11d"; }
+.flaticon-031-user-1:before { content: "\f11e"; }
+.flaticon-032-profile:before { content: "\f11f"; }
+.flaticon-033-blog-3:before { content: "\f120"; }
+.flaticon-034-selfie-1:before { content: "\f121"; }
+.flaticon-035-user-2:before { content: "\f122"; }
+.flaticon-036-article:before { content: "\f123"; }
+.flaticon-037-chat-3:before { content: "\f124"; }
+.flaticon-038-user-3:before { content: "\f125"; }
+.flaticon-039-smartphone-3:before { content: "\f126"; }
+.flaticon-040-money:before { content: "\f127"; }
+.flaticon-041-blog-4:before { content: "\f128"; }
+.flaticon-042-smartphone-4:before { content: "\f129"; }
+.flaticon-043-video:before { content: "\f12a"; }
+.flaticon-044-keyboard:before { content: "\f12b"; }
+.flaticon-045-smartphone-5:before { content: "\f12c"; }
+.flaticon-046-browser-1:before { content: "\f12d"; }
+.flaticon-047-browser-2:before { content: "\f12e"; }
+.flaticon-048-add-user:before { content: "\f12f"; }
+.flaticon-049-like-2:before { content: "\f130"; }
+.flaticon-050-blog-5:before { content: "\f131"; }

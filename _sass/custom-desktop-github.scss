@@ -1,0 +1,317 @@
+body {
+    color: #24292e;
+    //background-color: rgba(255, 255, 255, 0.65);
+    //background-image: linear-gradient(rgba(255, 255, 255,1.0), rgba(200, 242, 246,1.0) 15%);//linear-gradient(#191c20, #24292e 15%); url(https://desktop.github.com/images/star-bg.svg),
+    background-repeat: repeat-x;
+    background-position: center 0, 0 0, 0 0;
+
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a {
+    color: #9f7be1;
+    text-decoration: none
+}
+
+a:hover,
+a:active {
+    text-decoration: underline
+}
+
+hr {
+    border-color: rgba(255, 255, 255, 0.1)
+}
+
+.container-new {
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width: 1012px) {
+    .container-new {
+        max-width: 1012px
+    }
+}
+
+@media (min-width: 1280px) {
+    .container-new {
+        max-width: 1280px
+    }
+}
+
+.nav .current {
+    color: #fff
+}
+
+.btn-outline-white {
+    padding: .9em 1.25em;
+    color: #fff;
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-radius: .3em
+}
+
+.btn-outline-white:hover,
+.btn-outline-white:active {
+    color: #24292e;
+    text-decoration: none;
+    background: #fff;
+    border-color: #fff
+}
+
+.btn-outline-purple {
+    padding: .9em 1.25em;
+    color: #9f7be1;
+    background: transparent;
+    border-color: rgba(159, 123, 225, 0.5);
+    border-radius: .3em
+}
+
+.btn-outline-purple:hover,
+.btn-outline-purple:active {
+    color: #24292e;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+    background: #9f7be1;
+    border-color: #9f7be1
+}
+
+.announcement {
+    color: rgba(255, 255, 255, 0.65);
+    background-color: #191c20;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+.announcement:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #24292e
+}
+
+.border-translucent-white {
+    border-color: rgba(255, 255, 255, 0.1) !important
+}
+
+html.mac [data-for-os=windows] {
+    display: none !important
+}
+
+html.windows [data-for-os=mac] {
+    display: none !important
+}
+
+.app-screenshot {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6);
+    max-width: 324px;
+    width: 50%;
+    object-fit: cover;
+}
+
+.windows .app-screenshot {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)
+}
+
+.terms-and-conditions,
+.eula {
+    max-width: 800px;
+    margin: 0 auto
+}
+
+.terms-and-conditions h1:not(:last-child),
+.terms-and-conditions h2:not(:last-child),
+.terms-and-conditions h3:not(:last-child),
+.eula h1:not(:last-child),
+.eula h2:not(:last-child),
+.eula h3:not(:last-child) {
+    margin-bottom: 0.5em
+}
+
+.terms-and-conditions ol,
+.terms-and-conditions ul,
+.eula ol,
+.eula ul {
+    padding-left: 2em
+}
+
+.terms-and-conditions ol li,
+.terms-and-conditions ul li,
+.eula ol li,
+.eula ul li {
+    margin-bottom: 0.5em
+}
+
+.release-note header h2 {
+    max-width: 100% !important
+}
+
+.release-note:first-of-type .timeline-decorator::before {
+    background-image: linear-gradient(to bottom, rgba(116, 125, 140,0.3), rgba(255, 255, 255, 0.1) 50px)
+}
+
+.release-note:last-of-type .timeline-decorator::before {
+    background-image: linear-gradient(to bottom, rgba(116, 125, 140,0.3), rgba(255, 255, 255, 0.1))
+}
+
+.timeline-decorator::before {
+    content: "";
+    background-image: linear-gradient(to bottom, rgba(116, 125, 140,0.3), rgba(255, 255, 255, 0.1));
+    width: 2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc((65px / 2) + 16px);
+    z-index: -1
+}
+
+.change-badge {
+    background-color: #0366d6;
+    display: inline;
+    flex: 0 0 65px;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-right: 8px;
+    padding: 2px 5px;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.change-badge-new,
+.change-badge-added {
+    background-color: #28a745
+}
+
+.change-badge-fixed,
+.change-badge-improved {
+    background-color: #0366d6
+}
+
+.change-badge-kup{
+    background-color: rgba(45, 152, 218,1.0);
+    color: $text-gray-dark;
+}
+
+.change-badge-ppn {
+    background-color: rgba(56, 103, 214,1.0);
+}
+
+.change-badge-pph {
+    background-color: rgba(136, 84, 208,1.0);
+    color: $text-gray-dark;
+}
+
+@media (min-width: 768px) {
+    .change-log {
+        margin-left: 74px
+    }
+}
+
+.version-badge {
+    width: 65px;
+    text-align: center
+}
+
+.samples {
+    max-width: 800px;
+    margin: 0 auto
+}
+
+.samples h1,
+.samples h2,
+.samples h3,
+.samples pre,
+.samples p {
+    margin: 0
+}
+
+.samples h1:not(:last-child),
+.samples h2:not(:last-child),
+.samples h3:not(:last-child),
+.samples pre:not(:last-child),
+.samples p:not(:last-child) {
+    margin-bottom: 0.5em
+}
+
+.samples pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font: 12px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    padding: 1em;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: #0d0d0d
+}
+
+.btn-outline-purple:hover {
+    background-image: linear-gradient(to bottom, #8241f9, #4e277b);
+    border-color: #150a27;
+    color: #fff
+}
+
+.btn-outline-purple:active {
+    background-image: linear-gradient(to top, #8241f9, #7038cd)
+}
+
+.btn-desktop-purple {
+    background-image: linear-gradient(to bottom, #8241f9, #4e277b);
+    border-color: #150a27;
+    color: #fff
+}
+
+.btn-desktop-purple:hover {
+    background: none;
+    background-image: linear-gradient(to bottom, #8c50f9, #552b87);
+    border-color: #150a27
+}
+
+.btn-desktop-purple:active {
+    background-image: linear-gradient(to top, #8241f9, #7038cd)
+}
+
+.purple-square {
+    background-color: #7b63ab;
+    border-radius: 5px;
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15)
+}
+
+.disclaimer-block {
+    background: #3c4349
+}
+
+//badge
+
+.CircleBadge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15)
+}
+
+.CircleBadge-icon {
+    max-width: 60% !important;
+    height: auto !important;
+    max-height: 55% !important
+}
+
+.CircleBadge--small {
+    width: 56px;
+    height: 56px
+}
+
+.CircleBadge--medium {
+    width: 96px;
+    height: 96px
+}
+
+.CircleBadge--large {
+    width: 128px;
+    height: 128px
+}

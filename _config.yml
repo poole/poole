@@ -1,32 +1,50 @@
-# Permalinks
-permalink:           pretty
-
-# Setup
-title:               Wikipajak
-tagline:             Perpajakan Indonesia
-url:                 http://wikipajak.org
-paginate:            1
-baseurl:             ""
-markdown:            kramdown
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# Gems
-plugin:
-  - jekyll-paginate
-  - jekyll-gist
-
 exclude:
-  - Gemfile
-  - Gemfile.lock
+  - node_modules
+  - script
 
-# collections
-collections:
-  kup:
-    output: true
-    permalink: /kup/:path/
+sass:
+  style: :compressed
+
+    # Where sass should look for other scss
+  #load_paths:
+  #  - node_modules/
+
+theme: jekyll-theme-primer
+
+baseurl: /primery
+
+github:
+  private: false
+  license:
+    name: MIT
+  source:
+    branch: "master"
+    path: "/"
+  repository_url: "https://github.com/pages-themes/primer"
+  
+title: Wikipajak.org
+description: panduan ringkas peraturan perpajakan Indonesia, Sehingga mudah dipahami oleh semua orang.
+repository: berlamhenderson/primery
+
+google_analytics: dfdfd2fe2
+
+plugins:
+  - jekyll-octicons
+
+detach:  false
+show_dir_listing: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "my-site"
+  -
+    scope:
+      path: "projects"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "project" # overrides previous default layout
+      author: "Mr. Hyde"

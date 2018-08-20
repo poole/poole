@@ -1,24 +1,7 @@
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
-  {% include relBase.html %}
-  
-  {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
-  {% capture relative %}{% for i in (1..lvl) %}../{% endfor %}{% endcapture %}
-
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
-  <link rel="stylesheet" href="{{ relBase }}/styles.css">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ relative }}/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ relBase }}/atom.xml">
-  {% include ga.html %}
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> {% seo %}
+    <link href="https://unpkg.com/primer/build/build.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 </head>

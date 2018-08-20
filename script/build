@@ -1,0 +1,6 @@
+#!/bin/sh
+# Build a preview of the theme
+
+set -e
+
+bundle exec jekyll build

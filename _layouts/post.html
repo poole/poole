@@ -1,27 +1,10 @@
 ---
 layout: default
 ---
-
-<article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <meta itemprop="keywords" content="{{ post.categories | join: ',' }}" />
-  <meta itemprop="description" content="{{ content | strip_html | truncatewords: 40 }}" />
-  <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-  <time datetime="{{ page.datePublished | date_to_xmlschema }}" class="post-date" itemprop="datePublished"><img class="img-date" src="https://icongr.am/feather/calendar.svg?color=767676"> {{ page.datePublished | date_to_string }}</time>
-  <section itemprop="articleBody">{{ content }}</section>
-</article>
-
-{% if site.related_posts != empty %}
-<aside class="related">
-  <h3>Related posts</h3>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-          <small><time datetime="{{ post.datePublished | date_to_xmlschema }}">{{ post.datePublished | date_to_string }}</time></small>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</aside>
-{% endif %}
+<section class="text-content terms-and-conditions">
+    <div class="container-new p-3">
+        {% include nav.html %}
+        <h1 class="f00-light text-dark text-center lh-condensed-ultra">{{ page.title }}</h1>
+        <div class="markdown-body">{{ content }}</div>
+    </div>
+</section>

@@ -11,7 +11,6 @@ sass:
 
 theme: jekyll-theme-primer
 
-baseurl: /primery
 
 github:
   private: false
@@ -24,7 +23,7 @@ github:
   
 title: Wikipajak.org
 description: panduan ringkas peraturan perpajakan Indonesia, Sehingga mudah dipahami oleh semua orang.
-repository: berlamhenderson/primery
+repository: berlamhenderson/berlamhenderson.github.io
 
 google_analytics: dfdfd2fe2
 

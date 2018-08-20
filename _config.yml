@@ -25,7 +25,8 @@ title: Wikipajak.org
 description: panduan ringkas peraturan perpajakan Indonesia, Sehingga mudah dipahami oleh semua orang.
 repository: berlamhenderson/berlamhenderson.github.io
 
-google_analytics: dfdfd2fe2
+google_analytics: UA-111280620-1
+google_adsense: ca-pub-6808904429734767
 
 plugins:
   - jekyll-octicons

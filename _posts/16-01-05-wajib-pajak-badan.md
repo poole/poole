@@ -6,14 +6,6 @@ version: "1.0"
 toc: true
 datePublished: 2018-05-14 05:01:21 +0000
 nour: 20180100003
-author: editor
-related_posts: [
-    "umum", 
-    "Dimulainya Kewajiban Perpajakan"
-]
-isChild: true
-anchor:  wpbdn
-permalink: /kup/wajib-pajak-badan.html
 ---
 ### Tempat Pendaftaran
 

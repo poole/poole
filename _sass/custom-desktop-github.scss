@@ -4,10 +4,6 @@ body {
     //background-image: linear-gradient(rgba(255, 255, 255,1.0), rgba(200, 242, 246,1.0) 15%);//linear-gradient(#191c20, #24292e 15%); url(https://desktop.github.com/images/star-bg.svg),
     background-repeat: repeat-x;
     background-position: center 0, 0 0, 0 0;
-
-    background: #36D1DC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 a {
@@ -314,4 +310,10 @@ html.windows [data-for-os=mac] {
 .CircleBadge--large {
     width: 128px;
     height: 128px
+}
+
+.bg-linear-green {
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

@@ -7,10 +7,6 @@ version: "1.0"
 toc: true
 datePublished: 2018-06-25 13:58:21 +0000
 nour: 20180200004
-author: editor
-related_posts: [
-]
-permalink: /kup/pembetulan-spt.html
 ---
 ### Pembetulan SPT Yang Dimaksud Pasal 8 Ayat (1) Dan Ayat (1a) UU KUP 
 

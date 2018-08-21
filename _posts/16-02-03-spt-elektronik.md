@@ -6,12 +6,6 @@ version: "1.0"
 toc: true
 datePublished: 2018-06-21 05:01:21 +0000
 nour: 20180100004
-author: editor
-related_posts: [
-    "umum", 
-    "Dimulainya Kewajiban Perpajakan"
-]
-permalink: /kup/spt-elektronik.html
 ---
 ![Kini bukan jamannya lagi berjibaku dengan kertas]({{ relBase }}/public/post/16-02-03-spt-elektronik-2.PNG)
 ### Kriteria WP yang wajib menggunakan SPT Elektronik

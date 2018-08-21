@@ -6,13 +6,6 @@ version: '1.0'
 toc: true
 datePublished: '2018-07-12 16:05:21 +0000'
 nour: 20180100002
-author: editor
-related_posts:
-  - umum
-  - Dimulainya Kewajiban Perpajakan
-isChild: true
-anchor: wpop
-permalink: /ppn/efaktur/patch-efaktur-2.1.html
 ---
 ![patch efaktur 2.1]({{ relBase }}/public/post/efaktur.2.1.png)
 Log Error yang tidak diakomodir 2.0:

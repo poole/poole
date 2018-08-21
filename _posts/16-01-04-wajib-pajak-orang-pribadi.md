@@ -7,13 +7,6 @@ toc: true
 datePublished: 2018-05-08 05:01:21 +0000
 nour: 20180100002
 author: editor
-related_posts: [
-    "umum", 
-    "Dimulainya Kewajiban Perpajakan"
-]
-isChild: true
-anchor:  wpop
-permalink: /kup/wajib-pajak-orang-pribadi.html
 ---
 ### Tempat Pendaftaran
 

@@ -7,10 +7,6 @@ version: "1.0"
 toc: true
 datePublished: 2018-06-26 16:17:05 +0000
 nour: 20180200004
-author: editor
-related_posts: [
-]
-permalink: /kup/spt-tahunan-pph-orang-pribadi.html
 ---
 
 ### Jenis SPT Tahunan PPh WP Orang Pribadi dan Ketentuan Penggunaannya

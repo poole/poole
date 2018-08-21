@@ -6,14 +6,6 @@ version: "1.0"
 toc: true
 datePublished: 2018-05-16 05:01:21 +0000
 nour: 20180100004
-author: editor
-related_posts: [
-    "umum", 
-    "Dimulainya Kewajiban Perpajakan"
-]
-isChild: true
-anchor:  wpbend
-permalink: /kup/wajib-pajak-bendahara.html
 ---
 ### Umum 
 Bendahara Pemerintah adalah pegawai yang ditunjuk oleh pemerintah untuk membayarkan belanja barang dan jasa serta modal yang dikeluarkan oleh pemerintah kepada rekanan pemerintah yang dananya berasal dari APBN, APBD dan sumber lainnya.

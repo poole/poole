@@ -7,10 +7,6 @@ version: "1.0"
 toc: true
 datePublished: 2018-06-25 05:01:21 +0000
 nour: 20180200004
-author: editor
-related_posts: [
-]
-permalink: /kup/batas-waktu-spt.html
 ---
 ### Jangka Waktu Pembayaran, Penyetoran, dan Penyampaian SPT
 

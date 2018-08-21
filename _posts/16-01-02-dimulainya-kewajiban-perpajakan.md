@@ -6,10 +6,6 @@ version: "1.0"
 toc: true
 datePublished: 2018-05-08 05:01:21 +0000
 nour: 20180100001
-author: editor
-anchor:  dimulainya-kewajiban-perpajakan
-isChild: True
-permalink: /kup/dimulainya-kewajiban-perpajakan.html
 ---
 Saat dimulainya kewajiban perpajakan adalah <mark><strong>saat terpenuhinya persyaratan subjektif dan objektif sesuai ketentuan peraturan perundang-undangan perpajakan</strong></mark> sehubungan adanya perbuatan, keadaan, atau peristiwa yang menimbulkan adanya pajak yang terutang dalam suatu Masa Pajak, Bagian Tahun Pajak, atau Tahun Pajak.
 

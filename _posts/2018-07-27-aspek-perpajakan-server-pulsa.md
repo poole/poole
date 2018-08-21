@@ -6,13 +6,6 @@ version: '1.0'
 toc: true
 datePublished: '2018-07-23 16:05:21 +0000'
 nour: 20180100002
-author: editor
-related_posts:
-  - umum
-  - Dimulainya Kewajiban Perpajakan
-isChild: true
-anchor: wpop
-permalink: /faq/lain-lain/pulsa.html
 ---
 BKP tidak berwujud adalah berupa hak tertentu, goodwill, trademark, lisensi dan jenis-jenis aktiva tidak berwujud lainnya yang apabila digunakan akan menimbulkan royalty atas penggantian BKP tidak berwujud tersebut. BKP tidak berwujud akan diamortisasi sesuai masa manfaatnya yang disusutkan secara taat azas. Apakah “pulsa” memenuhi syarat2 diatas? apabila tidak, maka “pulsa” bukan termasuk BKP tidak berwujud.
 

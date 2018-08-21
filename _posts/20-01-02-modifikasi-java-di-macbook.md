@@ -6,13 +6,6 @@ version: '1.0'
 toc: true
 datePublished: '2018-06-30 16:05:21 +0000'
 nour: 20180100002
-author: editor
-related_posts:
-  - umum
-  - Dimulainya Kewajiban Perpajakan
-isChild: true
-anchor: wpop
-permalink: /ppn/efaktur/modifikasi-java-di-macbook.html
 ---
 ![modifikasi java di macbook untuk efaktur]({{ relBase }}/public/post/efaktur.PNG)
 ### cara modifikasi Java di macbook

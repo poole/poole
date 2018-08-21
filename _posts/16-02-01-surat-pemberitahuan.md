@@ -7,12 +7,6 @@ toc: true
 datePublished: 2018-05-16 05:01:21 +0000
 dateUpdated: 2018-06-21 05:01:21 +0000
 nour: 20180100004
-author: editor
-related_posts: [
-    "umum", 
-    "Dimulainya Kewajiban Perpajakan"
-]
-permalink: /kup/spt.html
 ---
 ### Umum
 Setiap Wajib Pajak wajib mengisi Surat Pemberitahuan (SPT) dengan benar, lengkap, dan jelas, dalam bahasa Indonesia dengan menggunakan huruf Latin, angka Arab, satuan mata uang Rupiah, dan menandatangani serta menyampaikannya ke kantor Direktorat Jenderal Pajak tempat Wajib Pajak terdaftar atau dikukuhkan atau tempat lain yang ditetapkan oleh Direktur Jenderal Pajak.

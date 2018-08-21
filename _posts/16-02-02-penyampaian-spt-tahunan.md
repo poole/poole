@@ -6,12 +6,6 @@ version: "1.0"
 toc: true
 datePublished: 2018-06-07 05:01:21 +0000
 nour: 20180100004
-author: editor
-related_posts: [
-    "umum", 
-    "Dimulainya Kewajiban Perpajakan"
-]
-permalink: /kup/penyampaian-spt-tahunan.html
 ---
 ### Cara Penyampaian SPT
 

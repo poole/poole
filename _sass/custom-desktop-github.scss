@@ -317,3 +317,23 @@ html.windows [data-for-os=mac] {
     background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.post-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background-color: rgba(255,255,255,0.95);
+    background-clip: padding-box;
+    border-bottom: 1px solid rgba(0,0,0,0.075);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+
+.post-header-toggle {
+    display: inline-block;
+    padding: 0 10px;
+    margin-right: -5px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+}

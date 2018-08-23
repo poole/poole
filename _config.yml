@@ -11,6 +11,8 @@ sass:
 
 theme: jekyll-theme-primer
 
+permalink: /blog/:title/
+
 
 github:
   private: false

@@ -1,5 +1,5 @@
 ---
-layout: poster
+layout: post
 title: About
 ---
 

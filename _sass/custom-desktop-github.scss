@@ -318,6 +318,12 @@ html.windows [data-for-os=mac] {
     background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.bg-linear-orange {
+    background: #ffcb52;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffcb52, #ff7b02);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffcb52, #ff7b02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .post-header {
     position: -webkit-sticky;
     position: sticky;

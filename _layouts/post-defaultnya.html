@@ -1,0 +1,17 @@
+---
+layout: post-default
+---
+{% include post-header.html %}
+<section class="text-content terms-and-conditions">
+    <div class="container-new p-3">
+        <div>{% include breadcrumbs.html %}</div>
+        
+        <h1 class="f00-light text-dark text-left lh-condensed-ultra">{{ page.title }}</h1>
+
+        <div class="my-2">{% include share-button.html %}</div>
+
+        {% include toc.html html=content sanitize=true class="markdown-body.my-3 mb-4" id="markdown-toc-display" h_min=2 h_max=3 %}
+
+        <div class="markdown-body">{{ content }}</div>
+    </div>
+</section>

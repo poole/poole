@@ -1,17 +1,63 @@
----
-layout: post-default
----
-{% include post-header.html %}
-<section class="text-content terms-and-conditions">
-    <div class="container-new p-3">
-        <div>{% include breadcrumbs.html %}</div>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    {% include head.html %}
+  <body>  
+    {% include post-header.html %}
+    <!-- end of header-->
+    <div class="container-lg px-3 d-flex">
+      <div class="col-12 col-md-8">
+        <h1 class="lh-condensed">
+          {{ page.title }}
+        </h1>
+
+        {% include share-button.html %}
+
+        <div class="content markdown-body">
+          {{ content }}
+        </div>
+
+        <div class="my-6 bg-gray-light border rounded-1 box-shadow">
+          <strong class="d-flex flex-justify-between flex-items-center py-2 px-3 border-bottom">
+            <span>Have feedback on this post? Let
+              <a href="https://twitter.com/github">@github</a> know on Twitter.</span>
+            <img src="/assets/img/twitter.svg" width="24" height="24">
+          </strong>
+          <div class="py-2 px-3">
+            Need help or found a bug?
+            <a href="https://github.com/contact">Contact us.</a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="d-none d-md-block col-md-3 offset-md-1">
+
+        {% include right-nav.html %}
+
+        {% include changelog-right.html %}
+
+        {% include ads-right.html %}
         
-        <h1 class="f00-light text-dark text-left lh-condensed-ultra">{{ page.title }}</h1>
 
-        <div class="my-2">{% include share-button.html %}</div>
-
-        {% include toc.html html=content sanitize=true class="markdown-body.my-3 mb-4" id="markdown-toc-display" h_min=2 h_max=3 %}
-
-        <div class="markdown-body">{{ content }}</div>
+      </div>
     </div>
-</section>
+    <!-- end of content    -->
+   
+    {% include footer.html %}
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+    <script src="/assets/js/blog.js"></script>
+  </body>
+</html>

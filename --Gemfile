@@ -3,3 +3,4 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'jekyll-octicons'
+gem 'rubocop', '~> 0.56.0', require: false

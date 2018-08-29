@@ -23,7 +23,29 @@
 
       <div class="d-none d-md-block col-md-3 offset-md-1">
 
-        {% include right-nav.html %}
+        <nav class="filter-list">
+           {% include toc.html html=content sanitize=false class="filter-item" id="" h_min=2 h_max=3 %}
+        </nav> 
+
+        <ul class="filter-list">
+            <li>
+              <a href="#url" class="filter-item selected" aria-current="page">
+                <span class="count" title="results">21</span>
+                First filter
+              </a>
+            </li>
+            <li>
+              <a href="#url" class="filter-item">
+                <span class="count" title="results">3</span>
+                Second filter
+              </a>
+            </li>
+            <li>
+              <a href="#url" class="filter-item">
+                Third filter
+              </a>
+            </li>
+          </ul>
 
         {% include changelog-right.html %}
 

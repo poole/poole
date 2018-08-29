@@ -343,3 +343,41 @@ html.windows [data-for-os=mac] {
     border-radius: 3px;
     border: 1px solid transparent;
 }
+
+.post-header.open .post-header-nav {
+    display: block !important
+}
+
+.post-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background-color: rgba(255, 255, 255, 0.95);
+    background-clip: padding-box;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    -webkit-backdrop-filter: saturate(180%) blur(20px)
+}
+
+.development .post-header {
+    border-top: 2px solid #d73a49
+}
+
+.staging .post-header {
+    border-top: 2px solid #28a745
+}
+
+.post-header-toggle {
+    display: inline-block;
+    padding: 0 10px;
+    margin-right: -5px;
+    border-radius: 3px;
+    border: 1px solid transparent
+}
+
+.post-header-toggle:focus {
+    outline: 0;
+    border-color: #2188ff;
+    box-shadow: 0 0 0 0.2em rgba(3, 102, 214, 0.3)
+}

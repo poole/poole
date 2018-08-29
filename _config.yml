@@ -13,6 +13,7 @@ theme: jekyll-theme-primer
 
 permalink: /blog/:title/
 
+plugins: [jekyll-paginate-v2]
 
 github:
   private: false
@@ -42,11 +43,21 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "my-site"
+      layout: "page"
   -
     scope:
-      path: "projects"
-      type: "pages" # previously `page` in Jekyll 2.2.
+      path: "_posts"
+      type: "posts" # previously `page` in Jekyll 2.2.
     values:
-      layout: "project" # overrides previous default layout
-      author: "Mr. Hyde"
+      layout: "post" # overrides previous default layout
+      author: "wikipajak.org"
+
+#pagination
+pagination:
+  enabled: true
+  per_page: 2
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true

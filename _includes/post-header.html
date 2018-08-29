@@ -14,41 +14,17 @@
     </button>
   </div>
 
+  {% if site.data.navigation %}
   <nav class="post-header-nav d-none bg-gray-light">
-    <a class="d-block py-2 px-3 border-top text-gray-dark " href="/" data-ga-click="Blog, go to Featured, text:Featured">Featured</a>
-
-
-
-    <a class="d-block py-2 px-3 border-top text-gray-dark " href="/category/all/" data-ga-click="Blog, go to All Posts, text:All Posts">All Posts</a>
-
-
-    <a class="d-block py-2 px-3 border-top text-gray-dark " href="/category/announcements/" data-ga-click="Blog, go to Announcements, text:Announcements">Announcements</a>
-
-
-    <a class="d-block py-2 px-3 border-top text-gray-dark " href="/category/business/" data-ga-click="Blog, go to Business, text:Business">Business</a>
-
-
-    <a class="d-block py-2 px-3 border-top text-gray-dark " href="/category/community/" data-ga-click="Blog, go to Community, text:Community">Community</a>
-
-
-    <a class="d-block py-2 px-3 border-top text-gray-dark " href="/category/data/" data-ga-click="Blog, go to Data, text:Data">Data</a>
-
-
-    <a class="d-block py-2 px-3 border-top text-gray-dark " href="/category/editor-tools/" data-ga-click="Blog, go to Editor Tools, text:Editor Tools">Editor Tools</a>
-
-
-    <a class="d-block py-2 px-3 border-top text-gray-dark " href="/category/education/" data-ga-click="Blog, go to Education, text:Education">Education</a>
-
-
-    <a class="d-block py-2 px-3 border-top text-gray-dark " href="/category/engineering/" data-ga-click="Blog, go to Engineering, text:Engineering">Engineering</a>
-
-
-    <a class="d-block py-2 px-3 border-top text-gray-dark " href="/category/events/" data-ga-click="Blog, go to Events, text:Events">Events</a>
-
-
-    <a class="d-block py-2 px-3 border-top text-gray-dark " href="/category/policy/" data-ga-click="Blog, go to Policy, text:Policy">Policy</a>
-
-
+      {%- for link in site.data.navigation -%}
+      {%- if link.url contains '://' -%}
+        {%- assign url = link.url -%}
+      {%- else -%}
+        {%- assign url = link.url | relative_url -%}
+      {%- endif -%}
+      <a class="d-block py-2 px-3 border-top text-gray-dark" href="{{ url }}">{{ link.title }}</a>
+    {%- endfor -%}
+    {% endif %}
     <a href="/changelog" class="d-block py-2 px-3 border-top link-gray no-underline" data-ga-click="Changelog, go to changelog, text:Changelog">
       <svg height="16" class="octicon octicon-clock text-blue" aria-label="clock" viewBox="0 0 14 16" version="1.1" width="14"
         role="img">

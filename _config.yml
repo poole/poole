@@ -33,6 +33,7 @@ google_adsense: ca-pub-6808904429734767
 
 plugins:
   - jekyll-octicons
+  - jekyll-paginate 
 
 detach:  false
 show_dir_listing: false
@@ -53,11 +54,5 @@ defaults:
       author: "wikipajak.org"
 
 #pagination
-pagination:
-  enabled: true
-  per_page: 2
-  permalink: '/page/:num/'
-  title: ' - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+paginate: 5
+paginate_path: /blog/page:num/

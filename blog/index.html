@@ -1,0 +1,65 @@
+--- 
+layout: single
+---
+<!-- post list -->
+
+{% for post in paginator.posts %}
+<div class="mb-5 pb-5">
+  <h1 class="lh-condensed">
+    <a href="{{post.url | prepend: site.baseurl}}" class="no-underline">{{post.title}}</a>
+  </h1>
+  <ul class="d-flex flex-wrap mt-1 mb-2 list-style-none text-gray">
+      <li class="my-1 mr-4 no-wrap">
+        <svg height="16" class="octicon octicon-calendar octicon octicon-calendar octicon octicon-calendar octicon octicon-calendar octicon octicon-calendar mr-1" aria-label="calendar" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M13 2h-1v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H6v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H2c-.55 0-1 .45-1 1v11c0 .55.45 1 1 1h11c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 12H2V5h11v9zM5 3H4V1h1v2zm6 0h-1V1h1v2zM6 7H5V6h1v1zm2 0H7V6h1v1zm2 0H9V6h1v1zm2 0h-1V6h1v1zM4 9H3V8h1v1zm2 0H5V8h1v1zm2 0H7V8h1v1zm2 0H9V8h1v1zm2 0h-1V8h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1zm2 0h-1v-1h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1z"></path></svg>
+        {{ post.datePublished }}
+      </li>
+      <li class="my-1 mr-4 no-wrap">
+        <a class="d-flex flex-items-center text-gray no-underline" href="https://facebook.com/diskusipajak" data-ga-click="User, click, text:leereilly">
+          <span class="d-inline-block v-align-middle overflow-hidden mr-1 rounded-1" style="width: 20px; height: 20px;"><img class="avatar avatar-small" alt="leereilly" width="20" height="20" data-proofer-ignore="true" src="https://avatars2.githubusercontent.com/leereilly?v=3&amp;s=20" srcset="https://avatars2.githubusercontent.com/leereilly?v=3&amp;s=20 1x, https://avatars2.githubusercontent.com/leereilly?v=3&amp;s=40 2x, https://avatars2.githubusercontent.com/leereilly?v=3&amp;s=60 3x, https://avatars2.githubusercontent.com/leereilly?v=3&amp;s=80 4x"></span>
+          <span>{{ post.author }}</span>
+        </a>
+      </li>
+      
+      
+        <li class="my-1 no-wrap">
+          <svg height="16" class="octicon octicon-file-directory mr-1" aria-label="file-directory" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+          {{ post.categories }}
+        </li>
+      
+    </ul>
+  <div class="content markdown-body">
+      {{ post.content }}
+
+  </div>
+</div>
+{% endfor %}
+
+
+<nav class="paginate-container" aria-label="Pagination">
+<!-- pagination -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination"> 
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="webjeda">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="/">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+</nav>

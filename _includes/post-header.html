@@ -1,36 +1,35 @@
-<div class="post-header mb-4 mb-md-6">
+<div class="bg-yellow site-header mb-4 mb-md-6" style="position:-webkit-sticky;position:sticky;top:0;left:0;right:0;z-index:101;">
   <div class="container-lg d-flex flex-justify-between p-3">
-    <a class="d-flex flex-items-center no-wrap text-gray-dark " href="/" title="Home" data-ga-click="Blog, go to blog home">
-      <span class="anim-fade-in">
+    <div class="d-flex flex-self-center flex-lg-auto mr-lg-2">
+      <a href="/" class="border-gray-dark no-underline text-white" aria-label="Github Style guide">
         <img src="http://d1cxtglzz1rb2m.cloudfront.net/emoji/SVG/713-open-book.svg" alt="wikipajak.org" width="32" height="32">
-      </span>
-      <span class="f3">wikipajak.org</span>
+      </a>
 
-    </a>
+      <div class="flex-self-center Details-content--shown">
+        <div class="dropdown js-menu-container js-select-menu">
+          <h1 class="f3 text-normal pl-3 mt-1 text-gray-dark">wikipajak.org</h1>
+        </div>
+      </div>
+    </div>
+    <div class="d-none d-lg-flex flex-justify-end">
+      {% if site.data.navigation %}
+      <nav class="flex-self-center flex-shrink-0" aria-label="Primary">
+        {%- for link in site.data.navigation -%}
+        {%- if link.url contains '://' -%}
+        {%- assign url = link.url -%}
+        {%- else -%}
+        {%- assign url = link.url | relative_url -%}
+        {%- endif -%}
+        <a class="text-gray-dark px-md-1 px-lg-2" href="{{ url }}">{{ link.title }}</a>
+        {%- endfor -%}
+        {% endif %}
+      </nav>
+    </div>
+
     <button class="d-md-none btn-link link-gray post-header-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
       <svg height="24" class="octicon octicon-three-bars v-align-middle" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true">
         <path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"></path>
       </svg>
     </button>
   </div>
-
-  {% if site.data.navigation %}
-  <nav class="post-header-nav d-none bg-gray-light">
-      {%- for link in site.data.navigation -%}
-      {%- if link.url contains '://' -%}
-        {%- assign url = link.url -%}
-      {%- else -%}
-        {%- assign url = link.url | relative_url -%}
-      {%- endif -%}
-      <a class="d-block py-2 px-3 border-top text-gray-dark" href="{{ url }}">{{ link.title }}</a>
-    {%- endfor -%}
-    {% endif %}
-    <a href="/changelog" class="d-block py-2 px-3 border-top link-gray no-underline" data-ga-click="Changelog, go to changelog, text:Changelog">
-      <svg height="16" class="octicon octicon-clock text-blue" aria-label="clock" viewBox="0 0 14 16" version="1.1" width="14"
-        role="img">
-        <path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path>
-      </svg>
-      Changelog
-    </a>
-  </nav>
 </div>

@@ -22,36 +22,20 @@
 
 
       <div class="d-none d-md-block col-md-3 offset-md-1">
-
-        <nav class="filter-list">
-           {% include toc.html html=content sanitize=false class="filter-item" id="" h_min=2 h_max=3 %}
-        </nav> 
-
-        <ul class="filter-list">
-            <li>
-              <a href="#url" class="filter-item selected" aria-current="page">
-                <span class="count" title="results">21</span>
-                First filter
-              </a>
-            </li>
-            <li>
-              <a href="#url" class="filter-item">
-                <span class="count" title="results">3</span>
-                Second filter
-              </a>
-            </li>
-            <li>
-              <a href="#url" class="filter-item">
-                Third filter
-              </a>
-            </li>
-          </ul>
+        <div class="d-none d-md-block Box Box-condensed flex-md-column position-relative">
+          <div class="Box-header py-2">
+            <h4 class="text-normal d-inline-block mr-2">
+              <a class="link-gray-dark" href="https://github.com/primer/primer/blob/master/modules/primer-product">Daftar Isi</a>
+            </h4>
+          </div>
+          <p class="px-3 my-3">The product package contains modules that are used on GitHub product websites.</p>
+          <h5 class="px-3 mt-3 mb-1">9 packages:</h5>
+          {% include toc.html html=content sanitize=false class="px-3.mb-3.list-style-none" id="" h_min=2 h_max=3 %}
+        </div>
 
         {% include changelog-right.html %}
 
         {% include ads-right.html %}
-        
-
       </div>
     </div>
     <!-- end of content    -->

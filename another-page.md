@@ -1,5 +1,5 @@
 ---
-layout: poster
+layout: post
 ---
 
 ## Welcome to another page

@@ -6,39 +6,21 @@
     <!-- end of header-->
     <div class="container-lg px-3 d-flex">
       <div class="col-12 col-md-8">
-        <h1 class="lh-condensed">
-          {{ page.title }}
-        </h1>
-
-        {% include share-button.html %}
-
-        <div class="content markdown-body">
-          {{ content }}
-        </div>
-
-        <!--ads-->
-
+        {{ content }}
       </div>
-
-
       <div class="d-none d-md-block col-md-3 offset-md-1">
-        <div class="d-none d-md-block Box Box-condensed box-shadow flex-md-column position-relative rounded-1 overflow-hidden no-underline">
-          <div class="Box-header py-2">
-            <h4 class="text-normal d-inline-block mr-2">
-              <a class="link-gray-dark" href="https://github.com/primer/primer/blob/master/modules/primer-product">Daftar Isi</a>
-            </h4>
-          </div>
-          {% include toc.html html=content sanitize=false class="px-3.mb-3.list-style-none" id="" h_min=2 h_max=3 %}
-        </div>
+        {% include right-nav.html %}
 
-        
+        {% include changelog-right.html %}
 
         {% include ads-right.html %}
-      </div>
+       </div>
     </div>
     <!-- end of content    -->
    
     {% include footer.html %}
+    {% include footer-js.html %}
+
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>

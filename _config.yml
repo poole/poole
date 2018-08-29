@@ -13,6 +13,7 @@ theme: jekyll-theme-primer
 
 permalink: /blog/:title/
 
+plugins: [jekyll-paginate-v2]
 
 github:
   private: false
@@ -32,6 +33,7 @@ google_adsense: ca-pub-6808904429734767
 
 plugins:
   - jekyll-octicons
+  - jekyll-paginate 
 
 detach:  false
 show_dir_listing: false
@@ -42,11 +44,15 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "my-site"
+      layout: "page"
   -
     scope:
-      path: "projects"
-      type: "pages" # previously `page` in Jekyll 2.2.
+      path: "_posts"
+      type: "posts" # previously `page` in Jekyll 2.2.
     values:
-      layout: "project" # overrides previous default layout
-      author: "Mr. Hyde"
+      layout: "post" # overrides previous default layout
+      author: "wikipajak.org"
+
+#pagination
+paginate: 5
+paginate_path: /blog/page:num/

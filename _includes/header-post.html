@@ -30,8 +30,15 @@
         </button>
     </div>
     <nav class="post-header-nav d-none bg-gray-light">
-            <a class="d-block py-2 px-3 border-top text-gray-dark " href="/" data-ga-click="Blog, go to Featured, text:Featured">Featured</a>
-            <a class="d-block py-2 px-3 border-top text-gray-dark " href="/category/all/" data-ga-click="Blog, go to All Posts, text:All Posts">All Posts</a>
-    </nav>      
+        {% for link in site.data.navigation %}
+        {% if link.url contains '://' %}
+        {% assign url = link.url %}
+        {% else %}
+        {% assign url = link.url | relative_url %}
+        {% endif %}
+        <a class="d-block py-2 px-3 border-top text-gray-dark " href="{{ url }}" data-ga-click="Blog, go to Featured, text:Featured">{{
+            link.title }}</a>
+        {% endfor %}
+    </nav>
 </div>
 

@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Dimulainya Kewajiban Perpajakan"
-categories: kup
+categories: KUP
 version: "1.0"
 toc: true
-datePublished: 2018-05-08 05:01:21 +0000
-nour: 20180100001
+datePublished: 2018-09-04 05:01:21 +0000
 pagination: 
   enabled: true
 ---

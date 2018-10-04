@@ -9,7 +9,7 @@ sass:
   #load_paths:
   #  - node_modules/
 
-theme: jekyll-theme-primer
+#theme: jekyll-theme-primer
 
 permalink: /blog/:title/
 
@@ -55,4 +55,4 @@ defaults:
 
 #pagination
 paginate: 5
-paginate_path: /blog/page:num/
+paginate_path: /page:num/

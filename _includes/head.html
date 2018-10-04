@@ -13,23 +13,6 @@
   {% assign pagecontent_description = page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 160 %}
   <meta name="description" content="{% if pagecontent_description.size > 10 %}{{ pagecontent_description }}{% else %}{{ site.description }}{% endif %}">
 
-    <!-- Facebook and Twitter integration -->
-  <!--<meta property="og:title" content="{{ page.title }}"/>
-  {% if page.image %}<meta property="og:image" content="{{ site.url }}{{ page.image }}"/>{% endif %}
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="{{ site.title }}"/>
-  <meta property="og:description" content="{% if pagecontent_description.size > 10 %}{{ pagecontent_description }}{% else %}{{ site.description }}{% endif %}"/>
-  -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="{{ site.twitter_url }}">
-  <meta name="twitter:title" content="{{ page.title }}" />
-  {% if page.image %}
-    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
-  {% endif %}
-  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
-  <meta name="twitter:description" content="{% if pagecontent_description.size > 10 %}{{ pagecontent_description }}{% else %}{{ site.description }}{% endif %}" />
-
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />

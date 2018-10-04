@@ -280,38 +280,6 @@ html.windows [data-for-os=mac] {
     background: #3c4349
 }
 
-//badge
-
-.CircleBadge {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 50%;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15)
-}
-
-.CircleBadge-icon {
-    max-width: 60% !important;
-    height: auto !important;
-    max-height: 55% !important
-}
-
-.CircleBadge--small {
-    width: 56px;
-    height: 56px
-}
-
-.CircleBadge--medium {
-    width: 96px;
-    height: 96px
-}
-
-.CircleBadge--large {
-    width: 128px;
-    height: 128px
-}
-
 .bg-linear-green {
     background: #36D1DC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
@@ -322,6 +290,11 @@ html.windows [data-for-os=mac] {
     background: #ffcb52;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #ffcb52, #ff7b02);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ffcb52, #ff7b02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-linear-purple {
+    background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);
+    //10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .post-header {
@@ -364,3 +337,106 @@ html.windows [data-for-os=mac] {
 
 
 //navbar hamburger https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
+
+.hero-link-symbol {
+    display: inline-block;
+    transition: .2s;
+    transform: translateX(0);
+}
+
+.shadow-light {
+    box-shadow: 0 10px 15px rgba(150, 150, 150, 0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+}
+
+hr {
+    border-bottom-color: #eee;
+}
+.h00{
+    font-size: 48px !important;
+}
+
+// Variables
+
+$orange-light: #fecf4e;
+$orange: #a62a44;
+$orange-dark: #310441;
+
+$blue-light: #70a27d;
+$blue: #4552a1;
+$blue-dark: #371a6a;
+
+$bg-light: #ee7752;
+$bg-semi: #e73c7e;
+$bg-middle: #23a6d5;
+$bg-dark: #23d5ab;
+
+/**
+ * Nested numbered list with correct indentation.
+ *
+ * Tested on Firefox 32, Chromium 37, IE 9 and Android Browser. Doesn't work on IE 7 and previous.
+ * Source: https://cssnewbie.com/word-style-outline/#.W5Yv8EYzaM8
+ */
+
+ ol {
+     list-style: decimal;
+     padding: 0;
+ }
+
+ ol ol {
+     list-style: lower-alpha;
+ }
+
+ ol ol ol {
+     list-style: lower-roman;
+ }
+
+ ol ol ol ol {
+     list-style: decimal;
+ }
+
+ ol ol, ol ol ol ol ol {
+    list-style: lower-alpha;
+}
+
+#gradient-horizontal {
+    --color-stop-1: #a770ef;
+    --color-stop-2: #cf8bf3;
+    --color-stop-3: #fdb99b;
+  }
+  #gradient-vertical {
+    --color-stop-1: #00c3ff;
+    --color-stop-2: #77e190;
+    --color-stop-3: #ffff1c;
+  }
+
+  .icon-hgradient {
+    fill: url(#gradient-horizontal) gray;
+    /* We could use it as a stroke fill too:
+    stroke: url(#gradient-horizontal) gray; */
+  }
+  .icon-vgradient {
+    fill: url(#gradient-vertical) gray;
+  }
+
+ /* natgeo style via codepen 
+ easing https://easings.net/#easeOutCubic
+ */
+
+  mark, mark:link {
+    color: black;
+    text-decoration: none;
+    background-position-y: -0%;
+    background-image: linear-gradient( white 50%, gold 50%);
+    //transition: background 200ms ease;
+    background-size: 2px;
+    background-size: auto 175%;
+    -webkit-transition: all 300ms cubic-bezier(.21,.61,.35,1);
+    transition:         all 300ms cubic-bezier(.21,.61,.35,1); 
+  }
+  
+  mark:hover {
+    background-position-y: 100%;
+  
+  }
+  

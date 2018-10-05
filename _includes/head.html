@@ -1,23 +1,21 @@
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include open-graph.html %}  
+  <title>
+    {% if page.title == "Home" %}
+    {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+    {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
 
-    <title>
-        {% if page.title == "Home" %}
-          {{ site.title }} &middot; {{ site.tagline }}
-        {% else %}
-          {{ page.title }} &middot; {{ site.title }}
-        {% endif %}
-    </title>
- 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link href="https://unpkg.com/primer/build/build.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="https://wikipajak.org/assets/favicon.ico">
 
-
-    <link href="https://unpkg.com/primer/build/build.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="shortcut icon" type="image/x-icon" href="https://wikipajak.org/assets/favicon.ico">
-  
 </head>

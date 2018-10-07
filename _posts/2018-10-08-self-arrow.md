@@ -8,25 +8,26 @@ This is a quick Scala tip on a somehow unknown feature of the Scala language, wh
 It goes something like this:
 
 ```scala
-trait MyTrait{self =>
+trait MyTrait { self =>
   //...
 }
 ```
 
-What? You'll probably have seen a similar self type annotation type within the context of the now infamous cake pattern:
+What? You probably have seen a similar self type annotation within the context of the now infamous cake pattern:
 
 ```scala
 trait A {
   def doAStuff = ???
 }
 
-trait B {this: A =>
+trait B {
+  this: A =>
   def doBStuff = doAStuff
 }
 ```
 
 This means that the `B` trait can only be mixed in something that mixes `A`, which makes `A` members available to `B`.
-Someone just thought this pattern was awesome for dependency injection and everyone started using that, but it doesn't scale at all... And there lots of legacy to maintain.
+Someone just thought this pattern was awesome for dependency injection and everyone started using that, but it doesn't scale at all... And then lots of pain and legacy to maintain.
 
 Anyway, getting back to our first example, why that `self =>`
  thing? It's not constraining anything whatsoever... It is giving another name to `this`:
@@ -37,7 +38,7 @@ trait MyTrait {self => }
 trait MyTrait2 {private val self = this}
 ```
 
-Without any context it can be dificult to grasp why one needs to give a different name to `this`, so let us show a small example.
+Without any context it can be difficult to grasp why one needs to give a different name to `this`, so let us show a small example.
 
 We will show the definition for a function (`Function1`) from some type `A` to `Option[B]` (for some type `B`). Moreover we will implement the `
 andThen` method to compose two such functions, if the first function returns some value `B`
@@ -95,7 +96,7 @@ trait Function1Option[-A, +B] {self =>
 }
 ```
  
-Voi la!
+Voilà!
  
 This is a very contrived example and not something you'll probably do in practice. However, it shows you one instance where aliasing `this` to something else makes possible to desambiguate a method name.
 Such a pattern is very useful when you define anonymous instances or inner traits/classes, and you want to be clear on what object you are refering to, even if you don't need to explicitly desambiguate anything.

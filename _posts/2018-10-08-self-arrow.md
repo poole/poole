@@ -74,10 +74,12 @@ trait Function1Option[-A, +B] {
 //                                           ^
 ```
  
-This "`b.type` withh underlying type `C`" mismatch means basicaly the compiler is telling you that `b` is not of `B` type but `C`, and `that` function is expecting a `B` value, as we requested it.
+This "`b.type` with underlying type `C`" mismatch means basicaly the compiler is telling you that `b` is not of `B` type but `C`, and `that` function is expecting a `B` value, as we requested it.
 Can you spot the problem there?
 
-You are calling "this.apply(a)`, but.. who is `this`? By the fact the compiller is telling you that `this.apply(a)` is returning somethhing with a `C`value there, I believe you can get what it is trying to call: the inner `apply` method. `this`, in the inner function's context, means that same object, not any outer trait. it is shadowing the outer `this`.
+You are calling `this.apply(a)`, but.. who is `this`?
+By the fact the compiller is telling you that `this.apply(a)` is returning something with a `C`value there, I believe you can get what it is trying to call: the inner `apply` method.
+`this`, in the inner function's context, means that same object, not any outer trait. it is shadowing the outer `this`.
 
 And how do you get to the outer trait's apply?
 You've got it: aliase `this`to something else in the outer trait's context.

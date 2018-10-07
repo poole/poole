@@ -4,7 +4,7 @@ title: "Desambiguating 'this' in Scala, or what the hell means `self =>`?"
 author: ragb
 ---
 
-This is a quick Scala tip on a somehow unknown feature of the Scala language, what I call _unconstrained self type annotations_. One sees that in some libraries or even in the Scala standard library itself.
+This is a quick Scala tip on a somehow unknown feature of the Scala language, what I call *self aliasing* or *unconstrained self type annotations*. One sees that in some libraries or even in the Scala standard library itself.
 It goes something like this:
 
 ```scala
@@ -13,8 +13,7 @@ trait MyTrait{self =>
 }
 ```
 
-
-What? You'll probably have seen this self type annotation type within the context of the now infamous cake pattern:
+What? You'll probably have seen a similar self type annotation type within the context of the now infamous cake pattern:
 
 ```scala
 trait A {
@@ -27,7 +26,7 @@ trait B {this: A =>
 ```
 
 This means that the `B` trait can only be mixed in something that mixes `A`, which makes `A` members available to `B`.
-Someone just thought this pattern was awesome for dependency injection and everyone started using that, but it doesn't scale at all...
+Someone just thought this pattern was awesome for dependency injection and everyone started using that, but it doesn't scale at all... And there lots of legacy to maintain.
 
 Anyway, getting back to our first example, why that `self =>`
  thing? It's not constraining anything whatsoever... It is giving another name to `this`:
@@ -36,13 +35,12 @@ Anyway, getting back to our first example, why that `self =>`
 trait MyTrait {self => }
 // is equivalent to
 trait MyTrait2 {private val self = this}
-
 ```
 
-Without any context it can be dificult why one needs to give a different name to `this`, so let us show an example.
+Without any context it can be dificult to grasp why one needs to give a different name to `this`, so let us show a small example.
 
-We will define the implementation for a function (`Function1`) from some type `A` to `Option[B]` (for some type `B`). Moreover we will implement the `
-andThen` method to compose two functions like that, if the first function returns some value `B`
+We will show the definition for a function (`Function1`) from some type `A` to `Option[B]` (for some type `B`). Moreover we will implement the `
+andThen` method to compose two such functions, if the first function returns some value `B`
 (there is a powerful abstraction for this concept called a [kleisli arrow][kleisli], but it's out of the scope of this article).
 
 Let's start from the basic trait's definition:
@@ -75,7 +73,7 @@ trait Function1Option[-A, +B] {
 //                                           ^
 ```
  
-This "`b.type` withh underlying type `C`" mismatch means basicaly the compiler is telling you that `b` is not of `B` type but `C`, and `that` function is expecting a `B` value, as you would probably expect.
+This "`b.type` withh underlying type `C`" mismatch means basicaly the compiler is telling you that `b` is not of `B` type but `C`, and `that` function is expecting a `B` value, as we requested it.
 Can you spot the problem there?
 
 You are calling "this.apply(a)`, but.. who is `this`? By the fact the compiller is telling you that `this.apply(a)` is returning somethhing with a `C`value there, I believe you can get what it is trying to call: the inner `apply` method. `this`, in the inner function's context, means that same object, not any outer trait. it is shadowing the outer `this`.

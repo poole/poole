@@ -82,7 +82,7 @@ By the fact the compiller is telling you that `this.apply(a)` is returning somet
 `this`, in the inner function's context, means that same object, not any outer trait. It is shadowing the outer `this`.
 
 And how do you get to the outer trait's apply?
-You've got it: aliase `this`to something else in the outer trait's context.
+You've got it: alias `this`to something else in the outer trait's context.
  
 ```scala
 trait Function1Option[-A, +B] {self =>

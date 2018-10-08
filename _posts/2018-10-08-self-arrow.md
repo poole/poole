@@ -42,7 +42,7 @@ trait MyTrait2 {
 
 Without any context it can be difficult to grasp why one needs to give a different name to `this`, so let us show a small example.
 
-We will show the definition for a function (`Function1`) from some type `A` to `Option[B]` (for some type `B`). Moreover we will implement the ` andThen` method to compose two such functions, if the first function returns some value `B`
+We will show the definition for a function (`Function1`) from some type `A` to `Option[B]` (for some type `B`). Moreover we will implement the `andThen` method to compose two such functions, if the first function returns some value `B`
 (there is a powerful abstraction for this concept called a [kleisli arrow][kleisli], but it's out of the scope of this article).
 
 Let's start from the basic trait's definition:

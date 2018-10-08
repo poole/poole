@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Desambiguating 'this' in Scala, or what the hell means 'self =>'?"
+title: "Desambiguating 'this' in Scala, or what does 'self =>' mean?"
 author: ragb
 ---
 

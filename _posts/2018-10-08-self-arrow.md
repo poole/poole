@@ -40,8 +40,7 @@ trait MyTrait2 {private val self = this}
 
 Without any context it can be difficult to grasp why one needs to give a different name to `this`, so let us show a small example.
 
-We will show the definition for a function (`Function1`) from some type `A` to `Option[B]` (for some type `B`). Moreover we will implement the `
-andThen` method to compose two such functions, if the first function returns some value `B`
+We will show the definition for a function (`Function1`) from some type `A` to `Option[B]` (for some type `B`). Moreover we will implement the ` andThen` method to compose two such functions, if the first function returns some value `B`
 (there is a powerful abstraction for this concept called a [kleisli arrow][kleisli], but it's out of the scope of this article).
 
 Let's start from the basic trait's definition:
@@ -78,11 +77,11 @@ This "`b.type` with underlying type `C`" mismatch means basicaly the compiler is
 Can you spot the problem there?
 
 You are calling `this.apply(a)`, but.. who is `this`?
-By the fact the compiller is telling you that `this.apply(a)` is returning something with a `C`value there, I believe you can get what it is trying to call: the inner `apply` method.
+By the fact the compiller is telling you that `this.apply(a)` is returning something with a `C` value there, I believe you can get what it is trying to call: the inner `apply` method.
 `this`, in the inner function's context, means that same object, not any outer trait. It is shadowing the outer `this`.
 
 And how do you get to the outer trait's apply?
-You've got it: alias `this`to something else in the outer trait's context.
+You've got it: alias `this` to something else in the outer trait's context.
  
 ```scala
 trait Function1Option[-A, +B] {self =>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Desambiguating 'this' in Scala, or what does 'self =>' mean?"
+title: "Disambiguating 'this' in Scala, or what does 'self =>' mean?"
 author: ragb
 ---
 
@@ -101,8 +101,8 @@ trait Function1Option[-A, +B] { self =>
  
 Voilà!
  
-This is a very contrived example and not something you'll probably do in practice. However, it shows you one instance where aliasing `this` to something else makes possible to desambiguate a method name.
-Such a pattern is very useful when you define anonymous instances or inner traits/classes, and you want to be clear on what object you are refering to, even if you don't need to explicitly desambiguate anything.
+This is a very contrived example and not something you'll probably do in practice. However, it shows you one instance where aliasing `this` to something else makes possible to disambiguate a method name.
+Such a pattern is very useful when you define anonymous instances or inner traits/classes, and you want to be clear on what object you are refering to, even if you don't need to explicitly disambiguate anything.
  
 Hope it helps.
  

@@ -33,9 +33,11 @@ Anyway, getting back to our first example, why that `self =>`
  thing? It's not constraining anything whatsoever... It is giving another name to `this`:
  
 ```scala
-trait MyTrait {self => }
+trait MyTrait { self => }
 // is equivalent to
-trait MyTrait2 {private val self = this}
+trait MyTrait2 {
+  private val self = this
+}
 ```
 
 Without any context it can be difficult to grasp why one needs to give a different name to `this`, so let us show a small example.
@@ -84,7 +86,7 @@ And how do you get to the outer trait's apply?
 You've got it: alias `this` to something else in the outer trait's context.
  
 ```scala
-trait Function1Option[-A, +B] {self =>
+trait Function1Option[-A, +B] { self =>
   def apply(a: A): Option[B]
   
   final def andThen[C](that: Function1Option[B, C]): Function1Option[A, C] =

@@ -53,7 +53,7 @@ trait Function1Option[-A, +B] {
 ```
 
 So we define an abstract `apply` method (as function-like things do in scala) which concrete instances must implement. Still, without knowing about the concrete `apply`
-one can easily define the `andThen` implementation, can't we?
+one can easily define the `andThen` implementation, right?
  
 ```scala
 trait Function1Option[-A, +B] {
@@ -74,12 +74,12 @@ trait Function1Option[-A, +B] {
 //                                           ^
 ```
  
-This "`b.type` with underlying type `C`" mismatch means basicaly the compiler is telling you that `b` is not of `B` type but `C`, and `that` function is expecting a `B` value, as we requested it.
+This "`b.type` with underlying type `C`" mismatch means basicaly the compiler is telling you that `b` is not of `B` type but of `C`, and `that` function is expecting a `B` value, as we requested it to be.
 Can you spot the problem there?
 
 You are calling `this.apply(a)`, but.. who is `this`?
 By the fact the compiller is telling you that `this.apply(a)` is returning something with a `C`value there, I believe you can get what it is trying to call: the inner `apply` method.
-`this`, in the inner function's context, means that same object, not any outer trait. it is shadowing the outer `this`.
+`this`, in the inner function's context, means that same object, not any outer trait. It is shadowing the outer `this`.
 
 And how do you get to the outer trait's apply?
 You've got it: aliase `this`to something else in the outer trait's context.

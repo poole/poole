@@ -8,7 +8,38 @@ datePublished: 2018-10-14 13:58:21 +0000
 ---
 ### Pembetulan SPT Yang Dimaksud Pasal 8 Ayat (1) Dan Ayat (1a) UU KUP 
 
-![Tabel Pembetulan SPT]({{site.baseurl}}/public/post/tabelpembetulanspt.JPG "Tabel Pembetulan SPT")
+<table></table>
+  <tr>
+    <th rowspan="2">No</th>
+    <th rowspan="2">Jenis Pembetulan SPT</th>
+    <th colspan="2">SYARAT PEMBETULAN SPT</th>
+  </tr>
+  <tr>
+    <td>Setelah UU Nomor 28 TAHUN 2007 berlaku tetapi PP 74 TAHUN 2011 belum berlaku <strong>(1 Januari 2008 s/d 31 Desember 2011</strong></td>
+    <td>Setelah PP 74 TAHUN 2011 berlaku <strong>(sejak 1 Januari 2012)</strong></td>
+  </tr>
+  <tr>
+    <td rowspan="2">1</td>
+    <td>WP dengan kemauan sendiri dapat membetulkan SPT yang telah disampaikan dengan menyampaikan pernyataan tertulis. (<mark>Bukan</mark> dalam hal Pembetulan SPT menyatakan rugi atau lebih bayar)</td>
+    <td rowspan="2">DJP belum melakukan tindakan pemeriksaan</td>
+    <td rowspan="2">DJP belum melakukan tindakan:<br> Verifikasi dalam rangka menerbitkan SKP;<br> Pemeriksaan; atau<br> Pemeriksaan Bukti Permulaan.</td>
+  </tr>
+  <tr>
+    <td>Pernyataan tertulis dalam pembetulan SPT dilakukan dengan cara memberi tanda pada tempat yang telah disediakan dalam SPT yang menyatakan bahwa WP yang bersangkutan membetulkan SPT.</td>
+  </tr>
+  <tr>
+    <td rowspan="2">2</td>
+    <td rowspan="2">Dalam hal Pembetulan SPT menyatakan rugi atau lebih bayar,</td>
+    <td>1. DJP belum melakukan tindakan pemeriksaan</td>
+    <td>1. DJP belum melakukan tindakan:<br>Verifikasi dalam rangka menerbitkan SKP;
+Pemeriksaan; atau <br>
+Pemeriksaan Bukti Permulaan.</td>
+  </tr>
+  <tr>
+    <td>2. pembetulan SPT harus disampaikan paling lama 2 (dua) tahun sebelum daluwarsa penetapan</td>
+    <td>2. pembetulan SPT harus disampaikan paling lama 2 (dua) tahun sebelum daluwarsa penetapan</td>
+  </tr>
+</table>
 
 ### Pembetulan SPT Yang Dimaksud Pasal 8 Ayat (6) UU KUP
 

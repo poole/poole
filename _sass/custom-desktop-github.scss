@@ -1,0 +1,442 @@
+body {
+    color: $gray-900;
+    //background-color: rgba(255, 255, 255, 0.65);
+    //background-image: linear-gradient(rgba(255, 255, 255,1.0), rgba(200, 242, 246,1.0) 15%);//linear-gradient(#191c20, #24292e 15%); url(https://desktop.github.com/images/star-bg.svg),
+    background-repeat: repeat-x;
+    background-position: center 0, 0 0, 0 0;
+}
+
+a {
+    color: $blue-500;
+    text-decoration: none
+}
+
+a:hover,
+a:active {
+    text-decoration: underline
+}
+
+hr {
+    border-color: $gray-500;// rgba(255, 255, 255, 0.1)
+}
+
+.container-new {
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width: 1012px) {
+    .container-new {
+        max-width: 1012px
+    }
+}
+
+@media (min-width: 1280px) {
+    .container-new {
+        max-width: 1280px
+    }
+}
+
+.nav .current {
+    color: #fff
+}
+
+.btn-outline-white {
+    padding: .9em 1.25em;
+    color: #fff;
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-radius: .3em
+}
+
+.btn-outline-white:hover,
+.btn-outline-white:active {
+    color: $gray-900;
+    text-decoration: none;
+    background: #fff;
+    border-color: #fff
+}
+
+.btn-outline-purple {
+    padding: .9em 1.25em;
+    color: #9f7be1;
+    background: transparent;
+    border-color: rgba(159, 123, 225, 0.5);
+    border-radius: .3em
+}
+
+.btn-outline-purple:hover,
+.btn-outline-purple:active {
+    color: #24292e;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+    background: #9f7be1;
+    border-color: #9f7be1
+}
+
+.announcement {
+    color: rgba(255, 255, 255, 0.65);
+    background-color: #191c20;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+.announcement:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #24292e
+}
+
+.border-translucent-white {
+    border-color: rgba(255, 255, 255, 0.1) !important
+}
+
+html.mac [data-for-os=windows] {
+    display: none !important
+}
+
+html.windows [data-for-os=mac] {
+    display: none !important
+}
+
+.app-screenshot {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6);
+    max-width: 324px;
+    width: 50%;
+    object-fit: cover;
+}
+
+.windows .app-screenshot {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3)
+}
+
+.terms-and-conditions,
+.eula {
+    max-width: 800px;
+    margin: 0 auto
+}
+
+.terms-and-conditions h1:not(:last-child),
+.terms-and-conditions h2:not(:last-child),
+.terms-and-conditions h3:not(:last-child),
+.eula h1:not(:last-child),
+.eula h2:not(:last-child),
+.eula h3:not(:last-child) {
+    margin-bottom: 0.5em
+}
+
+.terms-and-conditions ol,
+.terms-and-conditions ul,
+.eula ol,
+.eula ul {
+    padding-left: 2em
+}
+
+.terms-and-conditions ol li,
+.terms-and-conditions ul li,
+.eula ol li,
+.eula ul li {
+    margin-bottom: 0.5em
+}
+
+.release-note header h2 {
+    max-width: 100% !important
+}
+
+.release-note:first-of-type .timeline-decorator::before {
+    background-image: linear-gradient(to bottom, rgba(116, 125, 140,0.3), rgba(255, 255, 255, 0.1) 50px)
+}
+
+.release-note:last-of-type .timeline-decorator::before {
+    background-image: linear-gradient(to bottom, rgba(116, 125, 140,0.3), rgba(255, 255, 255, 0.1))
+}
+
+.timeline-decorator::before {
+    content: "";
+    background-image: linear-gradient(to bottom, rgba(116, 125, 140,0.3), rgba(255, 255, 255, 0.1));
+    width: 2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc((65px / 2) + 16px);
+    z-index: -1
+}
+
+.change-badge {
+    background-color: #0366d6;
+    display: inline;
+    flex: 0 0 65px;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-right: 8px;
+    padding: 2px 5px;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.change-badge-new,
+.change-badge-added {
+    background-color: #28a745
+}
+
+.change-badge-fixed,
+.change-badge-improved {
+    background-color: #0366d6
+}
+
+.change-badge-kup{
+    background-color: rgba(45, 152, 218,1.0);
+    color: $text-gray-dark;
+}
+
+.change-badge-ppn {
+    background-color: rgba(56, 103, 214,1.0);
+}
+
+.change-badge-pph {
+    background-color: rgba(136, 84, 208,1.0);
+    color: $text-gray-dark;
+}
+
+@media (min-width: 768px) {
+    .change-log {
+        margin-left: 74px
+    }
+}
+
+.version-badge {
+    width: 65px;
+    text-align: center
+}
+
+.samples {
+    max-width: 800px;
+    margin: 0 auto
+}
+
+.samples h1,
+.samples h2,
+.samples h3,
+.samples pre,
+.samples p {
+    margin: 0
+}
+
+.samples h1:not(:last-child),
+.samples h2:not(:last-child),
+.samples h3:not(:last-child),
+.samples pre:not(:last-child),
+.samples p:not(:last-child) {
+    margin-bottom: 0.5em
+}
+
+.samples pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font: 12px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    padding: 1em;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: #0d0d0d
+}
+
+.btn-outline-purple:hover {
+    background-image: linear-gradient(to bottom, #8241f9, #4e277b);
+    border-color: #150a27;
+    color: #fff
+}
+
+.btn-outline-purple:active {
+    background-image: linear-gradient(to top, #8241f9, #7038cd)
+}
+
+.btn-desktop-purple {
+    background-image: linear-gradient(to bottom, #8241f9, #4e277b);
+    border-color: #150a27;
+    color: #fff
+}
+
+.btn-desktop-purple:hover {
+    background: none;
+    background-image: linear-gradient(to bottom, #8c50f9, #552b87);
+    border-color: #150a27
+}
+
+.btn-desktop-purple:active {
+    background-image: linear-gradient(to top, #8241f9, #7038cd)
+}
+
+.purple-square {
+    background-color: #7b63ab;
+    border-radius: 5px;
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15)
+}
+
+.disclaimer-block {
+    background: #3c4349
+}
+
+.bg-linear-green {
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-linear-orange {
+    background: #ffcb52;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffcb52, #ff7b02);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffcb52, #ff7b02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-linear-purple {
+    background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);
+    //10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.post-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background-color: rgba(255,255,255,0.95);
+    background-clip: padding-box;
+    border-bottom: 1px solid rgba(0,0,0,0.075);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+
+.post-header-toggle {
+    display: inline-block;
+    padding: 0 10px;
+    margin-right: -5px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+
+.post-header-toggle:focus {
+    outline: 0;
+    border-color: #2188ff;
+    box-shadow: 0 0 0 0.2em rgba(3, 102, 214, 0.3)
+}
+
+.post-header.open .post-header-nav {
+    display: block !important
+}
+
+.development .post-header {
+    border-top: 2px solid #d73a49
+}
+
+.staging .post-header {
+    border-top: 2px solid #28a745
+}
+
+
+//navbar hamburger https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
+
+.hero-link-symbol {
+    display: inline-block;
+    transition: .2s;
+    transform: translateX(0);
+}
+
+.shadow-light {
+    box-shadow: 0 10px 15px rgba(150, 150, 150, 0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+}
+
+hr {
+    border-bottom-color: #eee;
+}
+.h00{
+    font-size: 48px !important;
+}
+
+// Variables
+
+$orange-light: #fecf4e;
+$orange: #a62a44;
+$orange-dark: #310441;
+
+$blue-light: #70a27d;
+$blue: #4552a1;
+$blue-dark: #371a6a;
+
+$bg-light: #ee7752;
+$bg-semi: #e73c7e;
+$bg-middle: #23a6d5;
+$bg-dark: #23d5ab;
+
+/**
+ * Nested numbered list with correct indentation.
+ *
+ * Tested on Firefox 32, Chromium 37, IE 9 and Android Browser. Doesn't work on IE 7 and previous.
+ * Source: https://cssnewbie.com/word-style-outline/#.W5Yv8EYzaM8
+ */
+
+ ol {
+     list-style: decimal;
+     padding: 0;
+ }
+
+ ol ol {
+     list-style: lower-alpha;
+ }
+
+ ol ol ol {
+     list-style: lower-roman;
+ }
+
+ ol ol ol ol {
+     list-style: decimal;
+ }
+
+ ol ol, ol ol ol ol ol {
+    list-style: lower-alpha;
+}
+
+#gradient-horizontal {
+    --color-stop-1: #a770ef;
+    --color-stop-2: #cf8bf3;
+    --color-stop-3: #fdb99b;
+  }
+  #gradient-vertical {
+    --color-stop-1: #00c3ff;
+    --color-stop-2: #77e190;
+    --color-stop-3: #ffff1c;
+  }
+
+  .icon-hgradient {
+    fill: url(#gradient-horizontal) gray;
+    /* We could use it as a stroke fill too:
+    stroke: url(#gradient-horizontal) gray; */
+  }
+  .icon-vgradient {
+    fill: url(#gradient-vertical) gray;
+  }
+
+ /* natgeo style via codepen 
+ easing https://easings.net/#easeOutCubic
+ */
+
+  mark, mark:link {
+    color: black;
+    text-decoration: none;
+    background-position-y: -0%;
+    background-image: linear-gradient( white 50%, gold 50%);
+    //transition: background 200ms ease;
+    background-size: 2px;
+    background-size: auto 175%;
+    -webkit-transition: all 300ms cubic-bezier(.21,.61,.35,1);
+    transition:         all 300ms cubic-bezier(.21,.61,.35,1); 
+  }
+  
+  mark:hover {
+    background-position-y: 100%;
+  
+  }
+  

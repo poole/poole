@@ -1,0 +1,25 @@
+# Sample Authors
+# Remove file or replace with your own
+
+wikipajak.org:
+  name: wikipajak.org
+  picture: /images/wikipajak.org
+  twitter: "@billyrick"
+  links:
+    - title: Twitter
+      url: https://twitter.com/billyrick
+      icon: fab fa-twitter-square
+
+Cornelius Fiddlebone:
+  name: Cornelius Fiddlebone
+  picture: /images/bio-photo.jpg
+  twitter: corneliusfiddlebone
+
+kamuwikipajak.org:
+  name: wikipajak.org
+  picture: /images/wikipajak.org
+  twitter: "@billyrick"
+  links:
+    - title: Twitter
+      url: https://twitter.com/billyrick
+      icon: fab fa-twitter-square

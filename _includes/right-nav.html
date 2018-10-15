@@ -1,0 +1,13 @@
+{% if site.data.navigation %}
+<nav class="menu">
+    {%- for link in site.data.navigation -%}
+    {%- if link.url contains '://' -%}
+    {%- assign url = link.url -%}
+    {%- else -%}
+    {%- assign url = link.url | relative_url -%}
+    {%- endif -%}
+    <a class="menu-item" href="{{ url }}">{{ link.title }}</a>
+    {%- endfor -%}
+</nav>
+{% endif %}
+

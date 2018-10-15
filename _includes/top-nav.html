@@ -1,0 +1,31 @@
+<div class="d-none d-md-flex flex-justify-end">
+  <nav class="flex-self-center flex-shrink-0 text-dark" aria-label="Primary">
+    {% for link in site.data.navigation %}
+    {% if link.url contains '://' %}
+    {% assign url = link.url %}
+    {% else %}
+    {% assign url = link.url | relative_url %}
+    {% endif %}
+    <a class="text-dark px-md-1 px-lg-2" href="{{ url }}">{{ link.title }}</a>
+    {% endfor %}
+  </nav>
+</div>
+
+<button class="d-sm-none d-md-none btn-link link-gray post-header-toggle" type="button" aria-label="Toggle navigation"
+  aria-expanded="false">
+  <svg height="24" class="octicon octicon-three-bars v-align-middle" viewBox="0 0 12 16" version="1.1" width="18"
+    aria-hidden="true">
+    <path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"></path>
+  </svg>
+</button>
+</div>
+<nav class="post-header-nav d-none bg-gray-light">
+  {% for link in site.data.navigation %}
+  {% if link.url contains '://' %}
+  {% assign url = link.url %}
+  {% else %}
+  {% assign url = link.url | relative_url %}
+  {% endif %}
+  <a class="d-block py-2 px-3 border-top text-gray-dark " href="{{ url }}">{{ link.title }}</a>
+  {% endfor %}
+</nav>

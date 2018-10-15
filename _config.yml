@@ -1,32 +1,58 @@
-# Permalinks
-permalink:           pretty
+exclude:
+  - node_modules
+  - script
 
-# Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  style: :compressed
 
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+    # Where sass should look for other scss
+  #load_paths:
+  #  - node_modules/
 
-# Custom vars
-version:             2.0.0
+#theme: jekyll-theme-primer
+
+permalink: /blog/:title/
+
+plugins: [jekyll-paginate-v2]
+
 github:
-  repo:              https://github.com/poole/poole
+  private: false
+  license:
+    name: MIT
+  source:
+    branch: "master"
+    path: "/"
+  repository_url: "https://github.com/pages-themes/primer"
+  
+title: Wikipajak.org
+description: panduan ringkas peraturan perpajakan Indonesia, Sehingga mudah dipahami oleh semua orang.
+repository: berlamhenderson/berlamhenderson.github.io
 
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+google_analytics: UA-111280620-1
+google_adsense: ca-pub-6808904429734767
+
+plugins:
+  - jekyll-octicons
+  - jekyll-paginate 
+
+detach:  false
+show_dir_listing: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "_posts"
+      type: "posts" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "post" # overrides previous default layout
+      author: "wikipajak.org"
+
+#pagination
+paginate: 5
+paginate_path: /page:num/

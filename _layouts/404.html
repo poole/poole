@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    <link rel="stylesheet" href="{{ "/assets/css/404.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="shortcut icon" type="image/x-icon" href="https://wikipajak.org/assets/favicon.ico">
+</head>
+
+<body class="bg-purple">
+
+    <div class="stars">
+        <div class="custom-navbar">
+            <div class="brand-logo">
+                <img src="http://salehriaz.com/404Page/img/logo.svg" width="80px">
+            </div>
+            <div class="navbar-links">
+                    {% for link in site.data.navigation %}
+                    {% if link.url contains '://' %}
+                    {% assign url = link.url %}
+                    {% else %}
+                    {% assign url = link.url | relative_url %}
+                    {% endif %}
+                    <a class="text-dark px-md-1 px-lg-2" href="{{ url }}">{{ link.title }}</a>
+                    {% endfor %}
+            </div>
+        </div>
+        <div class="central-body">
+            <img class="image-404" src="http://salehriaz.com/404Page/img/404.svg" width="300px">
+            <a href="/" class="btn-go-home" target="_blank">GO BACK HOME</a>
+        </div>
+        <div class="objects">
+            <img class="object_rocket" src="http://salehriaz.com/404Page/img/rocket.svg" width="40px">
+            <div class="earth-moon">
+                <img class="object_earth" src="http://salehriaz.com/404Page/img/earth.svg" width="100px">
+                <img class="object_moon" src="http://salehriaz.com/404Page/img/moon.svg" width="80px">
+            </div>
+            <div class="box_astronaut">
+                <img class="object_astronaut" src="http://salehriaz.com/404Page/img/astronaut.svg" width="140px">
+            </div>
+        </div>
+        <div class="glowing_stars">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

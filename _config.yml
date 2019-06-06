@@ -6,7 +6,8 @@ title:               Poole
 tagline:             The Jekyll Butler
 url:                 http://getpoole.com
 paginate:            1
-baseurl:             ""
+baseurl:             '/poole'
+markdown:            kramdown
 
 # Assets
 #
@@ -25,6 +26,9 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/poole/poole
+
+
+pages_list: {'About':'/about','Archive':'/archive','Feed':'/atom.xml'}
 
 # Gems
 gems:

@@ -17,7 +17,6 @@ usemathjax: true
         - [The key equation](#the-key-equation)
         - [Derivation](#derivation)
         - [Contraction Maps](#contraction-maps)
-        - [$\mathcal U$ as a map](#%24mathcal-u%24-as-a-map)
         - [Some \(formalised\) heuristics for when divergences will not occur](#some-formalised-heuristics-for-when-divergences-will-not-occur)
     - [A solution - PreQN](#a-solution---preqn)
 

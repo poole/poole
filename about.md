@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+usemathjax: true
 ---
 
 <p class="message">

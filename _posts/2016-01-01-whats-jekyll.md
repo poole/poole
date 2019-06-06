@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Characterizing Divergence in Deep Q-Learning - Notes
+usemathjax: true
 ---
 
 > [Link to paper](https://arxiv.org/pdf/1903.08894.pdf) 

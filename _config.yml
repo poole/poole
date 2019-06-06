@@ -7,6 +7,7 @@ tagline:             The Jekyll Butler
 url:                 http://getpoole.com
 paginate:            1
 baseurl:             '/poole'
+markdown:            kramdown 
 
 # Assets
 #

@@ -21,7 +21,7 @@ HTML defines a long list of available inline tags, a complete list of which can 
 - **To bold text**, use `<strong>`.
 - *To italicize text*, use `<em>`.
 - Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
+- Citations, like <cite>&mdash; Mark Otto</cite>, should use `<cite>`.
 - <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
 - Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
 

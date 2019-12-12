@@ -28,6 +28,11 @@ pre {
   pre {
     margin-bottom: 0;
   }
+
+  // Triple backticks (code fencing) doubles the .highlight elements
+  .highlight {
+    padding: 0;
+  }
 }
 
 .rouge-table {

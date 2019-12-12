@@ -75,6 +75,14 @@ No matter your production or hosting setup, be sure to verify the `baseurl` opti
 
 Poole includes some customizable options, typically applied via classes on the `<body>` element.
 
+### Google Analytics
+
+Specify `ga_analytics` in your `_config.yml` and restart the server to add Google Analytics tracking code.
+
+```ruby
+# Google Analytics example
+ga_analytics: UA-000000-0
+```
 
 ### Rems, `font-size`, and scaling
 

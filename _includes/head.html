@@ -10,10 +10,10 @@
     {% endif %}
   </title>
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.ico">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+  <link rel="stylesheet" href="{{ 'styles.css' | absolute_url }}">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/assets/apple-touch-icon-precomposed.png' | absolute_url }}">
+  <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | absolute_url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/atom.xml' | absolute_url }}">
 
   {% seo title=false %}
 </head>

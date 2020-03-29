@@ -7,7 +7,7 @@ title: Home
   {% for post in paginator.posts %}
   <article class="post">
     <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
+      <a href="{{ post.url | absolute_url }}">
         {{ post.title }}
       </a>
     </h1>
@@ -21,12 +21,12 @@ title: Home
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
   {% else %}
     <span class="pagination-item older">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: absolute_url }}">Newer</a>
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}

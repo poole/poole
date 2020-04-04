@@ -4,20 +4,37 @@ $gray-3: #767676;
 $gray-4: #515151;
 $gray-5: #313131;
 
-$red: #ac4142;
-$orange: #d28445;
-$yellow: #f4bf75;
-$green: #90a959;
-$cyan: #75b5aa;
-$blue: #268bd2;
-// $blue: #6a9fb5;
-$brown: #8f5536;
+$red: #fa5252;
+$pink: #e64980;
+$grape: #be4bdb;
+$purple: #7950f2;
+$indigo: #4c6ef5;
+$blue: #228be6;
+$cyan: #15aabf;
+$teal: #12b886;
+$green: #40c057;
+$yellow: #fab005;
+$orange: #fd7e14;
+
+$colors: (
+  "red": $red,
+  "pink": $pink,
+  "grape": $grape,
+  "purple": $purple,
+  "indigo": $indigo,
+  "blue": $blue,
+  "cyan": $cyan,
+  "teal": $teal,
+  "green": $green,
+  "yellow": $yellow,
+  "orange": $orange
+);
 
 $root-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $root-font-size: 16px;
 $root-line-height: 1.5;
 
-$body-color: #515151;
+$body-color: #444;
 $body-bg: #fff;
 $link-color: $blue;
 

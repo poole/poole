@@ -48,10 +48,7 @@ pre {
   .gutter {
     color: rgba(0,0,0,.25);
     vertical-align: top;
-    // Make sure numbers aren't selectable
-    -webkit-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    user-select: none;
   }
 }
 

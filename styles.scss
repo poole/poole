@@ -27,3 +27,19 @@
 @import "posts";
 @import "pagination";
 @import "message";
+
+.colors {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+
+  dt {
+    width: 3rem;
+    height: 3rem;
+    color: #fff;
+    border-radius: .25rem;
+  }
+
+  dd {
+    margin-left: 1rem;
+  }
+}

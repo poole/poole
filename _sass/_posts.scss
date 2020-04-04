@@ -14,13 +14,21 @@
 
 // Blog post or page title
 .page-title,
-.post-title,
-.post-title a {
+.post-title {
   color: #303030;
 }
 .page-title,
 .post-title {
   margin-top: 0;
+}
+.post-title a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
 }
 
 // Meta data line below post title
@@ -49,19 +57,11 @@
     margin-top: 0;
   }
 
-  li {
+  a {
+    text-decoration: none;
+
     small {
-      font-size: 75%;
       color: #999;
-    }
-
-    a:hover {
-      color: #268bd2;
-      text-decoration: none;
-
-      small {
-        color: inherit;
-      }
     }
   }
 }

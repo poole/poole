@@ -4,8 +4,16 @@
 // or to a parent if there are multiple elements to show.
 
 .message {
-  margin-bottom: 1rem;
   padding: 1rem;
-  color: #717171;
+  margin-bottom: 1rem;
+  color: #666;
   background-color: #f9f9f9;
+  border-radius: .25rem;
+}
+
+@each $color, $value in $colors {
+  .message-#{$color} {
+    color: darken($value, 25%);
+    background-color: lighten($value, 35%);
+  }
 }

@@ -1,0 +1,16 @@
+// Table of Contents
+
+#markdown-toc {
+  padding: var(--spacer-2) var(--spacer-3);
+  margin-bottom: var(--spacer-2);
+  border: solid var(--border-color);
+  border-width: 1px 0;
+
+  &::before {
+    display: block;
+    margin-left: calc(var(--spacer-3) * -1);
+    content: "Contents";
+    font-size: 85%;
+    font-weight: 500;
+  }
+}

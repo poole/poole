@@ -3,7 +3,7 @@ layout: post
 title: Example content
 ---
 
-Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+**Howdy!** This is an example blog post that shows several types of HTML content supported in this theme.
 {: .message }
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
@@ -18,6 +18,7 @@ HTML defines a long list of available inline tags, a complete list of which can 
 
 - **To bold text**, use `<strong>`.
 - *To italicize text*, use `<em>`.
+- <mark>To highlight</mark>, use `<mark>`.
 - Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
 - Citations, like <cite>&mdash; Mark Otto</cite>, should use `<cite>`.
 - <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.

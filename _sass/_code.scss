@@ -20,9 +20,9 @@ pre {
 }
 
 .highlight {
-  padding: var(--spacer-3);
-  margin-bottom: var(--spacer-3);
-  background-color: var(--gray-000);
+  padding: var(--spacer);
+  margin-bottom: var(--spacer);
+  background-color: var(--code-bg);
   border-radius: var(--border-radius);
 
   pre {
@@ -46,9 +46,9 @@ pre {
   }
 
   .gutter {
-    color: rgba(0,0,0,.25);
     vertical-align: top;
     user-select: none;
+    opacity: .25;
   }
 }
 

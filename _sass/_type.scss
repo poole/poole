@@ -6,8 +6,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: 600;
   line-height: 1.25;
-  color: var(--gray-900);
-  text-rendering: optimizeLegibility;
+  color: var(--heading-color);
 }
 
 h1 {
@@ -49,10 +48,9 @@ dd {
 
 hr {
   position: relative;
-  margin: 1.5rem 0;
+  margin: var(--spacer-2) 0;
   border: 0;
   border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid #fff;
 }
 
 abbr {
@@ -70,7 +68,7 @@ abbr {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
+  color: var(--gray-500);
   border-left: .25rem solid var(--border-color);
 
   p:last-child {

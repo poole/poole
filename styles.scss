@@ -28,6 +28,7 @@
 @import "pagination";
 @import "message";
 
+// Sass for creating the swatches
 .colors {
   display: grid;
   grid-template-columns: max-content 1fr;
@@ -35,11 +36,11 @@
   dt {
     width: 3rem;
     height: 3rem;
-    color: #fff;
-    border-radius: .25rem;
+    border-radius: var(--border-radius);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.15);
   }
 
   dd {
-    margin-left: 1rem;
+    margin-left: var(--spacer);
   }
 }

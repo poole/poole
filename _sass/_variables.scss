@@ -1,47 +1,45 @@
-$gray-1: #f9f9f9;
-$gray-2: #ccc;
-$gray-3: #767676;
-$gray-4: #515151;
-$gray-5: #313131;
+:root {
+  --gray-000: #f8f9fa;
+  --gray-100: #f1f3f5;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #abd5bd;
+  --gray-600: #868e96;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
 
-$red: #fa5252;
-$pink: #e64980;
-$grape: #be4bdb;
-$purple: #7950f2;
-$indigo: #4c6ef5;
-$blue: #228be6;
-$cyan: #15aabf;
-$teal: #12b886;
-$green: #40c057;
-$yellow: #fab005;
-$orange: #fd7e14;
+  --red: #fa5252;
+  --pink: #e64980;
+  --grape: #be4bdb;
+  --purple: #7950f2;
+  --indigo: #4c6ef5;
+  --blue: #228be6;
+  --cyan: #15aabf;
+  --teal: #12b886;
+  --green: #40c057;
+  --yellow: #fab005;
+  --orange: #fd7e14;
 
-$colors: (
-  "red": $red,
-  "pink": $pink,
-  "grape": $grape,
-  "purple": $purple,
-  "indigo": $indigo,
-  "blue": $blue,
-  "cyan": $cyan,
-  "teal": $teal,
-  "green": $green,
-  "yellow": $yellow,
-  "orange": $orange
-);
+  --yellow-100: #fff3bf;
 
-$root-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$root-font-size: 16px;
-$root-line-height: 1.5;
+  --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --body-font-size: 16px;
+  --body-line-height: 1.5;
+  --body-color: var(--gray-700);
+  --body-bg: #fff;
 
-$body-color: #444;
-$body-bg: #fff;
-$link-color: $blue;
+  --link-color: var(--blue);
+  --link-hover-color: #1c7ed6;
 
-$border-color: #e5e5e5;
+  --border-color: var(--gray-300);
+  --border-radius: .25rem;
 
-$large-breakpoint: 38em;
-$large-font-size: 20px;
+  --code-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --code-color: var(--grape);
 
-$code-font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-$code-color: #bf616a;
+  --spacer: 1rem;
+  --spacer-2: calc(var(--spacer) * 1.5);
+  --spacer-3: calc(var(--spacer) * 3);
+}

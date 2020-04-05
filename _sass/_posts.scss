@@ -15,7 +15,7 @@
 // Blog post or page title
 .page-title,
 .post-title {
-  color: #303030;
+  color: var(--gray-900);
 }
 .page-title,
 .post-title {
@@ -35,18 +35,18 @@
 .post-date {
   display: block;
   margin-top: -.5rem;
-  margin-bottom: 1rem;
-  color: #9a9a9a;
+  margin-bottom: var(--spacer);
+  color: var(--gray-600);
 }
 
 
 // Related posts
 .related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  padding-top: var(--spacer-2);
+  padding-bottom: var(--spacer-2);
+  margin-bottom: var(--spacer-2);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .related-posts {
@@ -61,7 +61,7 @@
     text-decoration: none;
 
     small {
-      color: #999;
+      color: var(--gray-600);
     }
   }
 }

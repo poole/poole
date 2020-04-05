@@ -4,16 +4,9 @@
 // or to a parent if there are multiple elements to show.
 
 .message {
-  padding: 1rem;
-  margin-bottom: 1rem;
-  color: #666;
-  background-color: #f9f9f9;
-  border-radius: .25rem;
-}
-
-@each $color, $value in $colors {
-  .message-#{$color} {
-    color: darken($value, 25%);
-    background-color: lighten($value, 35%);
-  }
+  padding: var(--spacer);
+  margin-bottom: var(--spacer);
+  color: var(--gray-900);
+  background-color: var(--yellow-100);
+  border-radius: var(--border-radius);
 }

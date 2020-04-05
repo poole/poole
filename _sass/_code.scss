@@ -5,7 +5,7 @@
 
 code,
 pre {
-  font-family: $code-font-family;
+  font-family: var(--code-font);
 }
 
 code {
@@ -15,15 +15,15 @@ code {
 pre {
   display: block;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacer-3);
   overflow: auto;
 }
 
 .highlight {
-  padding: 1rem;
-  margin-bottom: 1rem;
-  background-color: #f9f9f9;
-  border-radius: .25rem;
+  padding: var(--spacer-3);
+  margin-bottom: var(--spacer-3);
+  background-color: var(--gray-000);
+  border-radius: var(--border-radius);
 
   pre {
     margin-bottom: 0;

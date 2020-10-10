@@ -4,8 +4,6 @@
 // there are no more previous or next posts to show.
 
 .pagination {
-  display: flex;
-  margin: 0 -1.5rem var(--spacer);
   color: var(--gray-500);
   text-align: center;
 }
@@ -31,6 +29,7 @@ a.pagination-item:hover {
 @media (min-width: 30em) {
   .pagination {
     margin: var(--spacer-3) 0;
+    height: calc(var(--body-font-size) * var(--body-line-height) + var(--spacer) * 2);
   }
 
   .pagination-item {

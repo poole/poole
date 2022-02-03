@@ -5,6 +5,7 @@ url: https://getpoole.com
 paginate: 1
 baseurl: ""
 permalink: pretty
+highlighter: rouge
 
 # Gems
 plugins:

@@ -11,6 +11,11 @@
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>
         </h3>
+
+        <ul class="nav">
+          <li><a href="/about" {% if page.url == '/about/' %} class="active"{% endif %}>About</a></li>
+        </ul>
+
       </header>
 
       <main>

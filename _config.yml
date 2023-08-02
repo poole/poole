@@ -41,6 +41,7 @@ author:
 pages_list:
   About: '/about'
   Projects: '/projects'
+  CV: '/CV'
   
 # Custom vars
 version: 3.0.0

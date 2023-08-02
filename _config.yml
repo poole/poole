@@ -37,5 +37,10 @@ author:
   url: https://joledan.github.io
   email: jan.oledan@gmail.com
 
+# add pages header
+pages_list:
+  About: '/about'
+  Projects: '/projects'
+  
 # Custom vars
 version: 3.0.0

@@ -12,3 +12,5 @@ Previously, I was a research specialist at the Empirical Studies of Conflict lab
 I have a MA in Economics (2019), focusing on Development Studies, and a BA in Economics and Geography (2018) from McGill University. I am trained in econometrics and GIS, and mostly use R and STATA. 
 
 Across my past and present work, one thing remains certain: a deep interest in analyzing and visualizing novel data to answer research questions. 
+
+![profile](/assets/me-3712x3712.jpeg)

@@ -13,4 +13,4 @@ I have a MA in Economics (2019), focusing on Development Studies, and a BA in Ec
 
 Across my past and present work, one thing remains certain: a deep interest in analyzing and visualizing novel data to answer research questions. 
 
-![profile](/assets/me-3712x3712.jpeg =200x200)
+![profile](/assets/me-3712x3712.jpeg)

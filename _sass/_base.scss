@@ -39,6 +39,8 @@ img {
   border-radius: var(--border-radius);
 }
 
+img[alt=profile] { width: 200px; }
+
 table {
   margin-bottom: 1rem;
   width: 100%;

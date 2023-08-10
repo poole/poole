@@ -4,5 +4,5 @@ title: About
 ---
 
 <p class="message">
-    Work in progress ~
+    Work in progress ~ hello
 </p>

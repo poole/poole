@@ -5,6 +5,7 @@
 
 .pagination {
   display: flex;
+  flex-wrap: wrap;
   margin: 0 -1.5rem var(--spacer);
   color: var(--gray-500);
   text-align: center;
@@ -17,6 +18,7 @@
   text-decoration: none;
   border: solid var(--border-color);
   border-width: 1px 0;
+  width: 100%;
 
   &:first-child {
     margin-bottom: -1px;

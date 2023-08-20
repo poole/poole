@@ -37,9 +37,27 @@ img {
   max-width: 100%;
   margin-bottom: var(--spacer);
   border-radius: var(--border-radius);
+  float: left;
 }
 
 img[alt=profile] { width: 200px; }
+
+main {
+  .profile {
+    margin-bottom: var(--spacer-3);
+    img {
+      width: 150;
+      height: 150;
+      border-radius: 10%;
+      margin: 0;
+      margin-right: 1rem;
+      margin-bottom: var(--spacer);
+    }
+    p {
+      margin: 0;
+    }
+  }
+}
 
 table {
   margin-bottom: 1rem;

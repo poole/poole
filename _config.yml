@@ -40,7 +40,7 @@ author:
 # add pages header
 pages_list:
   About: '/about'
-  Projects: '/projects'
+  Projects: '/_posts'
   CV: '/CV'
   
 # Custom vars

@@ -11,7 +11,8 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
-
+  - jekyll-target-blank
+  
 # Optimize Jekyll
 exclude:
   - .editorconfig
@@ -39,9 +40,11 @@ author:
 
 # add pages header
 pages_list:
-  About: '/about'
-  Projects: '/_posts'
-  CV: '/CV'
-  
+  #about: '/about'
+  projects: '/projects'
+  cv: '/cv'
+  github: https://github.com/joledan
+  linkedin: https://www.linkedin.com/in/joledan/
+
 # Custom vars
 version: 3.0.0

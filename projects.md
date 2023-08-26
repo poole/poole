@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Projects
-permalink: /_posts/
+title: projects
+permalink: /projects
 ---
 
-Every once in a while I write things on here:
+Some things I've worked on:
 
 {% for post in site.posts %}
   * {{ post.date | date_to_string }} &nbsp; &nbsp; [ {{ post.title }} ]({{ post.url }})

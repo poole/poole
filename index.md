@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<h3>hello/kamusta</h3>
+# hello --- kamusta
 <div class="profile">
   <img
     src="/assets/me-3712x3712.jpeg"
@@ -18,26 +18,23 @@ title: Home
   <br>
   <br>
 </div>
-<p>
-  Currently, I am a consultant at the Development Research Group of the World Bank. I've contributed to projects on (de-)globalization, global COVID-19 vaccine supply, conflict and gender in India, and trade barriers in Latin America.  
-</p>
-<p>
-  Previously, I was a research specialist at the Empirical Studies of Conflict project at the Princeton School of Public and International Affairs, where I worked on projects related to conflict and COVID-19 misinformation. 
-</p>
-<p>
-  I have a M.A. in Economics (2019) focusing on Development Studies, and a B.A. in Economics and Geography (2018) from McGill University. I am trained in data analysis, econometrics, and GIS. I was born in the Philippines and raised in four countries before settling in Canada.
-</p>
 
-<p>
+### currently --- ngayon
+I am a consultant at the Development Research Group of the World Bank. I've contributed to projects on (de-)globalization, global COVID-19 vaccine supply, conflict and gender in India, and trade barriers in Latin America.  
+
+### previously --- dati
+I was a research specialist at the Empirical Studies of Conflict project at the Princeton School of Public and International Affairs, where I worked on projects related to conflict and COVID-19 misinformation. 
+
+I have a M.A. in Economics (2019) focusing on Development Studies, and a B.A. in Economics and Geography (2018) from McGill University. I am trained in data analysis, econometrics, and GIS. I was born in the Philippines and raised in four countries before settling in Canada.
+
 Outside of work I enjoy reading books and The Economist, daydreaming travel plans, perfecting my capsule wardrobe, and cycling to cafés.
-</p>
+
 
 I am currently focusing on:
-<ul>
-  <li>Practicing writing, leaning towards a journalistic style</li>
-  <li>Making a portfolio of <a href="https://joledan.github.io/projects">data projects</a></li>
-  <li>Navigating a career in "data for development" outside of academia (it’s all I’ve known!) </li>
-</ul>
+* Practicing writing, leaning towards a journalistic style
+* Making a portfolio of <a href="https://joledan.github.io/projects">data projects</a>
+* Navigating a career in "data for development" outside of academia (it’s all I’ve known!)
+
 
 
 

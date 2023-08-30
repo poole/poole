@@ -14,6 +14,9 @@ plugins:
   - jekyll-target-blank
   
 # Optimize Jekyll
+include:
+  - assets
+  
 exclude:
   - .editorconfig
   - .git
@@ -39,12 +42,25 @@ author:
   email: jan.oledan@gmail.com
 
 # add pages header
-pages_list:
-  #about: '/about'
-  projects: '/projects'
-  cv: '/cv'
-  github: https://github.com/joledan
-  linkedin: https://www.linkedin.com/in/joledan/
+#pages_list:
+#  #about: '/about'
+#  projects: '/projects'
+#  cv: '/cv'
+#  github: 
+#  linkedin: 
+# Navbar page list
+nav:
+  - title: projects
+    url: /projects
+
+  - title: github
+    url: https://github.com/joledan
+
+  - title: linkedin
+    url: https://www.linkedin.com/in/joledan/
+
+# excerpt
+excerpt_separator: <!--more-->
 
 # Custom vars
 version: 3.0.0

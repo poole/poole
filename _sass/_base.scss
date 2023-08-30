@@ -92,3 +92,10 @@ mark {
 #vertical-space {
 margin-bottom: 3cm;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

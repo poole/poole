@@ -9,7 +9,7 @@ title:               Poole
 tagline:             The Jekyll Butler
 url:                 http://getpoole.com
 paginate:            1
-baseurl:             ""
+baseurl:             "http://alvaro2c.github.io/poole/"
 
 # Assets
 #
